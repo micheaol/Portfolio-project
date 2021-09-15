@@ -10,7 +10,7 @@ For this repository, I've created this project to practice what I have learned:
 
 I used ESlint to manage the files for the front-end, using loaders for HTML, CSS, and JavaScript files, in order to fix some special thing at the moment to use the front-end in a server. Feel free to suggest more additional features for this repository, or if you want to use it, feel free to do that as well.
 
-![alt text](https://github.com/micheaol/Hello-Microverse/blob/main/images/project-img.PNG)
+![alt text](https://github.com/micheaol/Portfolio-project/blob/main/images/screenshot.PNG)
 
 Built With
 Major languages
