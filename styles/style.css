@@ -26,6 +26,10 @@ ul .hamburger-icon {
   display: none;
 }
 
+.social-ul li a {
+  color: #dbd8d7;
+}
+
 .nav-bar ul li a {
   text-decoration: none;
   color: white;
@@ -54,10 +58,6 @@ ul #name {
   top: 72px;
   padding: 110px 24px;
   overflow: hidden;
-}
-
-.social-ul li a {
-  color: #dbd8d7;
 }
 
 .nav-bar #name a {
