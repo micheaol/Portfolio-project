@@ -23,7 +23,6 @@
   text-decoration: none;
   flex: 1; 
 }
-
 /* ================== hiding the hambuger icon in large screen ==================== */
 ul .hamburger-icon {
   display: none;
@@ -32,7 +31,7 @@ ul .hamburger-icon {
 .nav-bar ul li a {
   text-decoration: none;
   color: white;
-  font-family: Roboto;
+  font-family: Roboto sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -60,7 +59,6 @@ ul #name {
   .nav-bar ul {
     height: 92px;
     width: 690px;
-    border-radius: 0px;
   }
 
   .right-item {
@@ -70,7 +68,6 @@ ul #name {
   ul .hamburger-icon {
     display: block;
   }
-
 }
 
 /* =================== Styling for Max-screen of 500px ==================================== */
@@ -87,7 +84,6 @@ ul #name {
   ul .hamburger-icon {
     display: block;
   }
-
 }
 
 /* =================== Styling for Max-screen of 375px ==================================== */
