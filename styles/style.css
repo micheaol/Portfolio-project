@@ -24,7 +24,7 @@
   flex: 1;
 }
 
-/*================== hiding the hambuger icon in large screen ====================*/
+/* ================== hiding the hambuger icon in large screen ==================== */
 ul .hamburger-icon {
   display: none;
 }
@@ -189,8 +189,6 @@ ul #name {
     justify-content: space-between;
     padding-top: 40px;
   }
-
- 
 
   .graph-iten-one {
     position: absolute;
