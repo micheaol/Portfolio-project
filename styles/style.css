@@ -21,7 +21,7 @@
 .nav-bar ul li {
   flex: 1 1 100%;
   text-decoration: none;
-  flex: 1; 
+  flex: 1;
 }
 /* ================== hiding the hambuger icon in large screen ==================== */
 ul .hamburger-icon {
@@ -31,7 +31,7 @@ ul .hamburger-icon {
 .nav-bar ul li a {
   text-decoration: none;
   color: white;
-  font-family: Roboto sans-serif;
+  font-family: Roboto, Tahoma, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -130,7 +130,7 @@ ul #name {
     height: 124px;
     left: 24px;
     top: 120px;
-    font-family: Crete Round sans-serif;
+    font-family: Crete, Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 54px;
@@ -139,7 +139,7 @@ ul #name {
   }
 
   .intro-title {
-    font-family: Roboto sans-serif;
+    font-family: Roboto, Tahoma, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 19px;
@@ -166,7 +166,7 @@ ul #name {
     height: 123px;
     left: 24px;
     top: 295px;
-    font-family: Poppins sans-serif;
+    font-family: Poppins, Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
