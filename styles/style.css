@@ -1,6 +1,3 @@
-/* ========== Importing goole fonts ================== */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -8,14 +5,17 @@
 }
 
 /* =============Navbar styling section====================== */
+
 .nav-bar ul {
   display: flex;
   background: #3c3a39;
   list-style-type: none;
-  width: 100vw;
-  height: 72px;
   align-items: center;
 }
+.nav-bar ul {
+    height: 92px;
+    width: 100vw;
+  }
 
 /* ================== Styleling the flex elements ============================== */
 .nav-bar ul li {
@@ -50,48 +50,13 @@ ul #name {
   flex-direction: column;
   align-items: flex-start;
   background-color: #1c1a19;
-  padding-top: 5px;
-  max-height: 100vh;
+  height: calc(89.70vh - 5px);
+  position: absolute;
+  width: 100vw;
+  top: 72px;
+  padding: 110px 24px;
+  overflow: hidden;
 }
-
-/* =================== Styling for Max-screen of 650px ==================================== */
-@media screen and (max-width: 700px) {
-  .nav-bar ul {
-    height: 92px;
-    width: 690px;
-  }
-
-  .right-item {
-    display: none;
-  }
-
-  ul .hamburger-icon {
-    display: block;
-  }
-}
-
-/* =================== Styling for Max-screen of 500px ==================================== */
-@media screen and (max-width: 500px) {
-  .nav-bar ul {
-    height: 92px;
-    width: 500px;
-  }
-
-  .right-item {
-    display: none;
-  }
-
-  ul .hamburger-icon {
-    display: block;
-  }
-}
-
-/* =================== Styling for Max-screen of 375px ==================================== */
-@media screen and (max-width: 375px) {
-  .nav-bar ul {
-    height: 92px;
-    width: 375px;
-  }
 
   .social-ul li a {
     color: #dbd8d7;
@@ -111,14 +76,6 @@ ul #name {
     display: block;
     color: white;
     margin-right: 25px;
-  }
-
-  .main-container {
-    position: absolute;
-    width: 375px;
-    height: 550px;
-    top: 72px;
-    padding: 110px 24px;
   }
 
   .main-container .intro-header {
@@ -197,36 +154,36 @@ ul #name {
     height: 45.08px;
     top: 55.25%;
     bottom: 67.31%;
-    left: 95%;
+    left: 97%;
     right: 68.76%;
-    transform: matrix(-0.86, 0.5, 0.2, 0.96, 0, 0);
+    transform: matrix(-0.86, 0.7, 0.2, 0.96, 0, 0);
   }
 
   .graph-big-img {
     width: 113.56px;
     height: 93.78px;
     position: absolute;
-    left: 63.67%;
+    left: 65.57%;
     right: 62.52%;
-    top: 69.59%;
+    top: 65.59%;
     bottom: 19.36%;
   }
 
   .graph-big-img img {
-    width: 180.56px;
-    height: 103.78px;
+    width: 190.56px;
+    height: 163.78px;
   }
 
   .graph-big-img-two img {
-    width: 180.56px;
-    height: 103.78px;
+    width: 190.56px;
+    height: 123.78px;
   }
 
   .graph-big-img-two {
     width: 93.56px;
     height: 63.78px;
     position: absolute;
-    left: 65.57%;
+    left: 69.57%;
     right: 42.52%;
     top: 73.59%;
     bottom: 69.36%;
@@ -234,80 +191,70 @@ ul #name {
 
   .top-white img {
     position: absolute;
-    left: 76.5%;
-    right: 69.52%;
-    top: 70.95%;
+    left: 79.5%;
+    right: 60.52%;
+    top: 66.95%;
     z-index: 1;
   }
 
   span #overlay-black {
     position: absolute;
-    left: 80.5%;
-    right: 86.52%;
-    top: 77.81%;
-    bottom: 90.36%;
+    left: 82.5%;
+    top: 72.81%;
   }
 
   .top-black img {
     position: absolute;
-    left: 78.5%;
-    right: 65.52%;
-    top: 72.01%;
-    bottom: 69.36%;
+    left: 81.95%;
+    right: 75.52%;
+    top: 66.71%;
+    bottom: 65.36%;
     z-index: 1;
   }
 
   span #overlay-big {
     width: 35.5%;
     position: absolute;
-    left: 70.5%;
+    left: 95.5%;
     right: 86.52%;
-    top: 21.21%;
+    top: 30.21%;
     bottom: 90.36%;
     transform: matrix(-0.86, -0.1, -0.1, -0.96, 0, 0);
   }
 
   #curve-img {
-    width: 185.61px;
-    height: 177.25px;
+    width: 180.61px;
+    height: 190.25px;
     position: absolute;
-    left: 67.9%;
-    right: 25.52%;
+    left: 78.10%;
+    /* right: 37.52%; */
     top: 70.01%;
-    bottom: 20.36%;
-    transform: matrix(0.96, 0.15, -0.15, 0.96, 0, 0);
+    /* bottom: 20.36%; */
+    transform: matrix(0.86, 0.35, -0.55, 0.96, 0, 0);
     z-index: 0;
   }
 
   .down-img {
     position: absolute;
-    left: 88.5%;
-    right: 65.52%;
-    top: 92.01%;
-    bottom: 50.36%;
+    left: 89.95%;
+    top: 91.81%;
+
   }
 
   .down-img-two {
     position: absolute;
     left: 95.5%;
-    right: 65.52%;
     top: 91.01%;
-    bottom: 50.36%;
   }
 
   .down-inner {
     position: absolute;
     left: 97.5%;
-    right: 85.52%;
     top: 88.01%;
-    bottom: 50.36%;
   }
 
   .down-bottom {
     position: absolute;
     left: 97.5%;
-    right: 85.52%;
     top: 92.01%;
-    bottom: 50.36%;
   }
-}
