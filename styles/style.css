@@ -37,7 +37,6 @@ ul .hamburger-icon {
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: center;
 }
 
@@ -61,8 +60,6 @@ ul #name {
   .nav-bar ul {
     height: 92px;
     width: 690px;
-    left: 0px;
-    top: 0px;
     border-radius: 0px;
   }
 
@@ -83,7 +80,6 @@ ul #name {
     width: 500px;
     left: 0px;
     top: 0px;
-    border-radius: 0px;
   }
 
   .right-item {
@@ -103,11 +99,10 @@ ul #name {
     width: 375px;
     left: 0px;
     top: 0px;
-    border-radius: 0px;
   }
 
   .nav-bar #name a {
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
     font-weight: bold;
     font-size: 18px;
   }
@@ -152,7 +147,7 @@ ul #name {
   }
 
   .intro-title {
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 19px;
@@ -180,7 +175,7 @@ ul #name {
     height: 123px;
     left: 24px;
     top: 295px;
-    font-family: Poppins;
+    font-family: Poppins sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 15px;
@@ -324,5 +319,5 @@ ul #name {
     top: 92.01%;
     bottom: 50.36%;
   }
-  
+
 }
