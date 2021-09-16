@@ -19,7 +19,6 @@
 
 /* ================== Styleling the flex elements ============================== */
 .nav-bar ul li {
-  flex: 1 1 100%;
   text-decoration: none;
   flex: 1;
 }
