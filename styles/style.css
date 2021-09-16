@@ -225,9 +225,7 @@ span #overlay-big {
   height: 190.25px;
   position: absolute;
   left: 78.1%;
-  /* right: 37.52%; */
   top: 70.01%;
-  /* bottom: 20.36%; */
   transform: matrix(0.86, 0.35, -0.55, 0.96, 0, 0);
   z-index: 0;
 }
