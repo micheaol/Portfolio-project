@@ -39,7 +39,7 @@ ul .hamburger-icon {
   color: white;
   font-family: Roboto, Tahoma, sans-serif;
   font-size: 18px;
-  font-style: normal; 
+  font-style: normal;
   font-weight: 700;
   line-height: 24px;
   text-align: center;
@@ -109,7 +109,6 @@ ul #name {
   line-height: 32px;
   color: #fff5e1;
   width: 285px;
-  /* margin-left: 5px; */
 }
 
 .intro-title h3 {
@@ -205,7 +204,6 @@ span #overlay-black {
   left: 82.5%;
   top: 72.81%;
 }
-
 
 .top-black img{
   position: absolute;
