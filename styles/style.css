@@ -78,8 +78,6 @@ ul #name {
   .nav-bar ul {
     height: 92px;
     width: 500px;
-    left: 0px;
-    top: 0px;
   }
 
   .right-item {
@@ -97,8 +95,6 @@ ul #name {
   .nav-bar ul {
     height: 92px;
     width: 375px;
-    left: 0px;
-    top: 0px;
   }
 
   .nav-bar #name a {
@@ -138,7 +134,7 @@ ul #name {
     height: 124px;
     left: 24px;
     top: 120px;
-    font-family: Crete Round;
+    font-family: Crete Round sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 54px;
