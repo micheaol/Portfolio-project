@@ -5,7 +5,7 @@ For this repository, I've created a project to add media query to the project to
 
 I used ESlint to manage the files for the front-end, using loaders for HTML, CSS, and JavaScript files, in order to fix some special thing at the moment to use the front-end in a server. Feel free to suggest more additional features for this repository, or if you want to use it, feel free to do that as well.
 
-![alt text](https://github.com/micheaol/Portfolio-project/blob/main/images/screenshot.PNG)
+![alt text](https://github.com/micheaol/Portfolio-project/blob/mobile-feature/images/screen.PNG)
 
 Built With
 Major languages
