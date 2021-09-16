@@ -1,136 +1,130 @@
 /* ========== Importing goole fonts ================== */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* =============Navbar styling section====================== */
-.nav-bar ul{
-    display: flex;
-    background: #3C3A39;
-    /* border: 5px solid rgb(8, 8, 1); */
-    list-style-type: none;
-    width: 100vw;
-    height: 72px;
-    align-items: center;
-
-
+.nav-bar ul {
+  display: flex;
+  background: #3c3a39;
+  /* border: 5px solid rgb(8, 8, 1); */
+  list-style-type: none;
+  width: 100vw;
+  height: 72px;
+  align-items: center;
 }
 
 /* ================== Styleling the flex elements ============================== */
-.nav-bar ul li{
-    flex: 1 1 100%;
-    text-decoration: none;
-    flex: 1;
-    
+.nav-bar ul li {
+  flex: 1 1 100%;
+  text-decoration: none;
+  flex: 1;
 }
 
 /* ================== hiding the hambuger icon in large screen ==================== */
-ul .hamburger-icon{
-    display: none;
+ul .hamburger-icon {
+  display: none;
 }
-.nav-bar ul li a{
-    text-decoration: none;
-    color: white;
-    font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: center;
-
+.nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
 }
-ul #name{
-    flex: 5;
-    margin-left: 30px;
+ul #name {
+  flex: 5;
+  margin-left: 30px;
 }
 
 /* =========================styling the main container ===================== */
-.main-container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: #1C1A19;
-    padding-top: 5px;
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #1c1a19;
+  padding-top: 5px;
 }
 
 /* =================== Styling for Max-screen of 650px ==================================== */
 @media screen and (max-width: 700px) {
-    .nav-bar ul{
-        height: 92px;
-        width: 690px;
-        left: 0px;
-        top: 0px;
-        border-radius: 0px;
-    }
-    .right-item{
-        display: none;
-    }
-    ul .hamburger-icon{
-        display: block;
-    }
+  .nav-bar ul {
+    height: 92px;
+    width: 690px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+  }
+  .right-item {
+    display: none;
+  }
+  ul .hamburger-icon {
+    display: block;
+  }
 }
 
 /* =================== Styling for Max-screen of 500px ==================================== */
 @media screen and (max-width: 500px) {
-    .nav-bar ul{
-        height: 92px;
-        width: 500px;
-        left: 0px;
-        top: 0px;
-        border-radius: 0px;
-    }
-    .right-item{
-        display: none;
-    }
-    ul .hamburger-icon{
-        display: block;
-    }
+  .nav-bar ul {
+    height: 92px;
+    width: 500px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+  }
+  .right-item {
+    display: none;
+  }
+  ul .hamburger-icon {
+    display: block;
+  }
 }
 
 /* =================== Styling for Max-screen of 375px ==================================== */
 @media screen and (max-width: 375px) {
-    
-    .nav-bar ul{
-        height: 92px;
-        width: 375px;
-        left: 0px;
-        top: 0px;
-        border-radius: 0px;
-    }
-    .nav-bar #name a{
-        font-family: Roboto;
-        font-weight: bold;
-        font-size: 18px;
-    }
-    .right-item{
-        display: none;
-    }
-    .nav-bar ul .hamburger-icon{
-        display: block;
-        color: white;
-        margin-right: 25px;
-    }
-    .main-container{
-        position: absolute;
-        width: 375px;
-        height: 550px;
-        top: 72px;
-        padding: 110px 24px;
-    }
-    .main-container .intro-header{
-        width: 285px;
-        height: 124px;
-        top: 120px;
-        margin-left: 10px;
-        color: #FF6B00;
-    }
-  .main-container .intro-header h1{
+  .nav-bar ul {
+    height: 92px;
+    width: 375px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+  }
+  .nav-bar #name a {
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .right-item {
+    display: none;
+  }
+  .nav-bar ul .hamburger-icon {
+    display: block;
+    color: white;
+    margin-right: 25px;
+  }
+  .main-container {
+    position: absolute;
+    width: 375px;
+    height: 550px;
+    top: 72px;
+    padding: 110px 24px;
+  }
+  .main-container .intro-header {
+    width: 285px;
+    height: 124px;
+    top: 120px;
+    margin-left: 10px;
+    color: #ff6b00;
+  }
+  .main-container .intro-header h1 {
     width: 327px;
     height: 124px;
     left: 24px;
@@ -142,28 +136,27 @@ ul #name{
     line-height: 55px;
     letter-spacing: 0.37px;
   }
-  .intro-title{
+  .intro-title {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 19px;
     line-height: 32px;
-    color: #FFF5E1;
+    color: #fff5e1;
     width: 285px;
     margin-left: 10px;
-
   }
-  .intro-title h3{
+  .intro-title h3 {
     margin-left: 4px;
     padding-top: 25px;
   }
-  .intro-detail{
+  .intro-detail {
     align-self: flex-start;
     margin-left: 24px;
     width: 285px;
     margin-left: 10px;
   }
-  .intro-detail p{
+  .intro-detail p {
     position: static;
     width: 280px;
     height: 123px;
@@ -174,19 +167,51 @@ ul #name{
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #ffffff;
     margin-left: 4px;
     padding-top: 10px;
   }
-  .social ul{
-      display: flex;
-      list-style-type: none;
-      width: 150px;
-      margin-left: 20px;
-      justify-content: space-between;
-      padding-top: 40px;
+  .social ul {
+    display: flex;
+    list-style-type: none;
+    width: 150px;
+    margin-left: 20px;
+    justify-content: space-between;
+    padding-top: 40px;
   }
-  .social-ul li a{
-    color: #DBD8D7;
+  .social-ul li a {
+    color: #dbd8d7;
+  }
+  .graph-iten-one {
+    position: absolute;
+    background: #FFFFFF;
+    border: 0.496227px solid #262626;
+    width: 45.67px;
+    height: 45.08px;
+    top: 58.25%;
+    bottom: 67.31%;
+    left: 95%;
+    right: 68.76%;
+    transform: matrix(-0.99, 0.27, 0.27, 0.96, 0, 0);
+  }
+
+  .graph-big-img{
+
+    width: 113.56px;
+    Height:93.78px;
+    position: absolute;
+    left: 54.57%;
+    right: 47.52%;
+    top: 72.59%;
+    bottom: 19.36%;  
+    
+
+    
+  }
+  .graph-big-img img{
+    width: 200.56px;
+    Height:203.78px;
+    border: 0.496227px solid #FF6B00;
+    align-items: center;
   }
 }
