@@ -52,6 +52,7 @@ ul #name {
   align-items: flex-start;
   background-color: #1c1a19;
   padding-top: 5px;
+  max-height: 100vh;
 }
 
 /* =================== Styling for Max-screen of 650px ==================================== */
@@ -165,7 +166,7 @@ ul #name {
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     color: #ffffff;
     margin-left: 4px;
@@ -188,21 +189,22 @@ ul #name {
     border: 0.496227px solid #262626;
     width: 45.67px;
     height: 45.08px;
-    top: 58.25%;
+    top: 55.25%;
     bottom: 67.31%;
     left: 95%;
     right: 68.76%;
-    transform: matrix(-0.99, 0.27, 0.27, 0.96, 0, 0);
+    transform: matrix(-0.86, 0.50, 0.20, 0.96, 0, 0);
   }
 
   .graph-big-img{
     width: 113.56px;
     Height:93.78px;
     position: absolute;
-    left: 60.57%;
-    right: 32.52%;
+    left: 63.67%;
+    right: 62.52%;
     top: 69.59%;
-    bottom: 19.36%;  
+    bottom: 19.36%;
+    
   }
   .graph-big-img img{
     width: 180.56px;
@@ -214,13 +216,85 @@ ul #name {
     
   }
   .graph-big-img-two{
-    width: 113.56px;
-    Height:93.78px;
+    width: 93.56px;
+    Height:63.78px;
     position: absolute;
-    left: 60.57%;
-    right: 32.52%;
-    top: 19.59%;
-    bottom: 19.36%; 
-    : #262626;
+    left: 65.57%;
+    right: 42.52%;
+    top: 73.59%;
+    bottom: 69.36%; 
   }
+  
+  .top-white img{
+    position: absolute;
+    left: 76.50%;
+    right: 69.52%;
+    top: 70.95%;
+    z-index: 1;
+  }
+  span #overlay-black{
+    position: absolute;
+    left: 80.50%;
+    right: 86.52%;
+    top: 77.81%;
+    bottom: 90.36%;
+  }
+  .top-black img{
+    position: absolute;
+    left: 78.50%;
+    right: 65.52%;
+    top: 72.01%;
+    bottom: 69.36%;
+    z-index: 1;
+  }
+  span #overlay-big{
+      width: 35.5%;
+    position: absolute;
+    left: 70.50%;
+    right: 86.52%;
+    top: 21.21%;
+    bottom: 90.36%;
+    transform: matrix(-0.86, -0.10, -0.10, -0.96, 0, 0);
+  }
+  #curve-img {
+      width: 185.61px;
+      height: 177.25px;
+    position: absolute;
+    left: 67.90%;
+    right: 25.52%;
+    top: 70.01%;
+    bottom: 20.36%;
+    transform: matrix(0.96, 0.15, -0.15, 0.96, 0, 0);
+    z-index: 0;
+  }
+  .down-img{
+    position: absolute;
+    left: 88.50%;
+    right: 65.52%;
+    top: 92.01%;
+    bottom: 50.36%;
+  }
+  .down-img-two{
+    position: absolute;
+    left: 95.50%;
+    right: 65.52%;
+    top: 91.01%;
+    bottom: 50.36%;
+  }
+  .down-inner{
+    position: absolute;
+    left: 97.50%;
+    right: 85.52%;
+    top: 88.01%;
+    bottom: 50.36%;
+  }
+  .down-bottom{
+    position: absolute;
+    left: 97.50%;
+    right: 85.52%;
+    top: 92.01%;
+    bottom: 50.36%;
+  }
+
+
 }
