@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -35,7 +39,7 @@ ul .hamburger-icon {
   color: white;
   font-family: Roboto, Tahoma, sans-serif;
   font-size: 18px;
-  font-style: normal;
+  font-style: normal; 
   font-weight: 700;
   line-height: 24px;
   text-align: center;
@@ -89,7 +93,7 @@ ul #name {
   height: 124px;
   left: 24px;
   top: 120px;
-  font-family: Crete, Tahoma, sans-serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 54px;
@@ -105,7 +109,7 @@ ul #name {
   line-height: 32px;
   color: #fff5e1;
   width: 285px;
-  margin-left: 10px;
+  /* margin-left: 5px; */
 }
 
 .intro-title h3 {
@@ -131,7 +135,6 @@ ul #name {
   font-size: 15px;
   line-height: 24px;
   color: #fff;
-  margin-left: 4px;
   padding-top: 10px;
 }
 
@@ -147,6 +150,7 @@ ul #name {
 .graph-iten-one {
   position: absolute;
   background: #fff;
+  background-image: url("./images/corner-img.svg");
   border: 0.496227px solid #262626;
   width: 45.67px;
   height: 45.08px;
@@ -158,6 +162,7 @@ ul #name {
 }
 
 .graph-big-img {
+  background-image: url("./images/big-img.svg");
   width: 113.56px;
   height: 93.78px;
   position: absolute;
@@ -201,7 +206,8 @@ span #overlay-black {
   top: 72.81%;
 }
 
-.top-black img {
+
+.top-black img{
   position: absolute;
   left: 81.95%;
   right: 75.52%;
