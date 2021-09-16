@@ -196,22 +196,31 @@ ul #name {
   }
 
   .graph-big-img{
-
     width: 113.56px;
     Height:93.78px;
     position: absolute;
-    left: 54.57%;
-    right: 47.52%;
-    top: 72.59%;
+    left: 60.57%;
+    right: 32.52%;
+    top: 69.59%;
     bottom: 19.36%;  
-    
-
-    
   }
   .graph-big-img img{
-    width: 200.56px;
-    Height:203.78px;
-    border: 0.496227px solid #FF6B00;
-    align-items: center;
+    width: 180.56px;
+    Height:103.78px;
+  }
+  .graph-big-img-two img{
+    width: 180.56px;
+    Height:103.78px;
+    
+  }
+  .graph-big-img-two{
+    width: 113.56px;
+    Height:93.78px;
+    position: absolute;
+    left: 60.57%;
+    right: 32.52%;
+    top: 19.59%;
+    bottom: 19.36%; 
+    : #262626;
   }
 }
