@@ -23,7 +23,8 @@
   text-decoration: none;
   flex: 1;
 }
-/* ================== hiding the hambuger icon in large screen ==================== */
+
+/*================== hiding the hambuger icon in large screen ====================*/
 ul .hamburger-icon {
   display: none;
 }
@@ -93,8 +94,12 @@ ul #name {
     width: 375px;
   }
 
+  .social-ul li a {
+    color: #dbd8d7;
+  }
+
   .nav-bar #name a {
-    font-family: Roboto sans-serif;
+    font-family: Roboto, Tahoma, sans-serif;
     font-weight: bold;
     font-size: 18px;
   }
@@ -185,9 +190,7 @@ ul #name {
     padding-top: 40px;
   }
 
-  .social-ul li a {
-    color: #dbd8d7;
-  }
+ 
 
   .graph-iten-one {
     position: absolute;
@@ -310,5 +313,4 @@ ul #name {
     top: 92.01%;
     bottom: 50.36%;
   }
-
 }
