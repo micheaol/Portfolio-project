@@ -11,7 +11,6 @@
 .nav-bar ul {
   display: flex;
   background: #3c3a39;
-  /* border: 5px solid rgb(8, 8, 1); */
   list-style-type: none;
   width: 100vw;
   height: 72px;
@@ -185,7 +184,7 @@ ul #name {
   }
   .graph-iten-one {
     position: absolute;
-    background: #FFFFFF;
+    background: #ffffff;
     border: 0.496227px solid #262626;
     width: 45.67px;
     height: 45.08px;
@@ -193,108 +192,104 @@ ul #name {
     bottom: 67.31%;
     left: 95%;
     right: 68.76%;
-    transform: matrix(-0.86, 0.50, 0.20, 0.96, 0, 0);
+    transform: matrix(-0.86, 0.5, 0.2, 0.96, 0, 0);
   }
 
-  .graph-big-img{
+  .graph-big-img {
     width: 113.56px;
-    Height:93.78px;
+    height: 93.78px;
     position: absolute;
     left: 63.67%;
     right: 62.52%;
     top: 69.59%;
     bottom: 19.36%;
-    
   }
-  .graph-big-img img{
+  .graph-big-img img {
     width: 180.56px;
-    Height:103.78px;
+    height: 103.78px;
   }
-  .graph-big-img-two img{
+  .graph-big-img-two img {
     width: 180.56px;
-    Height:103.78px;
-    
+    height: 103.78px;
   }
-  .graph-big-img-two{
+  .graph-big-img-two {
     width: 93.56px;
-    Height:63.78px;
+    height: 63.78px;
     position: absolute;
     left: 65.57%;
     right: 42.52%;
     top: 73.59%;
-    bottom: 69.36%; 
+    bottom: 69.36%;
   }
-  
-  .top-white img{
+
+  .top-white img {
     position: absolute;
-    left: 76.50%;
+    left: 76.5%;
     right: 69.52%;
     top: 70.95%;
     z-index: 1;
   }
-  span #overlay-black{
+  span #overlay-black {
     position: absolute;
-    left: 80.50%;
+    left: 80.5%;
     right: 86.52%;
     top: 77.81%;
     bottom: 90.36%;
   }
-  .top-black img{
+  .top-black img {
     position: absolute;
-    left: 78.50%;
+    left: 78.5%;
     right: 65.52%;
     top: 72.01%;
     bottom: 69.36%;
     z-index: 1;
   }
-  span #overlay-big{
-      width: 35.5%;
+  span #overlay-big {
+    width: 35.5%;
     position: absolute;
-    left: 70.50%;
+    left: 70.5%;
     right: 86.52%;
     top: 21.21%;
     bottom: 90.36%;
-    transform: matrix(-0.86, -0.10, -0.10, -0.96, 0, 0);
+    transform: matrix(-0.86, -0.1, -0.1, -0.96, 0, 0);
   }
   #curve-img {
-      width: 185.61px;
-      height: 177.25px;
+    width: 185.61px;
+    height: 177.25px;
     position: absolute;
-    left: 67.90%;
+    left: 67.9%;
     right: 25.52%;
     top: 70.01%;
     bottom: 20.36%;
     transform: matrix(0.96, 0.15, -0.15, 0.96, 0, 0);
     z-index: 0;
   }
-  .down-img{
+  .down-img {
     position: absolute;
-    left: 88.50%;
+    left: 88.5%;
     right: 65.52%;
     top: 92.01%;
     bottom: 50.36%;
   }
-  .down-img-two{
+  .down-img-two {
     position: absolute;
-    left: 95.50%;
+    left: 95.5%;
     right: 65.52%;
     top: 91.01%;
     bottom: 50.36%;
   }
-  .down-inner{
+  .down-inner {
     position: absolute;
-    left: 97.50%;
+    left: 97.5%;
     right: 85.52%;
     top: 88.01%;
     bottom: 50.36%;
   }
-  .down-bottom{
+  .down-bottom {
     position: absolute;
-    left: 97.50%;
+    left: 97.5%;
     right: 85.52%;
     top: 92.01%;
     bottom: 50.36%;
   }
-
-
 }
