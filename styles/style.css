@@ -167,7 +167,7 @@ ul #name {
     font-weight: normal;
     font-size: 15px;
     line-height: 24px;
-    color: #ffffff;
+    color: #fff;
     margin-left: 4px;
     padding-top: 10px;
   }
@@ -184,7 +184,7 @@ ul #name {
   }
   .graph-iten-one {
     position: absolute;
-    background: #ffffff;
+    background: #fff;
     border: 0.496227px solid #262626;
     width: 45.67px;
     height: 45.08px;
