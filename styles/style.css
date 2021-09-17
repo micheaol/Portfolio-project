@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -61,10 +61,11 @@ ul #name {
   background-color: #1c1a19;
   height: calc(89.7vh - 5px);
   position: absolute;
-  width: 100vw;
+  width: 97vw;
   top: 72px;
   padding: 110px 24px;
   overflow: hidden;
+  border: crimson 2px solid;
 }
 
 .nav-bar #name a {
@@ -150,18 +151,18 @@ ul #name {
 }
 
 /* ================== Portfolio projects section ====================================== */
-.main-section {
-  background: #e5e5e5;
+.my-projects-section {
+  border: rgb(48, 172, 95) 2px solid;
+  margin-top: 590px;
+  padding-top: 25px;
   display: grid;
 }
 
-#projects-title {
-  position: static;
-  height: 83px;
+.my-projects-section #projects-title {
   font-family: Crete Round;
   font-style: normal;
   font-weight: normal;
-  font-size: 35px;
+  font-size: 33px;
   line-height: 52px;
   display: flex;
   align-items: center;
@@ -173,9 +174,9 @@ ul #name {
   border-bottom: solid #1c1a19 1px;
 }
 
-.work-hero-img {
-  width: 100vw;
-  /* height: 250px; */
+.my-projects-section .work-hero-img {
+  width: 97vw;
+  height: 230px;
   justify-content: center;
   margin: auto;
 }
@@ -185,9 +186,47 @@ ul #name {
   width: 85vw;
   padding-top: 30px;
 }
+.multi-post{
+  margin-top: 150px;
+  width: 85vw;
+  margin-left: 32px;
+}
+.post-title{
+  color: #091E42;
+  font-family: Crete Round;
+  font-size: 32px;
+line-height: 44px;
+margin: 12px 0px;
+}
+.post{
+  font-family: Inter;
+  font-size: 16px;
+line-height: 24px;
+color: #091E42;
+margin: 12px 0px;
+}
 
 .tech-item {
-  border: solid 2px black;
+padding: 5px;
+margin-right: 25px;
+font-size: 15px;
+line-height: 20px;
+font-family: 'Inter', sans-serif;
+font-weight: 500;
+border: 1px solid #8993A4;
+background: #FFFFFF;
+}
+#post-btn{
+  background: #FF6B00;
+  border: none;
+  width: 124px;
+height: 48px;
+margin: 12px 0px;
+font-family: 'Inter', sans-serif;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px;
+color: #FFFFFF;
 }
 
 .job-item-two {
@@ -203,19 +242,24 @@ ul #name {
 
 /* ================= About ME page styling ================================== */
 
-/*  ========================= Styling for the backgroung image ========= */
-.main-body {
+.about-me-section {
   background-image: url('../images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
   background-position: right 5px bottom 20px;
-  width: 100vw;
+  width: 97vw;
   height: calc(90vh - 24px);
   background-color: #1c1a19;
+  border: rgb(56, 14, 134) 2px solid;
 }
-
-/*  ========================= End Styling for the backgroung image ========= */
-.header-title {
-  color: #ff6b00;
+.about-title{
+font-family: Crete Round;
+font-style: normal;
+font-weight: normal;
+font-size: 70px;
+line-height: 88px;
+letter-spacing: 0.37px;
+color: #FF6B00;
+padding: 15px;
 }
 
 .about-para {
@@ -223,15 +267,18 @@ ul #name {
   border-bottom: 1px solid red;
   padding-bottom: 470px;
 }
+
 .list-tech {
   background-color: #1c1a19;
 }
+/* ================= End of About ME page styling ================================== */
 
 /* ========= Styling for contact form =========== */
-.main-contact {
+.contact-section {
   background: #e5e5e5;
   display: flex;
   flex-direction: column;
+  border: rgb(221, 115, 16) 2px solid;
 }
 .message-box {
   width: 300px;
@@ -294,3 +341,4 @@ input[type=text], input[type=email]{
   color: #505F79;
   margin-right: 10px;
 }
+/* ========= End of Styling for contact form =========== */
