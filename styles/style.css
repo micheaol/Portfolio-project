@@ -8,16 +8,17 @@
   margin: 0;
   padding: 0;
 }
-
 /* =============Navbar styling section====================== */
-
+.overall-container{
+  display: grid
+}
 .nav-bar ul {
   display: flex;
   background: #3c3a39;
   list-style-type: none;
   align-items: center;
   height: 92px;
-  width: 100vw;
+  width: 96.67vw;
 }
 
 /* ================== Styleling the flex elements ============================== */
@@ -55,17 +56,18 @@ ul #name {
 .main-container {
   background-image: url('../images/bg.png');
   background-repeat: no-repeat;
-  display: flex;
+  background-size: 450px 450px, cover;
+  background-position: right 5px bottom 10px;
+  display: grid;
   flex-direction: column;
   align-items: flex-start;
   background-color: #1c1a19;
-  height: calc(89.7vh - 5px);
   position: absolute;
-  width: 97vw;
+  width: 100%;
+  height: 90%;
   top: 72px;
   padding: 110px 24px;
   overflow: hidden;
-  border: crimson 2px solid;
 }
 
 .nav-bar #name a {
@@ -165,10 +167,10 @@ ul #name {
 }
 
 .my-projects-section {
-  border: rgb(48, 172, 95) 2px solid;
   margin-top: 590px;
   padding-top: 25px;
   display: grid;
+  padding-bottom: 15px;
 }
 
 .my-projects-section #projects-title {
@@ -257,7 +259,7 @@ margin-bottom: 10px;
   font-size: 16px;
 line-height: 24px;
 width: 295px;
-/* height: 87px; */
+height: 87px;
 color: #FFFFFF;
 margin-left: 23px;
 font-family: 'Inter', sans-serif;
@@ -301,23 +303,20 @@ line-height: 24px;
 .about-me-section {
   background-image: url('../images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
-  background-position: right 5px bottom 60px;
+  background-position: right 10px bottom 70px;
   width: 97vw;
   height: 90vh;
   background-color: #1c1a19;
-  border: rgb(56, 14, 134) 2px solid;
   margin-top: 90px;
   background-size: 150px 150px, cover;
   display: flex;
   flex-direction: column;
-
-
 }
 .about-title{
 font-family: Crete Round;
 font-style: normal;
 font-weight: normal;
-font-size: 70px;
+font-size: 65px;
 line-height: 88px;
 letter-spacing: 0.37px;
 color: #FF6B00;
@@ -360,21 +359,64 @@ margin-bottom: 200px;
   margin-bottom: 50px;
   
 }
-.list-tech{
-  background-color: rgb(56, 14, 134);
-  padding-top: 20px;
-  margin-top: 35px;
+/* ================= End of About ME page styling ================================== */
+/* ================= List of technologies section ================================= */
+
+.tech-list{
+  background-color: #1c1a19;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+  
+}
+.language, .framework, .skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.language-header, .framework-header, .skills-header{
+  font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+.language ul, .framework ul, .skills ul{
+  list-style-type: none;
+}
+.language ul li , .framework ul li, .skills ul li{
+  color: #FFFFFF;
+  font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 43px;
+margin-bottom: 10px;
 }
 
-/* ================= End of About ME page styling ================================== */
+span{
+  margin-right: 10px;
+}
+.skills{
+  width: 35%;
+  
+}
+.skills-header{
+  margin-right: 33px;
+}
+/* ================= End of List of technologies section ================================= */
 
 /* ========= Styling for contact form =========== */
 .contact-section {
-  margin-top: 25px;
-  background: #e5e5e5;
+  width: 100vw;
+  height: 95%;
+  background: #E5E5E5;
   display: flex;
   flex-direction: column;
-  border: rgb(221, 115, 16) 2px solid;
+  padding-top: 45px;
 }
 .message-box {
   width: 300px;
@@ -382,9 +424,10 @@ margin-bottom: 200px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 31px;
-  line-height: 44px;
+  font-size: 28px;
+  line-height: 40px;
   text-align: center;
+  padding-top: 55px;
 }
 .form-container{
   display: block;
@@ -404,7 +447,7 @@ width: 131px;
 height: 38px;
 background: #FF6B00;
 margin-top: 10px;
-margin-bottom: 10px;
+margin-bottom: 100px;
 border: none;
 color: #FFFFFF;
 }
@@ -425,8 +468,8 @@ input[type=text], input[type=email]{
 }
 .contact-social{
   background: #e5e5e5;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .contact-social-ul{
   display: flex;
