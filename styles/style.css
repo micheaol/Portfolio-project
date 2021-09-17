@@ -217,14 +217,14 @@ ul #name {
 
 .post-title {
   color: #091e42;
-  font-family: Crete Round;
+  font-family: Crete Round sans-serif;
   font-size: 32px;
   line-height: 44px;
   margin: 12px;
 }
 
 .post {
-  font-family: Inter sans-serif;;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
@@ -232,14 +232,13 @@ ul #name {
 }
 
 .tech-item {
-  padding: 5px;
   margin-right: 25px;
   font-size: 15px;
   line-height: 20px;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   border: 1px solid #8993a4;
-  background:  #fff;
+  background: #fff;
   padding: 10px 12px;
 }
 
@@ -253,16 +252,16 @@ ul #name {
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
-  color:  #fff;
+  color: #fff;
 }
 
 .job-post-title {
   width: 295px;
   height: 81px;
-  font-family: Crete Round, sans-serif;;
+  font-family: Crete Round, sans-serif;
   font-size: 32px;
   line-height: 44px;
-  color:  #fff;
+  color: #fff;
   font-style: normal;
   font-weight: 400;
   margin-left: 20px;
@@ -274,7 +273,7 @@ ul #name {
   line-height: 24px;
   width: 295px;
   height: 87px;
-  color:  #fff;
+  color: #fff;
   margin-left: 23px;
   font-family: 'Inter', sans-serif;
 }
@@ -296,7 +295,7 @@ ul #name {
   align-items: center;
   padding: 10px 12px;
   margin-right: 20px;
-  color:  #fff;
+  color: #fff;
 }
 
 .see-jobs-btn {
@@ -305,7 +304,7 @@ ul #name {
   border: none;
   width: 85vw;
   margin: auto;
-  color:  #fff;
+  color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -363,19 +362,19 @@ ul #name {
   background: #ff6b00;
   border: none;
   padding: 12px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
-  color:  #fff;
+  color: #fff;
   margin-bottom: 200px;
 }
 
 #btn-line {
   margin-left: 25px;
   width: 85vw;
-  border-bottom: 1px solid  #fff;
+  border-bottom: 1px solid #fff;
   margin-bottom: 50px;
 }
 
@@ -407,7 +406,7 @@ ul #name {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-  color:  #fff;
+  color: #fff;
   margin-bottom: 20px;
 }
 
@@ -420,8 +419,8 @@ ul #name {
 .language ul li,
 .framework ul li,
 .skills ul li {
-  color:  #fff;
-  font-family: Inter;
+  color: #fff;
+  font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -485,7 +484,7 @@ form #btn-submit {
   margin-top: 10px;
   margin-bottom: 100px;
   border: none;
-  color:  #fff;
+  color: #fff;
 }
 
 input[type='text'],
@@ -523,4 +522,3 @@ input[type='email'] {
 }
 
 /* ========= End of Styling for contact form =========== */
-
