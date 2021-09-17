@@ -263,6 +263,7 @@ background: #FF6B00;
 margin-top: 10px;
 margin-bottom: 10px;
 border: none;
+color: #FFFFFF;
 }
 input[type=text], input[type=email], textarea {
   width: 90%;
