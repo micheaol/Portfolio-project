@@ -2,19 +2,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
 }
+
 /* =============Navbar styling section====================== */
-.overall-container{
+.overall-container {
   display: grid;
- 
- 
 }
+
 .nav-bar ul {
   display: flex;
   background: #3c3a39;
@@ -158,7 +157,7 @@ ul #name {
 .job-item-two {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('../images/print-img.png');
+  background: linear-gradient( 180.45deg, rgba(38, 38, 38, 0) 0.75%,rgba(38, 38, 38, 0.9) 61.94%), url('../images/print-img.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 85vw;
@@ -197,83 +196,92 @@ ul #name {
   justify-content: center;
   margin: auto;
 }
+
 .work-hero-img img {
   display: block;
   margin: auto;
   width: 85vw;
   padding-top: 30px;
 }
-.multi-post{
+
+.multi-post {
   margin-top: 150px;
   width: 85vw;
   margin-left: 32px;
 }
-.post-title{
-  color: #091E42;
+
+.post-title {
+  color: #091e42;
   font-family: Crete Round;
   font-size: 32px;
-line-height: 44px;
-margin: 12px 0px;
+  line-height: 44px;
+  margin: 12px 0px;
 }
-.post{
+
+.post {
   font-family: Inter;
   font-size: 16px;
-line-height: 24px;
-color: #091E42;
-margin: 12px 0px;
+  line-height: 24px;
+  color: #091e42;
+  margin: 12px 0px;
 }
 
 .tech-item {
-padding: 5px;
-margin-right: 25px;
-font-size: 15px;
-line-height: 20px;
-font-family: 'Inter', sans-serif;
-font-weight: 500;
-border: 1px solid #8993A4;
-background: #FFFFFF;
-padding: 10px 12px;
+  padding: 5px;
+  margin-right: 25px;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  border: 1px solid #8993a4;
+  background: #ffffff;
+  padding: 10px 12px;
 }
-#post-btn{
-  background: #FF6B00;
+
+#post-btn {
+  background: #ff6b00;
   border: none;
   width: 124px;
-height: 48px;
-margin: 12px 0px;
-font-family: 'Inter', sans-serif;
-font-weight: bold;
-font-size: 17px;
-line-height: 24px;
-color: #FFFFFF;
+  height: 48px;
+  margin: 12px 0px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffff;
 }
-.job-post-title{
+
+.job-post-title {
   width: 295px;
-height: 81px;
+  height: 81px;
   font-family: Crete Round;
   font-size: 32px;
-line-height: 44px;
-color: #FFFFFF;
-font-style: normal;
-font-weight: 400;
-margin-left: 20px;
-margin-bottom: 10px;
+  line-height: 44px;
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
-.job-post{
+
+.job-post {
   font-size: 16px;
-line-height: 24px;
-width: 295px;
-height: 87px;
-color: #FFFFFF;
-margin-left: 23px;
-font-family: 'Inter', sans-serif;
+  line-height: 24px;
+  width: 295px;
+  height: 87px;
+  color: #ffffff;
+  margin-left: 23px;
+  font-family: 'Inter', sans-serif;
 }
-.job-tech-lang{
+
+.job-tech-lang {
   display: flex;
   margin-left: 22px;
   margin-top: 8px;
   margin-bottom: 25px;
 }
-.job-item{
+
+.job-item {
   font-size: 15px;
   line-height: 20px;
   font-family: 'Inter', sans-serif;
@@ -281,22 +289,23 @@ font-family: 'Inter', sans-serif;
   border: none;
   background: rgba(255, 255, 255, 0.24);
   align-items: center;
-padding: 10px 12px;
-margin-right: 20px;
-color: #FFFFFF;
+  padding: 10px 12px;
+  margin-right: 20px;
+  color: #ffffff;
 }
-.see-jobs-btn{
-  background: #FF6B00;
+
+.see-jobs-btn {
+  background: #ff6b00;
   height: 48px;
   border: none;
   width: 85vw;
   margin: auto;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: 'Inter', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 17px;
-line-height: 24px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
 }
 
 /* ================== End of Portfolio projects section ====================================== */
@@ -315,112 +324,130 @@ line-height: 24px;
   display: flex;
   flex-direction: column;
 }
-.about-title{
-font-family: Crete Round;
-font-style: normal;
-font-weight: normal;
-font-size: 65px;
-line-height: 88px;
-letter-spacing: 0.37px;
-color: #FF6B00;
-padding: 15px;
-padding-top: 45px;
-margin-top: 20px;
-text-align: center;
+
+.about-title {
+  font-family: Crete Round;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  padding: 15px;
+  padding-top: 45px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .about-para {
   display: block;
   margin: auto;
   width: 358px;
-height: 148px;
+  height: 148px;
   color: #f4f5f7;
   font-size: 16px;
   line-height: 24px;
   font-family: Inter;
   margin-bottom: 25px;
 }
-#get-resume-btn{
+
+#get-resume-btn {
   width: 161px;
-height: 48px;
-margin-left: 40px;
-background: #FF6B00;
-border: none;
-padding: 12px;
-font-family: Inter;
-font-style: normal;
-font-weight: bold;
-font-size: 17px;
-line-height: 24px;
-color: #FFFFFF;
-margin-bottom: 200px;
+  height: 48px;
+  margin-left: 40px;
+  background: #ff6b00;
+  border: none;
+  padding: 12px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 200px;
 }
-#btn-line{
+
+#btn-line {
   margin-left: 25px;
   width: 85vw;
-  border-bottom: 1px solid #FFFFFF;
+  border-bottom: 1px solid #ffffff;
   margin-bottom: 50px;
-  
 }
+
 /* ================= End of About ME page styling ================================== */
+
 /* ================= List of technologies section ================================= */
 
-.tech-list{
+.tech-list {
   background-color: #1c1a19;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 50px;
-  
 }
-.language, .framework, .skills{
+
+.language,
+.framework,
+.skills {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.language-header, .framework-header, .skills-header{
+
+.language-header,
+.framework-header,
+.skills-header {
   font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 32px;
-line-height: 44px;
-color: #FFFFFF;
-margin-bottom: 20px;
-}
-.language ul, .framework ul, .skills ul{
-  list-style-type: none;
-}
-.language ul li , .framework ul li, .skills ul li{
-  color: #FFFFFF;
-  font-family: Inter;
-font-style: normal;
-font-weight: normal;
-font-size: 22px;
-line-height: 43px;
-margin-bottom: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
-span{
+.language ul,
+.framework ul,
+.skills ul {
+  list-style-type: none;
+}
+
+.language ul li,
+.framework ul li,
+.skills ul li {
+  color: #ffffff;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  margin-bottom: 10px;
+}
+
+span {
   margin-right: 10px;
 }
-.skills{
+
+.skills {
   width: 35%;
-  
 }
-.skills-header{
+
+.skills-header {
   margin-right: 33px;
 }
+
 /* ================= End of List of technologies section ================================= */
 
 /* ========= Styling for contact form =========== */
 .contact-section {
   width: 97vw;
   height: 95%;
-  background: #E5E5E5;
+  background: #e5e5e5;
   display: flex;
   flex-direction: column;
   padding-top: 45px;
 }
+
 .message-box {
   width: 300px;
   margin: 0 auto;
@@ -432,29 +459,33 @@ span{
   text-align: center;
   padding-top: 55px;
 }
-.form-container{
+
+.form-container {
   display: block;
   text-align: center;
   border-bottom: solid 1px #8d8d8f;
-  
-
 }
-form{
+
+form {
   display: inline-block;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-form #btn-submit{
-width: 131px;
-height: 38px;
-background: #FF6B00;
-margin-top: 10px;
-margin-bottom: 100px;
-border: none;
-color: #FFFFFF;
+
+form #btn-submit {
+  width: 131px;
+  height: 38px;
+  background: #ff6b00;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  border: none;
+  color: #ffffff;
 }
-input[type=text], input[type=email], textarea {
+
+input[type='text'],
+input[type='email'],
+textarea {
   width: 90%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -464,24 +495,32 @@ input[type=text], input[type=email], textarea {
   background-color: #e5e5e5;
   font-family: Inter;
 }
-textarea{
-  background-color: #DBD8D7;
+
+textarea {
+  background-color: #dbd8d7;
 }
-input[type=text], input[type=email]{
-  border-bottom: solid 2px #DBD8D7;
+
+input[type='text'],
+input[type='email'] {
+  border-bottom: solid 2px #dbd8d7;
 }
-.contact-social{
+
+.contact-social {
   background: #e5e5e5;
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.contact-social-ul{
+
+.contact-social-ul {
   display: flex;
   justify-content: center;
   list-style-type: none;
 }
-.contact-social-ul li a{
-  color: #505F79;
+
+.contact-social-ul li a {
+  color: #505f79;
   margin-right: 10px;
 }
+
 /* ========= End of Styling for contact form =========== */
+
