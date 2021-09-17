@@ -285,7 +285,7 @@ padding: 10px 12px;
 margin-right: 20px;
 color: #FFFFFF;
 }
-#see-jobs-btn{
+.see-jobs-btn{
   background: #FF6B00;
   height: 48px;
   border: none;
