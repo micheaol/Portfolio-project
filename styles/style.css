@@ -38,6 +38,11 @@ ul .hamburger-icon {
   color: #dbd8d7;
 }
 
+.contact-social-ul li a {
+  color: #505f79;
+  margin-right: 10px;
+}
+
 .nav-bar ul li a {
   text-decoration: none;
   color: white;
@@ -157,7 +162,7 @@ ul #name {
 .job-item-two {
   display: flex;
   flex-direction: column;
-  background: linear-gradient( 180.45deg, rgba(38, 38, 38, 0) 0.75%,rgba(38, 38, 38, 0.9) 61.94%), url('../images/print-img.png');
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('../images/print-img.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 85vw;
@@ -175,7 +180,7 @@ ul #name {
 }
 
 .my-projects-section #projects-title {
-  font-family: Crete Round;
+  font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 33px;
@@ -215,15 +220,15 @@ ul #name {
   font-family: Crete Round;
   font-size: 32px;
   line-height: 44px;
-  margin: 12px 0px;
+  margin: 12px;
 }
 
 .post {
-  font-family: Inter;
+  font-family: Inter sans-serif;;
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
-  margin: 12px 0px;
+  margin: 12px;
 }
 
 .tech-item {
@@ -234,7 +239,7 @@ ul #name {
   font-family: 'Inter', sans-serif;
   font-weight: 500;
   border: 1px solid #8993a4;
-  background: #ffffff;
+  background:  #fff;
   padding: 10px 12px;
 }
 
@@ -243,21 +248,21 @@ ul #name {
   border: none;
   width: 124px;
   height: 48px;
-  margin: 12px 0px;
+  margin: 12px;
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
-  color: #ffffff;
+  color:  #fff;
 }
 
 .job-post-title {
   width: 295px;
   height: 81px;
-  font-family: Crete Round;
+  font-family: Crete Round, sans-serif;;
   font-size: 32px;
   line-height: 44px;
-  color: #ffffff;
+  color:  #fff;
   font-style: normal;
   font-weight: 400;
   margin-left: 20px;
@@ -269,7 +274,7 @@ ul #name {
   line-height: 24px;
   width: 295px;
   height: 87px;
-  color: #ffffff;
+  color:  #fff;
   margin-left: 23px;
   font-family: 'Inter', sans-serif;
 }
@@ -291,7 +296,7 @@ ul #name {
   align-items: center;
   padding: 10px 12px;
   margin-right: 20px;
-  color: #ffffff;
+  color:  #fff;
 }
 
 .see-jobs-btn {
@@ -300,7 +305,7 @@ ul #name {
   border: none;
   width: 85vw;
   margin: auto;
-  color: #ffffff;
+  color:  #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -326,7 +331,7 @@ ul #name {
 }
 
 .about-title {
-  font-family: Crete Round;
+  font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 65px;
@@ -347,7 +352,7 @@ ul #name {
   color: #f4f5f7;
   font-size: 16px;
   line-height: 24px;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   margin-bottom: 25px;
 }
 
@@ -363,14 +368,14 @@ ul #name {
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
-  color: #ffffff;
+  color:  #fff;
   margin-bottom: 200px;
 }
 
 #btn-line {
   margin-left: 25px;
   width: 85vw;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid  #fff;
   margin-bottom: 50px;
 }
 
@@ -402,7 +407,7 @@ ul #name {
   font-weight: bold;
   font-size: 32px;
   line-height: 44px;
-  color: #ffffff;
+  color:  #fff;
   margin-bottom: 20px;
 }
 
@@ -415,7 +420,7 @@ ul #name {
 .language ul li,
 .framework ul li,
 .skills ul li {
-  color: #ffffff;
+  color:  #fff;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -480,7 +485,7 @@ form #btn-submit {
   margin-top: 10px;
   margin-bottom: 100px;
   border: none;
-  color: #ffffff;
+  color:  #fff;
 }
 
 input[type='text'],
@@ -493,7 +498,7 @@ textarea {
   border: none;
   box-sizing: border-box;
   background-color: #e5e5e5;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
 }
 
 textarea {
@@ -515,11 +520,6 @@ input[type='email'] {
   display: flex;
   justify-content: center;
   list-style-type: none;
-}
-
-.contact-social-ul li a {
-  color: #505f79;
-  margin-right: 10px;
 }
 
 /* ========= End of Styling for contact form =========== */
