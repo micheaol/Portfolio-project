@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 * {
   box-sizing: border-box;
@@ -229,26 +230,23 @@ ul #name {
 /* ========= Styling for contact form =========== */
 .main-contact {
   background: #e5e5e5;
-  display: grid;
-  grid-template-rows: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
 }
 .message-box {
-  width: 327px;
-  height: 216px;
+  width: 300px;
   margin: 0 auto;
-  font-family: Inter;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 31px;
   line-height: 44px;
   text-align: center;
-
 }
 .form-container{
   display: block;
   text-align: center;
-  margin-top: 5px;
-  border-bottom: solid 2px coral;
+  border-bottom: solid 1px #8d8d8f;
   
 
 }
@@ -259,29 +257,39 @@ form{
   align-items: center;
 }
 form #btn-submit{
-  width: 131px;
-height: 48px;
-left: 98px;
-top: calc(50% - 48px/2 + 141px);
+width: 131px;
+height: 38px;
 background: #FF6B00;
-margin-top: 25px;
-margin-bottom: 13px;
+margin-top: 10px;
+margin-bottom: 10px;
+border: none;
 }
-input[type=text], input[type=email] {
+input[type=text], input[type=email], textarea {
   width: 90%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  border: none;
   box-sizing: border-box;
+  background-color: #e5e5e5;
+}
+textarea{
+  background-color: #DBD8D7;
+}
+input[type=text], input[type=email]{
+  border-bottom: solid 2px #DBD8D7;
 }
 .contact-social{
-  background: chartreuse;
+  background: #e5e5e5;
+  padding-top: 9px;
   padding-bottom: 9px;
 }
 .contact-social-ul{
   display: flex;
   justify-content: center;
   list-style-type: none;
+}
+.contact-social-ul li a{
+  color: #505F79;
+  margin-right: 10px;
 }
