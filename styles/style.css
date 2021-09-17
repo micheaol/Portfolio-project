@@ -7,10 +7,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 /* =============Navbar styling section====================== */
 .overall-container{
-  display: grid
+  display: grid;
+ 
+ 
 }
 .nav-bar ul {
   display: flex;
@@ -63,11 +66,10 @@ ul #name {
   align-items: flex-start;
   background-color: #1c1a19;
   position: absolute;
-  width: 100%;
+  width: 97vw;
   height: 90%;
   top: 72px;
-  padding: 110px 24px;
-  overflow: hidden;
+  padding: 100px 24px;
 }
 
 .nav-bar #name a {
@@ -230,6 +232,7 @@ font-family: 'Inter', sans-serif;
 font-weight: 500;
 border: 1px solid #8993A4;
 background: #FFFFFF;
+padding: 10px 12px;
 }
 #post-btn{
   background: #FF6B00;
@@ -411,7 +414,7 @@ span{
 
 /* ========= Styling for contact form =========== */
 .contact-section {
-  width: 100vw;
+  width: 97vw;
   height: 95%;
   background: #E5E5E5;
   display: flex;
@@ -459,6 +462,7 @@ input[type=text], input[type=email], textarea {
   border: none;
   box-sizing: border-box;
   background-color: #e5e5e5;
+  font-family: Inter;
 }
 textarea{
   background-color: #DBD8D7;
