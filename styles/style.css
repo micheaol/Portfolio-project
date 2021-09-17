@@ -151,6 +151,19 @@ ul #name {
 }
 
 /* ================== Portfolio projects section ====================================== */
+.job-item-two {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('../images/print-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85vw;
+  height: 42vh;
+  margin: auto;
+  padding-top: 20px;
+  margin-top: 35px;
+}
+
 .my-projects-section {
   border: rgb(48, 172, 95) 2px solid;
   margin-top: 590px;
@@ -228,17 +241,60 @@ font-size: 17px;
 line-height: 24px;
 color: #FFFFFF;
 }
-
-.job-item-two {
-  background-image: url('../images/print-img.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 85vw;
-  height: 50vh;
-  margin: auto;
-  padding-top: 30px;
-  margin-top: 35px;
+.job-post-title{
+  width: 295px;
+height: 81px;
+  font-family: Crete Round;
+  font-size: 32px;
+line-height: 44px;
+color: #FFFFFF;
+font-style: normal;
+font-weight: 400;
+margin-left: 20px;
+margin-bottom: 10px;
 }
+.job-post{
+  font-size: 16px;
+line-height: 24px;
+width: 295px;
+/* height: 87px; */
+color: #FFFFFF;
+margin-left: 23px;
+font-family: 'Inter', sans-serif;
+}
+.job-tech-lang{
+  display: flex;
+  margin-left: 22px;
+  margin-top: 8px;
+  margin-bottom: 25px;
+}
+.job-item{
+  font-size: 15px;
+  line-height: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  border: none;
+  background: rgba(255, 255, 255, 0.24);
+  align-items: center;
+padding: 10px 12px;
+margin-right: 20px;
+color: #FFFFFF;
+}
+#see-jobs-btn{
+  background: #FF6B00;
+  height: 48px;
+  border: none;
+  width: 85vw;
+  margin: auto;
+  color: #FFFFFF;
+  font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 24px;
+}
+
+/* ================== End of Portfolio projects section ====================================== */
 
 /* ================= About ME page styling ================================== */
 
