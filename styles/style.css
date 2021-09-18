@@ -327,14 +327,15 @@ ul #name {
 .about-me-section {
   background-image: url('../images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
-  background-position: right 10px bottom 70px;
+  background-position: right 10px bottom 1050px;
   width: 97vw;
-  height: 90vh;
+  height: 100%;
   background-color: #1c1a19;
   margin-top: 90px;
   background-size: 150px 150px, cover;
   display: flex;
   flex-direction: column;
+  padding-bottom: 40px;
 }
 
 .about-title {
@@ -390,14 +391,6 @@ ul #name {
 
 /* ================= List of technologies section ================================= */
 
-.tech-list {
-  background-color: #1c1a19;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 50px;
-}
-
 .language,
 .framework,
 .skills {
@@ -438,10 +431,6 @@ ul #name {
 
 span {
   margin-right: 10px;
-}
-
-.skills {
-  width: 35%;
 }
 
 .skills-header {
