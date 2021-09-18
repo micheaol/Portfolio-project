@@ -239,6 +239,7 @@ ul #name {
   width: 75vw;
   margin-left: 14px;
 }
+
 .tech-lang ul li{
   margin-right: 25px;
   font-size: 15px;
@@ -264,11 +265,11 @@ ul #name {
   cursor: pointer;
 }
 
-#post-btn:hover{
+#post-btn:hover {
   background-color: crimson;
 }
 
-#post-btn:active{
+#post-btn:active {
   background-color: rgb(12, 110, 56);
 }
 
@@ -331,11 +332,11 @@ ul #name {
   cursor: pointer;
 }
 
-.see-jobs-btn:hover{
+.see-jobs-btn:hover {
   background-color: crimson;
 }
 
-.see-jobs-btn:active{
+.see-jobs-btn:active {
   background-color: rgb(12, 110, 56);
 }
 
@@ -400,11 +401,11 @@ ul #name {
   cursor: pointer;
 }
 
-#get-resume-btn:hover{
+#get-resume-btn:hover {
   background-color: crimson;
 }
 
-#get-resume-btn:active{
+#get-resume-btn:active {
   background-color: rgb(12, 110, 56);
 }
 
@@ -513,11 +514,11 @@ form #btn-submit {
   cursor: pointer;
 }
 
-form #btn-submit:hover{
+form #btn-submit:hover {
   background-color: crimson;
 }
 
-form #btn-submit:active{
+form #btn-submit:active {
   background-color: rgb(12, 110, 56);
 }
 
