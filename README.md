@@ -1,16 +1,11 @@
 # 
-Portfolio-project Project.
+Portfolio-project Project. | Mobile version
 
-For this repository, I've created this project to practice what I have learned:
-1. like github workflow
-2. How to create github branches
-3. How to commit repositories
-4. How send pull request
-5. And final how to request for code review.
+For this repository, I've created a project to add media query to the project to enable the users to view the application in a mobile frindly screen, also I've implemented a dynamic web app using CSS which is accessible on mobile screen of max width of 375px wide.
 
 I used ESlint to manage the files for the front-end, using loaders for HTML, CSS, and JavaScript files, in order to fix some special thing at the moment to use the front-end in a server. Feel free to suggest more additional features for this repository, or if you want to use it, feel free to do that as well.
 
-![alt text](https://github.com/micheaol/Portfolio-project/blob/main/images/screenshot.PNG)
+![alt text](https://github.com/micheaol/Portfolio-project/blob/mobile-feature/images/screen.PNG)
 
 Built With
 Major languages

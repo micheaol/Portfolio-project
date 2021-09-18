@@ -1,192 +1,559 @@
-/* ========== Importing goole fonts ================== */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* =============Navbar styling section====================== */
-.nav-bar ul{
-    display: flex;
-    background: #3C3A39;
-    /* border: 5px solid rgb(8, 8, 1); */
-    list-style-type: none;
-    width: 100vw;
-    height: 72px;
-    align-items: center;
+.overall-container {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+}
 
-
+.nav-bar ul {
+  display: flex;
+  background: #3c3a39;
+  list-style-type: none;
+  align-items: center;
+  height: 92px;
+  width: 96.67vw;
 }
 
 /* ================== Styleling the flex elements ============================== */
-.nav-bar ul li{
-    flex: 1 1 100%;
-    text-decoration: none;
-    flex: 1;
-    
+.nav-bar ul li {
+  text-decoration: none;
+  flex: 1;
 }
 
 /* ================== hiding the hambuger icon in large screen ==================== */
-ul .hamburger-icon{
-    display: none;
+ul .hamburger-icon {
+  display: none;
 }
-.nav-bar ul li a{
-    text-decoration: none;
-    color: white;
-    font-family: Roboto;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0em;
-text-align: center;
 
+.social-ul li a {
+  color: #dbd8d7;
 }
-ul #name{
-    flex: 5;
-    margin-left: 30px;
+
+.contact-social-ul li a {
+  color: #505f79;
+  margin-right: 10px;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Roboto, Tahoma, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center;
+}
+
+ul #name {
+  flex: 5;
+  margin-left: 30px;
 }
 
 /* =========================styling the main container ===================== */
-.main-container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: #1C1A19;
-    padding-top: 5px;
+.main-container {
+  background-image: url('../images/bg.png');
+  background-repeat: no-repeat;
+  background-size: 450px 450px, cover;
+  background-position: right 5px bottom 10px;
+  display: grid;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #1c1a19;
+  position: absolute;
+  width: 97vw;
+  height: 90%;
+  top: 72px;
+  padding: 100px 24px;
 }
 
-/* =================== Styling for Max-screen of 650px ==================================== */
-@media screen and (max-width: 700px) {
-    .nav-bar ul{
-        height: 92px;
-        width: 690px;
-        left: 0px;
-        top: 0px;
-        border-radius: 0px;
-    }
-    .right-item{
-        display: none;
-    }
-    ul .hamburger-icon{
-        display: block;
-    }
+.nav-bar #name a {
+  font-family: Roboto, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-/* =================== Styling for Max-screen of 500px ==================================== */
-@media screen and (max-width: 500px) {
-    .nav-bar ul{
-        height: 92px;
-        width: 500px;
-        left: 0px;
-        top: 0px;
-        border-radius: 0px;
-    }
-    .right-item{
-        display: none;
-    }
-    ul .hamburger-icon{
-        display: block;
-    }
+.right-item {
+  display: none;
 }
 
-/* =================== Styling for Max-screen of 375px ==================================== */
-@media screen and (max-width: 375px) {
-    
-    .nav-bar ul{
-        height: 92px;
-        width: 375px;
-        left: 0px;
-        top: 0px;
-        border-radius: 0px;
-    }
-    .nav-bar #name a{
-        font-family: Roboto;
-        font-weight: bold;
-        font-size: 18px;
-    }
-    .right-item{
-        display: none;
-    }
-    .nav-bar ul .hamburger-icon{
-        display: block;
-        color: white;
-        margin-right: 25px;
-    }
-    .main-container{
-        position: absolute;
-        width: 375px;
-        height: 550px;
-        top: 72px;
-        padding: 110px 24px;
-    }
-    .main-container .intro-header{
-        width: 285px;
-        height: 124px;
-        top: 120px;
-        margin-left: 10px;
-        color: #FF6B00;
-    }
-  .main-container .intro-header h1{
-    width: 327px;
-    height: 124px;
-    left: 24px;
-    top: 120px;
-    font-family: Crete Round;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 54px;
-    line-height: 55px;
-    letter-spacing: 0.37px;
-  }
-  .intro-title{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 19px;
-    line-height: 32px;
-    color: #FFF5E1;
-    width: 285px;
-    margin-left: 10px;
-
-  }
-  .intro-title h3{
-    margin-left: 4px;
-    padding-top: 25px;
-  }
-  .intro-detail{
-    align-self: flex-start;
-    margin-left: 24px;
-    width: 285px;
-    margin-left: 10px;
-  }
-  .intro-detail p{
-    position: static;
-    width: 280px;
-    height: 123px;
-    left: 24px;
-    top: 295px;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
-    margin-left: 4px;
-    padding-top: 10px;
-  }
-  .social ul{
-      display: flex;
-      list-style-type: none;
-      width: 150px;
-      margin-left: 20px;
-      justify-content: space-between;
-      padding-top: 40px;
-  }
-  .social-ul li a{
-    color: #DBD8D7;
-  }
+.nav-bar ul .hamburger-icon {
+  display: block;
+  color: white;
+  margin-right: 25px;
 }
+
+.main-container .intro-header {
+  width: 285px;
+  height: 124px;
+  top: 120px;
+  margin-left: 10px;
+  color: #ff6b00;
+}
+
+.main-container .intro-header h1 {
+  width: 327px;
+  height: 124px;
+  left: 24px;
+  top: 120px;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 55px;
+  letter-spacing: 0.37px;
+}
+
+.intro-title {
+  font-family: Roboto, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 19px;
+  line-height: 32px;
+  color: #fff5e1;
+  width: 285px;
+}
+
+.intro-title h3 {
+  margin-left: 4px;
+  padding-top: 25px;
+}
+
+.intro-detail {
+  align-self: flex-start;
+  width: 285px;
+  margin-left: 10px;
+}
+
+.intro-detail p {
+  position: static;
+  width: 280px;
+  height: 123px;
+  left: 24px;
+  top: 295px;
+  font-family: Poppins, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
+  padding-top: 10px;
+}
+
+.social ul {
+  display: flex;
+  list-style-type: none;
+  width: 150px;
+  margin-left: 20px;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+/* ================== Portfolio projects section ====================================== */
+.job-item-two {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('../images/print-img.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 85vw;
+  height: 42vh;
+  margin: auto;
+  padding-top: 20px;
+  margin-top: 35px;
+}
+
+.my-projects-section {
+  margin-top: 590px;
+  padding-top: 25px;
+  display: grid;
+  padding-bottom: 15px;
+}
+
+.my-projects-section #projects-title {
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 33px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  color: #1c1a19;
+  margin-left: 45px;
+  margin-right: 30px;
+  padding-top: 35px;
+  padding-bottom: 55px;
+  border-bottom: solid #1c1a19 1px;
+}
+
+.my-projects-section .work-hero-img {
+  width: 97vw;
+  height: 230px;
+  justify-content: center;
+  margin: auto;
+}
+
+.work-hero-img img {
+  display: block;
+  margin: auto;
+  width: 85vw;
+  padding-top: 30px;
+}
+
+.multi-post {
+  margin-top: 150px;
+  width: 85vw;
+  margin-left: 32px;
+}
+
+.post-title {
+  color: #091e42;
+  font-family: Crete Round, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  margin: 12px;
+}
+
+.post {
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+  margin: 12px;
+}
+
+.tech-lang ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 75vw;
+  margin-left: 14px;
+}
+
+.tech-lang ul li {
+  margin-right: 25px;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  border: 1px solid #8993a4;
+  background: #fff;
+  padding: 10px 12px;
+}
+
+#post-btn {
+  background: #ff6b00;
+  border: none;
+  width: 124px;
+  height: 48px;
+  margin: 12px;
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#post-btn:hover {
+  background-color: crimson;
+}
+
+#post-btn:active {
+  background-color: rgb(12, 110, 56);
+}
+
+.job-post-title {
+  width: 295px;
+  height: 81px;
+  font-family: Crete Round, sans-serif;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.job-post {
+  font-size: 16px;
+  line-height: 24px;
+  width: 295px;
+  height: 87px;
+  color: #fff;
+  margin-left: 23px;
+  font-family: 'Inter', sans-serif;
+}
+
+.job-tech-lang-ul {
+  display: flex;
+  margin-left: 22px;
+  margin-top: 18px;
+  margin-bottom: 25px;
+  list-style-type: none;
+}
+
+.job-item {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  border: none;
+  background: rgba(255, 255, 255, 0.24);
+  align-items: center;
+  padding: 10px 12px;
+  margin-right: 20px;
+  color: #fff;
+}
+
+.see-jobs-btn {
+  background: #ff6b00;
+  height: 48px;
+  border: none;
+  width: 85vw;
+  margin: auto;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.see-jobs-btn:hover {
+  background-color: crimson;
+}
+
+.see-jobs-btn:active {
+  background-color: rgb(12, 110, 56);
+}
+
+/* ================== End of Portfolio projects section ====================================== */
+
+/* ================= About ME page styling ================================== */
+
+.about-me-section {
+  background-image: url('../images/illustration-about-me-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: right 10px bottom 1150px;
+  width: 97vw;
+  height: 100%;
+  background-color: #1c1a19;
+  margin-top: 90px;
+  background-size: 150px 150px, cover;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 130px;
+}
+
+.about-title {
+  font-family: Crete Round, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 65px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  padding: 15px;
+  padding-top: 45px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.about-para {
+  display: block;
+  margin: auto;
+  width: 358px;
+  height: 148px;
+  color: #f4f5f7;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Inter, sans-serif;
+  margin-bottom: 25px;
+}
+
+#get-resume-btn {
+  width: 161px;
+  height: 48px;
+  margin-left: 40px;
+  background: #ff6b00;
+  border: none;
+  padding: 12px;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 200px;
+  cursor: pointer;
+}
+
+#get-resume-btn:hover {
+  background-color: crimson;
+}
+
+#get-resume-btn:active {
+  background-color: rgb(12, 110, 56);
+}
+
+#btn-line {
+  margin-left: 25px;
+  width: 85vw;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 50px;
+}
+
+/* ================= End of About ME page styling ================================== */
+
+/* ================= List of technologies section ================================= */
+
+.language,
+.framework,
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.language-header,
+.framework-header,
+.skills-header {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.language ul,
+.framework ul,
+.skills ul {
+  list-style-type: none;
+}
+
+.language ul li,
+.framework ul li,
+.skills ul li {
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 43px;
+  margin-bottom: 10px;
+}
+
+span {
+  margin-right: 10px;
+}
+
+.skills-header {
+  margin-right: 33px;
+}
+
+/* ================= End of List of technologies section ================================= */
+
+/* ========= Styling for contact form =========== */
+.contact-section {
+  width: 97vw;
+  height: 95%;
+  background: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  padding-top: 45px;
+}
+
+.message-box {
+  width: 300px;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  padding-top: 55px;
+}
+
+.form-container {
+  display: block;
+  text-align: center;
+  border-bottom: solid 1px #8d8d8f;
+}
+
+form {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form #btn-submit {
+  width: 131px;
+  height: 38px;
+  background: #ff6b00;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+form #btn-submit:hover {
+  background-color: crimson;
+}
+
+form #btn-submit:active {
+  background-color: rgb(12, 110, 56);
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 90%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+  font-family: Inter, sans-serif;
+}
+
+textarea {
+  background-color: #dbd8d7;
+}
+
+input[type='text'],
+input[type='email'] {
+  border-bottom: solid 2px #dbd8d7;
+}
+
+.contact-social {
+  background: #e5e5e5;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact-social-ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+/* ========= End of Styling for contact form =========== */
