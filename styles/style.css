@@ -261,6 +261,15 @@ ul #name {
   font-size: 17px;
   line-height: 24px;
   color: #fff;
+  cursor: pointer;
+}
+
+#post-btn:hover{
+  background-color: crimson;
+}
+
+#post-btn:active{
+  background-color: rgb(12, 110, 56);
 }
 
 .job-post-title {
@@ -319,6 +328,15 @@ ul #name {
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
+  cursor: pointer;
+}
+
+.see-jobs-btn:hover{
+  background-color: crimson;
+}
+
+.see-jobs-btn:active{
+  background-color: rgb(12, 110, 56);
 }
 
 /* ================== End of Portfolio projects section ====================================== */
@@ -379,6 +397,15 @@ ul #name {
   line-height: 24px;
   color: #fff;
   margin-bottom: 200px;
+  cursor: pointer;
+}
+
+#get-resume-btn:hover{
+  background-color: crimson;
+}
+
+#get-resume-btn:active{
+  background-color: rgb(12, 110, 56);
 }
 
 #btn-line {
@@ -483,6 +510,15 @@ form #btn-submit {
   margin-bottom: 100px;
   border: none;
   color: #fff;
+  cursor: pointer;
+}
+
+form #btn-submit:hover{
+  background-color: crimson;
+}
+
+form #btn-submit:active{
+  background-color: rgb(12, 110, 56);
 }
 
 input[type='text'],
