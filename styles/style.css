@@ -232,7 +232,7 @@ ul #name {
   margin: 12px;
 }
 
-.tech-lang ul{
+.tech-lang ul {
   display: flex;
   justify-content: space-between;
   list-style-type: none;
@@ -240,7 +240,7 @@ ul #name {
   margin-left: 14px;
 }
 
-.tech-lang ul li{
+.tech-lang ul li {
   margin-right: 25px;
   font-size: 15px;
   line-height: 20px;
