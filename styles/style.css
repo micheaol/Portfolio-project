@@ -297,11 +297,14 @@ ul #name {
 }
 
 .job-tech-lang-ul {
-  display: flex;
   margin-left: 22px;
   margin-top: 18px;
   margin-bottom: 25px;
   list-style-type: none;
+}
+
+.job-item{
+    float: left;
 }
 
 .job-item {
