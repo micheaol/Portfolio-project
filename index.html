@@ -215,10 +215,10 @@
         </div>
         <div class="form-container">
             <form action="https://formspree.io/f/xnqlwgep" method="POST">
-                <input type="text" name="name" placeholder="Full name">
-                <input type="email" name="email" placeholder="Email">
-                <textarea name="message" id="text-msg" cols="500" rows="5" placeholder="Enter text here"></textarea>
-                <input type="button" value="Get in touch" id="btn-submit">
+                <input type="text" name="name" placeholder="Full name" maxlength="30" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <textarea name="message" id="text-msg" cols="500" rows="5" placeholder="Enter text here" maxlength="500" required></textarea>
+                <input type="submit" value="Get in touch" id="btn-submit">
             </form>
         </div>
             <div class="contact-social">

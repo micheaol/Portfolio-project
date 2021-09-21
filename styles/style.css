@@ -243,7 +243,6 @@ ul #name {
 }
 
 .tech-lang ul li {
-  margin-right: 25px;
   font-size: 15px;
   line-height: 15px;
   font-family: 'Inter', sans-serif;
@@ -505,6 +504,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #e5e5e5;
 }
 
 form #btn-submit {
@@ -519,7 +519,8 @@ form #btn-submit {
 }
 
 form #btn-submit:hover {
-  background-color: crimson;
+  background-color: #fff5e1;
+  color: #f55800;
 }
 
 form #btn-submit:active {
@@ -545,7 +546,7 @@ textarea {
 
 input[type='text'],
 input[type='email'] {
-  border-bottom: solid 2px #dbd8d7;
+  border-bottom: solid 2px #fbf8f7;
 }
 
 .contact-social {
