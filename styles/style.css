@@ -303,10 +303,6 @@ ul #name {
   list-style-type: none;
 }
 
-.job-item{
-    float: left;
-}
-
 .job-item {
   font-size: 15px;
   line-height: 20px;
@@ -318,6 +314,7 @@ ul #name {
   padding: 10px 12px;
   margin-right: 20px;
   color: #fff;
+  float: left;
 }
 
 .see-jobs-btn {
