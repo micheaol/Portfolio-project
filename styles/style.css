@@ -479,7 +479,7 @@ span {
   display: flex;
   flex-direction: column;
   padding-top: 45px;
-  padding-bottom: 200px;
+  padding-bottom: 50px;
 }
 
 .message-box {
