@@ -504,6 +504,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #E5E5E5;
 }
 
 form #btn-submit {
@@ -518,7 +519,8 @@ form #btn-submit {
 }
 
 form #btn-submit:hover {
-  background-color: crimson;
+  background-color: #FFF5E1;
+  color: #F55800;
 }
 
 form #btn-submit:active {
@@ -544,7 +546,7 @@ textarea {
 
 input[type='text'],
 input[type='email'] {
-  border-bottom: solid 2px #dbd8d7;
+  border-bottom: solid 2px #FBF8F7;
 }
 
 .contact-social {
