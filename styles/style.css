@@ -119,14 +119,8 @@ ul #name {
   font-weight: bold;
   font-size: 10px;
   color: #fff5e1;
-  /* width: 327px; */
   font-size: 24px;
 }
-
-/* .intro-title h3 {
-  margin-left: 4px;
-  padding-top: 25px;
-} */
 
 .intro-detail {
   align-self: flex-start;
