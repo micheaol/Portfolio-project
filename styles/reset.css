@@ -110,28 +110,34 @@
       
 /* ================== End of Portfolio projects section ====================================== */
 .my-projects-section{
-  padding-top: 400px;
+  padding-top: 200px;
   display: grid;
 }
 
 .multi-post{
-  padding-bottom: 200px;
+  /* padding-bottom: 50px; */
   background-image: url("../images/works-hero-img.svg");
   background-repeat: no-repeat;
-  background-size: 750px 650px;
-  background-position: left 122px top -75px;
-  width: 85%;
-  background-color: brown;
+  background-size: 650px 550px;
+  background-position: left 122px top 15px;
+  /* width: 85%; */
+  /* background-color: brown; */
   margin-left: 150px;
+  padding-bottom: 250px;
+
 
 }
 
 .multi-post-inner{
   /* background-color: blueviolet; */
- width: 40%;
- float: right;
+ width: 55%;
+ top: 1250px;
+ position: absolute;
+ right: -55px;
+ /* float: right; */
+ /* padding-bottom: 200px; */
  /* margin-right: 50px; */
- margin-left: 150px;
+ margin-bottom: 250px;
  
 }
 
@@ -177,6 +183,7 @@ margin-left: 160px;
   grid-template-columns: repeat(3, 465px);
   margin-left: 150px;
   grid-gap: 30px;
+  margin-top: 50px;
 }
 
 .job-item-with-btn {
