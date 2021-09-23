@@ -286,9 +286,9 @@ margin-top: 15px;
 .about-me-section {
   background-image: url('../images/illustration-about\ me@2x.png');
   background-repeat: no-repeat;
-  background-size: 650px 550px, cover;
-        background-position: right 23px bottom 450px;
-  /* width: 100%; */
+  background-size: 650px 350px, cover;
+        background-position: right -3px bottom 450px;
+  /* width: 30%; */
   height: 130%;
   background-color: #1c1a19;
   /* margin-top: 50px; */
@@ -332,11 +332,11 @@ padding-bottom: 450px;
 } */
 #btn-line{
  position: absolute;
- left: 95px;
+ left: 85px;
  top: 250px;
- width: 155%;
+ /* width: 155%; */
  border: none;
- margin-left: 75px;
+ /* margin-left: 75px; */
 
 }
 
@@ -377,12 +377,14 @@ padding-bottom: 450px;
 }
 
 .message-box{
-  width: 1455px;
+
+  width: 1055px;
   height: 256px;
   font-size: 40px;
 line-height: 52px;
 /* margin: 14px 0px; */
-margin-left: 100px;
+margin-left: 120px;
+margin-bottom: 50px;
 
 }
 
@@ -434,11 +436,11 @@ textarea {
 
 #first-name-desktop{
   position: absolute;
-  left: 260px;
+  left: 275px;
 }
 #lastname-desktop{
   position: absolute;
-  right: 260px;
+  right: 265px;
 }
 
 form #btn-submit {
@@ -458,6 +460,7 @@ form #btn-submit {
   border-top: solid #1c1a19 1px;;
   padding-top: 20px;
   padding-bottom: 5px;
+  margin-top: 50px;
   /* background-color: lawngreen; */
 }
 
