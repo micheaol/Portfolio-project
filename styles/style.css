@@ -539,6 +539,20 @@ form #btn-submit:active {
   background-color: rgb(12, 110, 56);
 }
 
+#first-name-desktop{
+  visibility: hidden;
+  height: 0;
+    width: 0;
+    position: absolute;
+}
+
+#lastname-desktop{
+  visibility: hidden;
+  height: 0;
+    width: 0;
+    position: absolute;
+}
+
 input[type='text'],
 input[type='email'],
 textarea {

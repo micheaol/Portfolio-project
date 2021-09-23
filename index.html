@@ -185,57 +185,65 @@
     </section>
      <!-- About me section -->
         <section class="about-me-section">
-            <div class="about-title">
-                <h1>About me</h1>
+            <div class="inner-about-me">
+                <div class="about-title">
+                    <h1>About me</h1>
+                </div>
+                <div class="about-para">
+                    <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+                </div>
+                <div id="btn-line">
+                    <button type="button" id="get-resume-btn">Get My Resume</button>
+                </div>
             </div>
-            <div class="about-para">
-                <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-            </div>
-            <div id="btn-line">
-                <button type="button" id="get-resume-btn">Get My Resume</button>
-            </div>
-            <div class="language">
-                <h1 class="language-header"><span><img src="./images/Rectangle-one.svg" alt=""></span>Language</h1>
-                <ul>
-                    <li>Javascript</li>
-                    <li>Ruby</li>
-                    <li>Html</li>
-                    <li>Css</li>
-                </ul>
-            </div>
-            <div class="framework">
-                    <h1 class="framework-header"><span><img src="./images/Rectangle-two.svg" alt=""></span>Frameworks</h1>
+           <div class="lang-skill-framework">
+                <div class="language">
+                    <h1 class="language-header"><span><img src="./images/Rectangle-one.svg" alt=""></span>Language</h1>
                     <ul>
-                        <li>Bootstrap</li>
-                        <li>Ruby on Rails</li>
-                        <li>RSPec</li>
-                        <li>CapyBara</li>
-                        <li>Selenium</li>
+                        <li>Javascript</li>
+                        <li>Ruby</li>
+                        <li>Html</li>
+                        <li>Css</li>
+                    </ul>
+                </div>
+                <div class="framework">
+                        <h1 class="framework-header"><span><img src="./images/Rectangle-two.svg" alt=""></span>Frameworks</h1>
+                        <ul>
+                            <li>Bootstrap</li>
+                            <li>Ruby on Rails</li>
+                            <li>RSPec</li>
+                            <li>CapyBara</li>
+                            <li>Selenium</li>
+                        </ul>
+                </div>
+                <div class="skills">
+                    <h1 class="skills-header"><span><img src="./images/Rectangle-three.svg" alt=""></span>Skills</h1>
+                    <ul>
+                        <li>Codekit</li>
+                        <li>Github</li>
+                        <li>Codepen</li>
+                        <li>Gitlab</li>
+                        <li>Terminal</li>
                     </ul>
             </div>
-            <div class="skills">
-                <h1 class="skills-header"><span><img src="./images/Rectangle-three.svg" alt=""></span>Skills</h1>
-                <ul>
-                    <li>Codekit</li>
-                    <li>Github</li>
-                    <li>Codepen</li>
-                    <li>Gitlab</li>
-                    <li>Terminal</li>
-                </ul>
-        </div>
+           </div>
     </section>
     <!-- Get in touch section -->
     <div class="contact-section">
-        <div class="message-box">
-            <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
-        </div>
-        <div class="form-container">
-            <form action="https://formspree.io/f/xnqlwgep" method="POST">
-                <input type="text" name="name" placeholder="Full name">
-                <input type="email" name="email" placeholder="Email">
-                <textarea name="message" id="text-msg" cols="500" rows="5" placeholder="Enter text here"></textarea>
-                <input type="button" value="Get in touch" id="btn-submit">
-            </form>
+        <div class="contact-flex-desk">
+            <div class="message-box">
+                <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+            </div>
+            <div class="form-container">
+                <form action="https://formspree.io/f/xnqlwgep" method="POST">
+                    <input type="text" name="name" placeholder="Full name" id="fullname-mobile">
+                    <input type="text" name="firstname" placeholder="First Name" id="first-name-desktop">
+                    <input type="text" name="lastname" placeholder="Last Name" id="lastname-desktop">
+                    <input type="email" name="email" placeholder="Email">
+                    <textarea name="message" id="text-msg" cols="500" rows="5" placeholder="Enter text here"></textarea>
+                    <input type="button" value="Get in touch" id="btn-submit">
+                </form>
+            </div>
         </div>
             <div class="contact-social">
                 <ul class="contact-social-ul">

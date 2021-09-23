@@ -273,8 +273,122 @@ margin-left: 160px;
 margin-top: 15px;
 }
 
-.job-tech-lang{
+/* ================= About ME page styling ================================== */
+.about-me-section {
+  background-image: url('../images/illustration-about\ me@2x.png');
+  background-repeat: no-repeat;
+  background-size: 650px 550px, cover;
+        background-position: right 23px bottom 450px;
+  /* width: 100%; */
+  height: 130%;
+  background-color: #1c1a19;
+  /* margin-top: 50px; */
+  /* display: flex;
+  flex-direction: column; */
+  padding-bottom: 130px;
+  position: relative;
 }
+.inner-about-me{
+  position: relative;
+ /* background-color: cadetblue; */
+ /* right: 450px; */
+ margin-top: 100px;
+ display: flex;
+ flex-direction: column;
+ align-content: flex-start;
+  margin-bottom: 400px;
+  padding-bottom: 100px;
+  /* width: 50%; */
+
+}
+.about-title{
+  position: absolute;
+  top: -55px;
+  left: 95px;
+  width: 566px;
+  height: 78px;
+}
+.about-para {
+  position: absolute;
+  left: 210px;
+  top: 120px;
+  width: 566px;
+height: 148px;
+  
+}
+
+/* .about-para {
+  border-bottom: 1px solid #fff;
+padding-bottom: 450px;
+} */
+#btn-line{
+ position: absolute;
+ left: 95px;
+ top: 250px;
+ width: 155%;
+ border: none;
+ margin-left: 75px;
 
 }
 
+.lang-skill-framework{
+  border-top: 1px solid #fff;
+  width: 85%;
+  margin-left: 165px;
+  padding-top: 35px;
+  /* background-color: darkblue; */
+  display: flex;
+  position: absolute;
+  top: 585px;
+  /* justify-content: space-between; */
+}
+/* #get-resume-btn{
+  position: absolute;
+  margin-bottom: 250px;
+  left: 10px;
+} */
+/* ================= End of About ME page styling ================================== */
+
+/* ===== Contact form section ================ */
+.contact-section{
+  margin-top: 284px;
+ 
+}
+.contact-flex-desk{
+  width: 80%;
+  background-color: darkblue;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 175px;
+}
+
+.message-box{
+  width: 455px;
+height: 256px;
+width: 1500px;
+}
+
+.form-container{
+  /* background-color: darkgreen; */
+  
+}
+
+#fullname-mobile{
+  visibility: hidden;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  box-sizing: border-box;
+  background-color: #e5e5e5;
+  font-family: Inter, sans-serif;
+}
+
+
+}
