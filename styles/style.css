@@ -15,10 +15,10 @@
   grid-template-rows: repeat(1, 1fr);
 }
 
-.nav-bar{
+.nav-bar {
   background: #3c3a39;
   margin-bottom: 15px;
-  width: 99.80vw;
+  width: 99.8vw;
 }
 
 .nav-bar ul {
@@ -27,10 +27,10 @@
   list-style-type: none;
   align-items: center;
   height: 92px;
-  /* width: 100%; */
 }
 
 /* ================== Styleling the flex elements ============================== */
+
 .nav-bar ul li {
   text-decoration: none;
   flex: 1;
@@ -123,7 +123,6 @@ ul #name {
   font-family: Roboto, Tahoma, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 10px;
   color: #fff5e1;
   font-size: 24px;
 }
@@ -170,7 +169,6 @@ ul #name {
   margin: auto;
   padding-top: 100px;
   margin-top: 60px; 
-
 }
 
 .my-projects-section {
@@ -180,7 +178,7 @@ ul #name {
   padding-bottom: 15px;
 }
 
-.inner-job-item-two{
+.inner-job-item-two {
   display: grid;
 }
 
@@ -261,9 +259,10 @@ ul #name {
   margin: 10px;
 }
 
-.tech-lang ul #last-child{
+.tech-lang ul #last-child {
  margin-right: 55px;
 }
+
 #post-btn {
   background: #ff6b00;
   border: none;
@@ -276,7 +275,6 @@ ul #name {
   line-height: 24px;
   color: #fff;
   cursor: pointer;
-  /* padding-bottom: 20px; */
 }
 
 #post-btn:hover {
@@ -344,7 +342,6 @@ ul #name {
   font-size: 17px;
   line-height: 24px;
   cursor: pointer;
-  /* bottom: 50px; */
 margin-top: 85px;
 }
 
@@ -541,18 +538,18 @@ form #btn-submit:active {
   background-color: rgb(12, 110, 56);
 }
 
-#first-name-desktop{
+#first-name-desktop {
   visibility: hidden;
   height: 0;
-    width: 0;
-    position: absolute;
+  width: 0;
+  position: absolute;
 }
 
-#lastname-desktop{
+#lastname-desktop {
   visibility: hidden;
   height: 0;
-    width: 0;
-    position: absolute;
+  width: 0;
+  position: absolute;
 }
 
 input[type='text'],
