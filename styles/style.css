@@ -486,7 +486,7 @@ span {
 
 /* ========= Styling for contact form =========== */
 .contact-section {
-  width: 100%;
+  width: 99.98%;
   height: 100%;
   background: #e5e5e5;
   display: flex;
