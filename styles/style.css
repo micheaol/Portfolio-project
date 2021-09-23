@@ -15,25 +15,28 @@
   grid-template-rows: repeat(1, 1fr);
 }
 
+.nav-bar {
+  background: #3c3a39;
+  margin-bottom: 15px;
+  width: 99.8vw;
+}
+
 .nav-bar ul {
   display: flex;
   background: #3c3a39;
   list-style-type: none;
   align-items: center;
   height: 92px;
-  width: 100%;
 }
 
 /* ================== Styleling the flex elements ============================== */
+
 .nav-bar ul li {
   text-decoration: none;
   flex: 1;
 }
 
 /* ================== hiding the hambuger icon in large screen ==================== */
-ul .hamburger-icon {
-  display: none;
-}
 
 .social-ul li a {
   color: #dbd8d7;
@@ -112,21 +115,15 @@ ul #name {
   font-size: 54px;
   line-height: 55px;
   letter-spacing: 0.37px;
+  margin-left: 10px;
 }
 
 .intro-title {
   font-family: Roboto, Tahoma, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 19px;
-  line-height: 32px;
   color: #fff5e1;
-  width: 285px;
-}
-
-.intro-title h3 {
-  margin-left: 4px;
-  padding-top: 25px;
+  font-size: 24px;
 }
 
 .intro-detail {
@@ -160,24 +157,28 @@ ul #name {
 }
 
 /* ================== Portfolio projects section ====================================== */
-.job-item-two {
+.job-item-with-btn {
   display: flex;
   flex-direction: column;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('../images/print-img.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  width: 98%;
+  height: 88%;
   margin: auto;
-  padding-top: 20px;
-  margin-top: 15px;
+  padding-top: 100px;
+  margin-top: 60px;
 }
 
 .my-projects-section {
-  margin-top: 590px;
+  margin-top: 550px;
   padding-top: 25px;
   display: grid;
   padding-bottom: 15px;
+}
+
+.inner-job-item-two {
+  display: grid;
 }
 
 .my-projects-section #projects-title {
@@ -212,9 +213,14 @@ ul #name {
 }
 
 .multi-post {
-  margin-top: 100px;
-  width: 85vw;
+  background-image: url("../images/works-hero-img.svg");
+  background-repeat: no-repeat;
+  background-size: 300px 250px;
+  background-position: left 20px bottom 335px;
+  margin-top: 50px;
+  width: 75vw;
   margin-left: 32px;
+  padding-top: 250px;
 }
 
 .post-title {
@@ -235,11 +241,11 @@ ul #name {
 
 .tech-lang ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   list-style-type: none;
-  width: 100%;
-  margin-left: 14px;
-  margin-right: 20px;
+  width: 80%;
+  margin-left: 63px;
+  margin-bottom: 25px;
 }
 
 .tech-lang ul li {
@@ -249,8 +255,12 @@ ul #name {
   font-weight: 400;
   border: 1px solid #8993a4;
   background: #fff;
-  padding: 10px 12px;
-  margin-right: 15px;
+  padding: 8px 10px;
+  margin: 10px;
+}
+
+.tech-lang ul #last-child {
+  margin-right: 55px;
 }
 
 #post-btn {
@@ -265,6 +275,24 @@ ul #name {
   line-height: 24px;
   color: #fff;
   cursor: pointer;
+  text-decoration: none;
+  padding: 15px;
+  margin-top: 15px;
+  padding-bottom: 25px;
+}
+
+.long-link {
+  height: 50px;
+  text-decoration: none;
+  background: #ff6b00;
+  width: 90%;
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 #post-btn:hover {
@@ -317,11 +345,12 @@ ul #name {
   padding: 10px 12px;
   margin-right: 20px;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 .see-jobs-btn {
   background: #ff6b00;
-  height: 48px;
+  height: 68px;
   border: none;
   width: 100%;
   margin: auto;
@@ -332,6 +361,7 @@ ul #name {
   font-size: 17px;
   line-height: 24px;
   cursor: pointer;
+  margin-top: 85px;
 }
 
 .see-jobs-btn:hover {
@@ -349,11 +379,11 @@ ul #name {
 .about-me-section {
   background-image: url('../images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
-  background-position: right -2px bottom 1150px;
+  background-position: right -2px bottom 1200px;
   width: 100%;
   height: 100%;
   background-color: #1c1a19;
-  margin-top: 90px;
+  margin-top: 50px;
   background-size: 150px 150px, cover;
   display: flex;
   flex-direction: column;
@@ -472,7 +502,7 @@ span {
 
 /* ========= Styling for contact form =========== */
 .contact-section {
-  width: 100%;
+  width: 99.98%;
   height: 100%;
   background: #e5e5e5;
   display: flex;
@@ -525,6 +555,20 @@ form #btn-submit:hover {
 
 form #btn-submit:active {
   background-color: rgb(12, 110, 56);
+}
+
+#first-name-desktop {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  position: absolute;
+}
+
+#lastname-desktop {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+  position: absolute;
 }
 
 input[type='text'],
