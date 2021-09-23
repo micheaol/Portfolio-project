@@ -244,7 +244,8 @@ ul #name {
   justify-content: center;
   list-style-type: none;
   width: 80%;
-  margin-left: 53px;
+  margin-left: 63px;
+  margin-bottom: 25px;
 }
 
 .tech-lang ul li {
@@ -274,6 +275,25 @@ ul #name {
   line-height: 24px;
   color: #fff;
   cursor: pointer;
+  text-decoration: none;
+  padding: 15px;
+  margin-top: 15px;
+  padding-bottom: 25px;
+}
+
+.long-link{
+  width: 124px;
+  height: 50px;
+  text-decoration: none;
+  background: #ff6b00;
+  width: 90%;
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 #post-btn:hover {
@@ -326,6 +346,7 @@ ul #name {
   padding: 10px 12px;
   margin-right: 20px;
   color: #fff;
+  margin-bottom: 20px;
 }
 
 .see-jobs-btn {
@@ -343,6 +364,7 @@ ul #name {
   cursor: pointer;
   margin-top: 85px;
 }
+
 
 .see-jobs-btn:hover {
   background-color: crimson;
