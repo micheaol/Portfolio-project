@@ -102,6 +102,7 @@
         color: #FFFFFF;
         padding-top: 15px;
       }
+
       .hamburger-icon{
         visibility: hidden;
       }
@@ -112,32 +113,43 @@
 .my-projects-section{
   padding-top: 200px;
   display: grid;
+  background-color: #E5E5E5;
+  height: 65%;
 }
 
 .multi-post{
   /* padding-bottom: 50px; */
   background-image: url("../images/works-hero-img.svg");
   background-repeat: no-repeat;
-  background-size: 650px 550px;
-  background-position: left 122px top 15px;
-  /* width: 85%; */
+  background-size: 690px 550px;
+  background-position: left 5px top 5px;
+  width: 45%;
   /* background-color: brown; */
-  margin-left: 150px;
-  padding-bottom: 250px;
-
-
+  margin-left: 180px;
+  padding-bottom: 275px;
+  /* display: grid; */
+  /* grid-template-columns: repeat(1,250px); */
+  flex-direction: column;
+  /* background-color: brown; */
+  height: 80%;
+  padding-left: 325px;
 }
 
 .multi-post-inner{
   /* background-color: blueviolet; */
- width: 55%;
- top: 1250px;
+ width: 25%;
+ top: 1280px;
  position: absolute;
- right: -55px;
- /* float: right; */
+ right: 135px;
+ float: right;
  /* padding-bottom: 200px; */
- /* margin-right: 50px; */
- margin-bottom: 250px;
+ margin-right: 460px;
+ /* margin-bottom: 850px; */
+ display: flex;
+ flex-direction: column;
+ align-self: flex-end;
+ margin-left: 125px;
+
  
 }
 
@@ -151,7 +163,7 @@ margin-left: 155px;
 }
 
 .multi-post-inner .post{
-  width: 448px;
+  width: 648px;
 height: 140px;
 font-size: 20px;
 line-height: 28px;
@@ -165,41 +177,83 @@ margin-left: 160px;
 
 }
 
+
 .tech-lang ul{
   align-self: center;
-  margin-left: 150px;
-}
-.tech-lang ul{
+  margin-left: 153px;
   width: 90%;
- 
+ /* background-color: brown; */
   display: flex;
   justify-content: flex-start;
 }
-
-.inner-job-item-two{
-  width: 80%;
-  display: grid;
-  background-color: brown;
-  grid-template-columns: repeat(3, 465px);
-  margin-left: 150px;
-  grid-gap: 30px;
-  margin-top: 50px;
+.tech-lang ul li{
+  background: #FFFFFF;  
+  border: 1px solid #8993A4;
+  padding: 10px 18px;
 }
+.inner-job-item-two{
+  height: 65%;
+  display: grid;
+  grid-template-columns: repeat(3, 465px);
+  margin-left: 180px;
+  grid-gap: 25px;
+  margin-top: 10px;
+}
+
 
 .job-item-with-btn {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('../images/print-img.png');
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('../images/mid-big-img.png');
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: brown;
-  width: 100%;
+  /* width: 100%; */
   /* height: 100%; */
   /* margin: auto; */
   padding-top: 300px;
 
   margin-top: 45px;
   margin-bottom: 20px;
+}
+
+.last-three-margin-top {
+  margin-top: 1px;
+}
+
+.job-item-different-img{
+ background-image: url("../images/sixth-img.png");
+  background-repeat: no-repeat;
+}
+.bg-gradiant-plus{
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),url("../images/sixth-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tree-img-last{
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),url("../images/third-img-big.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.title-post-hide{
+  visibility: hidden;
+}
+
+.tech-lang-hide{
+  visibility: hidden;
+}
+
+.post-hide{
+  visibility: hidden;
+}
+
+.hide-in-window{
+  visibility: hidden;
+}
+
+.seveth-hide{
+  visibility: hidden;
 }
 
 .see-jobs-btn {
