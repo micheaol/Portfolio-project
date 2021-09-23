@@ -118,10 +118,9 @@
   border: none;
   background: linear-gradient(180.45deg, rgba(8, 8, 8, 0) 0.75%, rgba(5, 5, 5, 0.9) 1.94%),url("../images/last-line.png");
   background-repeat: no-repeat;
-  background-position: left 355px top 65px;
-  background-size: 65% 2px;
-  margin-left: 115px;
- 
+  background-position: right 150px top 65px;
+  background-size: 55% 2px;
+  margin-left: 115px; 
 }
 
 .multi-post{
@@ -164,15 +163,34 @@ margin-left: 160px;
 
 #post-btn{
   margin-left: 160px;
-
+  text-decoration: none;
+  width: 124px;
+  height: 48px;
+  padding: 15px;
+  margin-top: 15px;
 }
 
+.long-link{
+  width: 124px;
+  height: 48px;
+  text-decoration: none;
+  background: #ff6b00;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+}
 
 .tech-lang ul{
   align-self: center;
   margin-left: 153px;
   display: flex;
   justify-content: flex-start;
+  margin-bottom: 20px;
 }
 .tech-lang ul li{
   background: #FFFFFF;  
