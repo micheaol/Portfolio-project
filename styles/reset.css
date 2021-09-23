@@ -120,9 +120,7 @@
   background-repeat: no-repeat;
   background-position: left 355px top 65px;
   background-size: 65% 2px;
-  /* width: 80%; */
   margin-left: 115px;
-  /* background-color: #8993A4; */
  
 }
 
@@ -147,8 +145,7 @@
 }
 
 .post-title{
-/* width: 888px; */
-height: 48px;
+height: 45px;
 font-size: 40px;
 line-height: 52px;
 color: #091E42;
@@ -156,9 +153,9 @@ margin-left: 155px;
 }
 
 .multi-post-inner .post{
-  width: 400px;
-height: 160px;
-font-size: 20px;
+width: 400px;
+height: 110px;
+font-size: 15px;
 line-height: 28px;
 margin-left: 160px;
 }
