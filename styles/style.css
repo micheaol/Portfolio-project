@@ -281,8 +281,7 @@ ul #name {
   padding-bottom: 25px;
 }
 
-.long-link{
-  width: 124px;
+.long-link {
   height: 50px;
   text-decoration: none;
   background: #ff6b00;
@@ -364,7 +363,6 @@ ul #name {
   cursor: pointer;
   margin-top: 85px;
 }
-
 
 .see-jobs-btn:hover {
   background-color: crimson;
