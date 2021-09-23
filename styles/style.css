@@ -363,7 +363,7 @@ margin-top: 85px;
 .about-me-section {
   background-image: url('../images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
-  background-position: right -2px bottom 1150px;
+  background-position: right -2px bottom 1200px;
   width: 100%;
   height: 100%;
   background-color: #1c1a19;
@@ -518,6 +518,7 @@ form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #e5e5e5;
 }
 
 form #btn-submit {
@@ -532,7 +533,8 @@ form #btn-submit {
 }
 
 form #btn-submit:hover {
-  background-color: crimson;
+  background-color: #fff5e1;
+  color: #f55800;
 }
 
 form #btn-submit:active {
@@ -572,7 +574,7 @@ textarea {
 
 input[type='text'],
 input[type='email'] {
-  border-bottom: solid 2px #dbd8d7;
+  border-bottom: solid 2px #fbf8f7;
 }
 
 .contact-social {

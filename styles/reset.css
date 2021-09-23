@@ -31,7 +31,7 @@
     .main-container {
         background-image: url('../images/Illustration-header@2x.png');
         background-repeat: no-repeat;
-        background-size: 850px 850px, cover;
+        background-size: 650px 650px, cover;
         background-position: right -3px bottom 10px;
         display: flex;
         flex-direction: row;
@@ -109,9 +109,9 @@
       
 /* ================== End of Portfolio projects section ====================================== */
 .my-projects-section{
-  padding-top: 200px;
+  padding-top: 150px;
   display: grid;
-  height: 65%;
+  height: 45%;
 }
 
 .my-projects-section #projects-title {
@@ -119,9 +119,9 @@
   background: linear-gradient(180.45deg, rgba(8, 8, 8, 0) 0.75%, rgba(5, 5, 5, 0.9) 1.94%),url("../images/last-line.png");
   background-repeat: no-repeat;
   background-position: left 355px top 65px;
-  background-size: 80% 2px;
+  background-size: 60% 2px;
   width: 80%;
-  margin-left: 185px;
+  margin-left: 115px;
  
 }
 
@@ -129,27 +129,28 @@
   /* padding-bottom: 50px; */
   background-image: url("../images/works-hero-img.svg");
   background-repeat: no-repeat;
-  background-size: 690px 550px;
+  background-size: 530px 550px;
   background-position: left 5px top 5px;
   /* width: 25%; */
-  /* background-color: brown; */
-  margin-left: 180px;
+  background-color: brown;
+  margin-left: 110px;
+  padding-right: 50px;
   padding-bottom: 275px;
   /* display: grid; */
   /* grid-template-columns: repeat(1,250px); */
   flex-direction: column;
   /* background-color: brown; */
-  height: 80%;
-  padding-left: 325px;
+  height: 85%;
+  padding-left: 285px;
   /* border-top: solid #1c1a19 1px; */
 }
 
 .multi-post-inner{
   /* background-color: blueviolet; */
  width: 25%;
- top: 1280px;
+ top: 1230px;
  position: absolute;
- right: 135px;
+ right: 42px;
  float: right;
  /* padding-bottom: 200px; */
  margin-right: 460px;
@@ -157,9 +158,7 @@
  display: flex;
  flex-direction: column;
  align-self: flex-end;
- margin-left: 125px;
-
- 
+ margin-left: 125px; 
 }
 
 .post-title{
@@ -263,6 +262,9 @@ margin-left: 160px;
 
 .seveth-hide{
   visibility: hidden;
+  height: 0;
+  width: 0;
+  position: absolute;
 }
 
 .see-jobs-btn {
@@ -287,7 +289,7 @@ margin-top: 15px;
   background-image: url('../images/illustration-about\ me@2x.png');
   background-repeat: no-repeat;
   background-size: 650px 350px, cover;
-        background-position: right -3px bottom 450px;
+        background-position: right -3px bottom 550px;
   /* width: 30%; */
   height: 130%;
   background-color: #1c1a19;
@@ -313,13 +315,13 @@ margin-top: 15px;
 .about-title{
   position: absolute;
   top: -55px;
-  left: 95px;
+  left: 35px;
   width: 566px;
   height: 78px;
 }
 .about-para {
   position: absolute;
-  left: 210px;
+  left: 150px;
   top: 120px;
   width: 566px;
 height: 148px;
