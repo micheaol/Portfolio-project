@@ -214,11 +214,9 @@ margin-left: 160px;
   height: 90%;
   display: grid;
   grid-template-columns: repeat(3, 366px);
-  /* grid-template-rows: repeat(2, 560px); */
   margin-left: 108px;
   grid-gap: 5px;
   margin-top: 5px;
-  /* background-color: #ff6b00; */
   margin-right: 55px;
 }
 
@@ -307,37 +305,28 @@ margin-left: 160px;
   font-size: 17px;
   line-height: 24px;
   cursor: pointer;
-  /* bottom: 50px; */
-margin-top: 15px;
+  margin-top: 15px;
 }
 
 /* ================= About ME page styling ================================== */
 .about-me-section {
   background-image: url('../images/illustration-about\ me@2x.png');
   background-repeat: no-repeat;
-  background-size: 450px 250px, cover;
-        background-position: right 3px bottom 450px;
-  /* width: 30%; */
+  background-size: 480px 300px, cover;
+  background-position: right 3px bottom 450px;
   height: 100%;
   background-color: #1c1a19;
-  /* margin-top: 50px; */
-  /* display: flex;
-  flex-direction: column; */
   padding-bottom: 180px;
   position: relative;
 }
 .inner-about-me{
   position: relative;
- /* background-color: cadetblue; */
- /* right: 450px; */
  margin-top: 50px;
  display: flex;
  flex-direction: column;
  align-content: flex-start;
-  margin-bottom: 400px;
-  padding-bottom: 100px;
-  /* width: 50%; */
-
+  margin-bottom: 500px;
+  padding-bottom: 50px;
 }
 .about-title{
   position: absolute;
@@ -355,18 +344,11 @@ height: 148px;
   
 }
 
-/* .about-para {
-  border-bottom: 1px solid #fff;
-padding-bottom: 450px;
-} */
 #btn-line{
  position: absolute;
  left: 85px;
  top: 250px;
- /* width: 155%; */
  border: none;
- /* margin-left: 75px; */
-
 }
 
 .lang-skill-framework{
@@ -374,51 +356,32 @@ padding-bottom: 450px;
   width: 75%;
   margin-left: 165px;
   padding-top: 35px;
-  /* background-color: darkblue; */
   display: flex;
   position: absolute;
   top: 385px;
   justify-content: space-between;
+  margin-top: 60px;
 }
-/* #get-resume-btn{
-  position: absolute;
-  margin-bottom: 250px;
-  left: 10px;
-} */
+
 /* ================= End of About ME page styling ================================== */
 
 /* ===== Contact form section ================ */
 .contact-section{
-  /* margin-top: 284px; */
-  /* padding-top: 50px; */
-  /* padding-bottom: 150px; */
-  /* height: 100%; */
   background-color: #e5e5e5;
-  /* padding-bottom: 50px; */
- 
 }
 .contact-flex-desk{
   width: 85%;
-  /* background-color: darkblue; */
   display: flex;
   justify-content: space-between;
   margin-left: 30px;
-  /* margin-right: 50px; */
   margin-bottom: 20px;
 }
 
 .message-box{
- /* background-color: #ff6b00; */
  width: 1150px;
  margin-left: 120px;
  margin-top: 30px;
-  /* width: 455px;
-height: 100px;
-font-size: 40px;
-line-height: 52px; */
-/* margin: 14px 0px; */
-/* margin-left: 120px;
-margin-bottom: 50px; */
+margin-bottom: 20px; 
 
 }
 
@@ -436,11 +399,6 @@ form {
   align-items: center;
   position: relative;
 }
-
-/* #fullname-mobile{
-  visibility: hidden;
-} */
-
 
 input[type='text'],
 input[type='email'],
@@ -489,14 +447,15 @@ form #btn-submit {
   position: absolute;
   top: 269px;
   left: 171px;
+  transition: all 2s ease-in-out 0s;
+  border-radius: 4px;
 }
+
 .contact-social{
   border-top: solid #1c1a19 1px;;
   padding-top: 15px;
-  /* padding-bottom: 55px; */
-  margin-top: 20px;
   background-color: #e5e5e5;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 }
