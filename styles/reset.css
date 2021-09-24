@@ -747,12 +747,12 @@ margin-left: 160px;
 .about-me-section {
   background-image: url('../images/illustration-about\ me@2x.png');
   background-repeat: no-repeat;
-  background-size: 480px 300px, cover;
-  background-position: right 3px bottom 450px;
+  background-size: 40% 40%;
+  background-position: right 2% bottom 80%;
   height: 100%;
-  background-color: #1c1a19;
   padding-bottom: 180px;
   position: relative;
+  width: 98.45vw;
 }
 .inner-about-me{
   position: relative;
@@ -762,20 +762,22 @@ margin-left: 160px;
  align-content: flex-start;
   margin-bottom: 500px;
   padding-bottom: 50px;
+  /* background-color: darkorchid; */
+  width: 90vw;
 }
 .about-title{
   position: absolute;
   top: -55px;
   left: 75px;
-  width: 566px;
-  height: 78px;
+  width: 40vw;
+  height: 50vh;
 }
 .about-para {
   position: absolute;
   left: 150px;
   top: 120px;
-  width: 566px;
-height: 148px;
+  width: 40vw;
+  height: 10vh;
   
 }
 
@@ -802,18 +804,19 @@ height: 148px;
 
 /* ===== Contact form section ================ */
 .contact-section{
-  background-color: #e5e5e5;
+  width: 98.45vw;
 }
 .contact-flex-desk{
-  width: 85%;
+  width: 85vw;
   display: flex;
   justify-content: space-between;
   margin-left: 30px;
   margin-bottom: 20px;
+  
 }
 
 .message-box{
- width: 1150px;
+ width: 85vw;
  margin-left: 120px;
  margin-top: 30px;
 margin-bottom: 20px; 
@@ -833,6 +836,8 @@ form {
   flex-direction: column;
   align-items: center;
   position: relative;
+  background-color: darkseagreen;
+  width: 60vw;
 }
 
 input[type='text'],
