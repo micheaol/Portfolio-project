@@ -163,8 +163,8 @@ ul #name {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('../images/print-img.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 95%;
-  height: 88%;
+  width: 97vw;
+  height: 70vh;
   margin: auto;
   padding-top: 100px;
   margin-top: 60px;
@@ -333,6 +333,7 @@ ul #name {
   margin-top: 18px;
   margin-bottom: 25px;
   list-style-type: none;
+  flex-wrap: wrap;
 }
 
 .job-item {
