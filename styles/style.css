@@ -26,7 +26,7 @@
   background: #3c3a39;
   list-style-type: none;
   align-items: center;
-  height: 92px;
+  height: 10vh;
 }
 
 /* ================== Styleling the flex elements ============================== */
@@ -67,7 +67,7 @@ ul #name {
 .main-container {
   background-image: url('../images/bg.png');
   background-repeat: no-repeat;
-  background-size: 450px 450px, cover;
+  background-size: 70vw 50vh, cover;
   background-position: right -3px bottom 10px;
   display: grid;
   flex-direction: column;
@@ -163,7 +163,7 @@ ul #name {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('../images/print-img.png');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 98%;
+  width: 95%;
   height: 88%;
   margin: auto;
   padding-top: 100px;
@@ -286,7 +286,7 @@ ul #name {
   height: 50px;
   text-decoration: none;
   background: #ff6b00;
-  width: 90%;
+  width: 100%;
   text-align: center;
   padding-top: 20px;
   color: #fff;

@@ -31,7 +31,7 @@
     .main-container {
         background-image: url('../images/Illustration-header@2x.png');
         background-repeat: no-repeat;
-        background-size: 650px 650px, cover;
+        background-size: 55vw 100vh, cover;
         background-position: right -3px bottom 10px;
         display: flex;
         flex-direction: row;
