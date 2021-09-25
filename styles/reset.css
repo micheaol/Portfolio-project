@@ -553,15 +553,16 @@ margin-bottom: 5px;
   border: none;
   background: linear-gradient(180.45deg, rgba(8, 8, 8, 0) 0.75%, rgba(5, 5, 5, 0.9) 1.94%),url("../images/last-line.png");
   background-repeat: no-repeat;
-  background-position: right 150px top 45px;
-  background-size: 55% 2px;
-  margin-left: 115px; 
+  background-position: right 10% top 35%;
+  background-size: 60% 2px;
+  margin-left: 135px; 
+  /* background-color: #a84514; */
 }
 
 .multi-post{
   background-repeat: no-repeat;
   background-size: 45vw 95vh;
-  background-position: left 5px top -65px;
+  background-position: left 5% top -65px;
   width: 85vw;
   margin-left: 110px;
   padding-bottom: 275px;
@@ -571,29 +572,32 @@ margin-bottom: 5px;
   text-decoration: none;
   color: #FFFFFF;
 }
+
 .multi-post-inner{
  float: right;
- top: 980px;
+ top: 145%;
  position: absolute;
- right: 100px;
- /* background-color: rgb(255, 0, 0); */
- width: 48vw;
+ right: 7%;
+ /* background-color: #c74b0d; */
+ width: 45vw;
 }
 
 .post-title{
 height: 45px;
-font-size: 40px;
+font-size: 35px;
 line-height: 52px;
 color: #091E42;
 margin-left: 155px;
+/* background-color: #c74b0d; */
 }
 
 .multi-post-inner .post{
-width: 400px;
+width: 80%;
 height: 110px;
 font-size: 15px;
 line-height: 28px;
 margin-left: 160px;
+
 
 }
 
@@ -645,7 +649,7 @@ margin-left: 160px;
   grid-gap: 5px;
   margin-top: 5px;
   margin-right: 55px;
-  background-color: rgb(0, 139, 86);
+  background-color: rgb(0, 139, 23);
   width: 82vw;
 }
 
@@ -668,7 +672,7 @@ margin-left: 160px;
   font-size: 15px;
   line-height: 24px;
   width: 22vw;
-  height: 12vh;
+  height: 13.89vh;
   color: #fff;
   margin-left: 23px;
   font-family: 'Inter', sans-serif;
@@ -836,7 +840,6 @@ form {
   flex-direction: column;
   align-items: center;
   position: relative;
-  background-color: darkseagreen;
   width: 60vw;
 }
 
@@ -855,15 +858,15 @@ textarea {
 
 #first-name-desktop, #lastname-desktop{
   position:inherit;
- visibility: visible;
- width: 26.50%;
- padding: 12px 20px;
- margin: 15px 0;
- display: inline-block;
- border: none;
- background-color: #e5e5e5;
- font-family: Inter, sans-serif;
- border-bottom: solid 2px #dbd8d7;
+  visibility: visible;
+  width: 26.50%;
+  padding: 12px 20px;
+  margin: 15px 0;
+  display: inline-block;
+  border: none;
+  background-color: #e5e5e5;
+  font-family: Inter, sans-serif;
+  border-bottom: solid 2px #dbd8d7;
 }
 
 #first-name-desktop{
