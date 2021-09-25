@@ -333,7 +333,7 @@ ul #name {
   margin-top: 18px;
   margin-bottom: 25px;
   list-style-type: none;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .job-item {

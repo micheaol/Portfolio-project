@@ -615,7 +615,7 @@ margin-left: 160px;
   height: 10vh;
   text-decoration: none;
   background: #ff6b00;
-  width: 25vw;
+  width: 27vw;
   text-align: center;
   /* padding-top: 3%; */
   color: #fff;
@@ -643,14 +643,14 @@ margin-left: 160px;
 .inner-job-item-two{
   height: 90%;
   display: grid;
-  grid-template-columns: repeat(3, 27vw);
+  grid-template-columns: repeat(3, 28vw);
   grid-template-rows: repeat(2, 75vh);
   margin-left: 108px;
   grid-gap: 5px;
   margin-top: 5px;
-  margin-right: 55px;
-  background-color: rgb(0, 139, 23);
-  width: 82vw;
+  margin-right: 50px;
+  background-color: rgb(102, 6, 6);
+  width: 86vw;
 }
 
 
@@ -663,7 +663,7 @@ margin-left: 160px;
   padding-top: 100px;
   margin-top: 45px;
   margin-bottom: 70px;
-  width: 25vw;
+  width: 27vw;
   height: 62vh;
 }
 
