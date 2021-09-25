@@ -9,7 +9,7 @@
 
 @media screen and (min-width: 200px) {
   .main-container{
-      background-color: rgb(189, 236, 199);
+      /* background-color: rgb(189, 236, 199); */
   }
 }
 
@@ -35,7 +35,7 @@
 
 @media screen and (min-width: 480px) {
     .main-container{
-        background-color: rgb(184, 14, 14);
+        /* background-color: rgb(184, 14, 14); */
     }
 }
 

@@ -8,6 +8,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  width: 100vw;
+}
 
 /* =============Navbar styling section====================== */
 .overall-container {
@@ -15,18 +18,19 @@
   grid-template-rows: repeat(1, 1fr);
 }
 
+
 .nav-bar {
   background: #3c3a39;
   margin-bottom: 15px;
-  width: 99.8vw;
+  width: 99.85%;
 }
 
 .nav-bar ul {
   display: flex;
-  background: #3c3a39;
   list-style-type: none;
   align-items: center;
   height: 10vh;
+  /* width: 90%; */
 }
 
 /* ================== Styleling the flex elements ============================== */
@@ -61,6 +65,7 @@
 ul #name {
   flex: 5;
   margin-left: 30px;
+
 }
 
 /* =========================styling the main container ===================== */
