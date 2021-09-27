@@ -7,11 +7,11 @@
 /* ==================== Set media query for screen sizes  =========================*/
 
 
-@media screen and (min-width: 200px) {
+/* @media screen and (min-width: 200px) {
   .main-container{
       background-color: rgb(189, 236, 198);
   }
-}
+} */
 
 @media screen and (min-width: 200px) and (orientation: landscape) {
   .main-container{
@@ -151,11 +151,11 @@
      }
 }
 
-@media screen and (min-width: 600px) and (orientation: portrait) {
+/* @media screen and (min-width: 600px) and (orientation: portrait) {
   .main-container{
       background-color: rgb(183, 221, 14);
   }
-}
+} */
 
 
 
