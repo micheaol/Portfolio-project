@@ -119,6 +119,36 @@
     margin-left: 1%;
     justify-content: flex-start;
   }
+
+  .intro-detail p{
+    width: 120%;
+    font-size: 25px;
+    line-height: 42px;
+  }
+
+  .multi-post {
+    background-size: 95% 45%;
+    width: 85vw;
+    margin-left: 10%;
+  }
+
+  .multi-post-inner .post{
+    width: 90%;
+    height: 85%;
+    font-size: 20px;
+    line-height: 28px;
+    }
+
+    .job-post{
+      font-size: 20px;
+      line-height: 27px;
+      width: 60%;
+      height: 13.89vh;
+    }
+
+    #btn-line{
+      margin-left: 12%;;
+     }
 }
 
 @media screen and (min-width: 600px) and (orientation: portrait) {
@@ -335,7 +365,6 @@ margin-left: 160px;
   margin-top: 5%;
   margin-bottom: 70px;
   width: 27vw;
-  /* height: 65vh; */
 }
 
 .job-post{
