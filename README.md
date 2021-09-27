@@ -34,7 +34,6 @@ LinkedIn: LinkedIn
 Project live preview: https://micheaol.github.io/Portfolio-project/ or
 https://micheaol-portfolio.netlify.app/
 
-
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
