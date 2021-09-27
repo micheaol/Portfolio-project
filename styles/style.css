@@ -219,12 +219,13 @@ ul #name {
 .multi-post {
   background-image: url("../images/works-hero-img.svg");
   background-repeat: no-repeat;
-  background-size: 350px 250px;
-  background-position: left 1px bottom 335px;
-  margin-top: 50px;
+  background-size: 93% 45%;
+  background-position: left 43% bottom 95%;
+  margin-top: 5%;
   width: 85vw;
-  margin-left: 32px;
+  margin-left: 8%;
   padding-top: 250px;
+  /* background-color: #f55800; */
 }
 
 .post-title {
