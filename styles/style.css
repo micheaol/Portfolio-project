@@ -102,7 +102,6 @@ ul #name {
   top: 120px;
   margin-left: 10px;
   color: #ff6b00;
-  
 }
 
 .main-container .intro-header h1 {
@@ -117,7 +116,6 @@ ul #name {
   line-height: 55px;
   letter-spacing: 0.37px;
   margin-left: 10px;
-  
 }
 
 .intro-title {
@@ -280,7 +278,6 @@ ul #name {
   padding: 15px;
   margin-top: 15px;
   transition: all 1s ease-in-out 0s;
-  
 }
 
 .long-link {
@@ -338,7 +335,6 @@ ul #name {
   margin-top: 18px;
   margin-bottom: 25px;
   list-style-type: none;
-  /* flex-wrap: wrap; */
 }
 
 .job-item {
@@ -520,7 +516,6 @@ span {
   display: flex;
   flex-direction: column;
   padding-top: 45px;
-  /* padding-bottom: 50px; */
 }
 
 .message-box {
