@@ -77,7 +77,6 @@
     padding-bottom: 25px;
     padding-top: 2%;
     margin-left: 3%;
-    /* background-color: darkred; */
   }
   
     .main-container {
@@ -100,7 +99,6 @@
         width: 30%;
         height: 20%;
         top: 10%;
-        /* margin-left: 2%; */
         color: #ff6b00;
         left: 10%;
       }
@@ -110,7 +108,6 @@
         height: 123px;
         font-size: 20px;
         line-height: 32px;
-        
       }
       .intro-detail{
         position: static;
@@ -165,9 +162,10 @@
   border: none;
   background: linear-gradient(180.45deg, rgba(8, 8, 8, 0) 0.75%, rgba(5, 5, 5, 0.9) 1.94%),url("../images/last-line.png");
   background-repeat: no-repeat;
-  background-position: right 10% top 35%;
+  background-position: right 5% top 35%;
   background-size: 55% 2px;
   margin-left: 135px; 
+  margin-top: 10%;
 }
 
 .multi-post{
@@ -219,20 +217,17 @@ margin-left: 160px;
 }
 
 .long-link{
-  /* height: 3%; */
   text-decoration: none;
   background: #ff6b00;
   width: 27vw;
   text-align: center;
-  /* padding-top: 3%; */
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
-  margin-top: 18%;
-  /* padding-bottom: 5%; */
-  /* margin-bottom: 100%; */
+  margin-top: 0.25%;
+
 }
 
 .tech-lang ul{
@@ -250,15 +245,13 @@ margin-left: 160px;
   border-radius: 5px;
 }
 .inner-job-item-two{
-  /* height: 90%; */
   display: grid;
   grid-template-columns: repeat(3, 32.5%);
-  grid-template-rows: repeat(2, 50%);
+  grid-template-rows: repeat(2, 45%);
   margin-left: 8%;
-  grid-gap: 5px;
+  grid-gap: 10px;
   margin-top: 5px;
   margin-right: 10%;
-  background-color: rgb(102, 6, 6);
   width: 86vw;
   position: relative;
 }
@@ -270,13 +263,12 @@ margin-left: 160px;
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url('../images/mid-big-img.png');
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 10%;
+  padding-top: 37%;
   margin-top: 5%;
   margin-bottom: 70px;
   width: 27vw;
-  height: 65vh;
+  /* height: 65vh; */
 }
-
 
 .job-post{
   font-size: 15px;
@@ -299,23 +291,20 @@ margin-left: 160px;
 }
 
 .job-item-different-img{
- background-image: url("../images/sixth-img.png");
+  background-image: url("../images/sixth-img.png");
   background-repeat: no-repeat;
-  /* height: 85%; */
 }
+
 .bg-gradiant-plus{
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),url("../images/sixth-img.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 62vh; */
 }
 
 .tree-img-last{
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%),url("../images/third-img-big.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /* height: 62vh; */
-
 }
 .title-post-hide{
   visibility: hidden;
@@ -383,7 +372,6 @@ margin-left: 160px;
   position: absolute;
   top: -75%;
   left: 5%;
-  /* width: 40vw; */
   height: 50vh;
 }
 .about-para {
@@ -394,13 +382,11 @@ margin-left: 160px;
   height: 250%;
 }
 
-
 #btn-line{
  position: absolute;
  left: 1%;
  top: 250px;
  border: none;
- 
 }
 
 .lang-skill-framework{
@@ -427,11 +413,9 @@ margin-left: 160px;
   justify-content: space-between;
   margin-left: 30px;
   margin-bottom: 20px;
-  
 }
 
 .message-box{
- /* width: 150%; */
  margin-left: 5%;
  margin-top: 5%;
 margin-bottom: 20px;
@@ -480,15 +464,6 @@ textarea {
   font-family: Inter, sans-serif;
   border-bottom: solid 2px #dbd8d7;
 }
-/* 
-#first-name-desktop{
-  position: absolute;
-  left: 275px;
-} */
-/* #lastname-desktop{
-  position: absolute;
-  right: 265px;
-} */
 
 form #btn-submit {
   width: 20%;
@@ -507,14 +482,65 @@ form #btn-submit {
 .contact-social{
   border-top: solid #1c1a19 1px;;
   background-color: #e5e5e5;
-  /* margin-bottom: 5px; */
 }
 
 }
 
-@media screen and (min-width: 1024px) and (orientation: portrait) {
-    .main-container{
-      background-color: aqua;
-      /* Styling for Ipad pro */
+@media screen and (min-width: 1000px) and (orientation: portrait) {
+  .main-container .intro-header {
+    width: 30%;
+    height: 10%;
+    top: 15%;
+  }
+
+  .intro-title {
+    font-size: 30px;
+  }
+
+  .intro-detail p{
+    width: 45vw;
+    height: 400%;
+    font-size: 30px;
+    line-height: 42px;
+   
+  }
+  .intro-detail{
+    position: static;
+    width: 150%;
+    height: 40%;
+    font-weight: 500px;
+    font-size: 32%;
+    line-height: 44px;
+  }
+
+   .my-projects-section #projects-title {
+    margin-top: 70%;
+  }
+
+  .multi-post-inner{
+    top: 117%;
+    right: 12%;
+   }
+
+   .multi-post{
+    background-repeat: no-repeat;
+    background-size: 45vw 100vh;
+    background-position: left 5% top 55%;
+    width: 85vw;
+    margin-left: 10%;
+    padding-bottom: 25%;
+  }
+  .multi-post-inner .post{
+    width: 90%;
+    height: 170px;
+    font-size: 20px;
+    line-height: 32px;
+    }
+    .job-item-with-btn {
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 97%;
+      margin: auto;
+      margin-top: 60px;
     }
 }
