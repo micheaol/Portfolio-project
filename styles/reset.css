@@ -468,12 +468,12 @@ margin-left: 160px;
 .about-title{
   position: absolute;
   top: -75%;
-  left: 5%;
+  left: 15%;
   height: 50vh;
 }
 .about-para {
   position: absolute;
-  left: 6.5%;
+  left: 16%;
   top: 225%;
   width: 40%;
   height: 250%;
@@ -614,10 +614,10 @@ form #btn-submit {
     margin-top: 70%;
   }
 
-  /* .multi-post-inner{
+  .multi-post-inner{
     top: 117%;
     right: 12%;
-   } */
+   }
 
    .multi-post{
     background-repeat: no-repeat;
