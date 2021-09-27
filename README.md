@@ -31,7 +31,8 @@ GitHub: @micheaol
 Twitter: @micheaol
 LinkedIn: LinkedIn
 
-Project live preview: https://micheaol.github.io/Portfolio-project/
+Project live preview: https://micheaol.github.io/Portfolio-project/ or
+https://micheaol-portfolio.netlify.app/
 
 
 🤝 Contributing
