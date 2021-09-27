@@ -32,6 +32,8 @@ Twitter: @micheaol
 LinkedIn: LinkedIn
 
 Project live preview: https://micheaol.github.io/Portfolio-project/
+
+
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
