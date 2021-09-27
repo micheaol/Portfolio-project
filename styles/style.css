@@ -65,7 +65,7 @@ ul #name {
 
 /* =========================styling the main container ===================== */
 .main-container {
-  background-image: url('/images/bg.png');
+  background-image: url('../images/bg.png');
   background-repeat: no-repeat;
   background-size: 100% 100%, cover;
   background-position: right -3% bottom 10%;
