@@ -216,7 +216,7 @@ ul #name {
 .multi-post {
   background-image: url("../images/works-hero-img.svg");
   background-repeat: no-repeat;
-  background-size: 350px 250px;
+  background-size: 95% 45%;
   background-position: left 1px bottom 335px;
   margin-top: 50px;
   width: 85vw;
@@ -410,7 +410,6 @@ ul #name {
   padding-top: 45px;
   margin-top: 20px;
   text-align: center;
-
 }
 
 .about-para {
