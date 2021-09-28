@@ -411,14 +411,13 @@ ul #name {
 .about-para {
   display: block;
   margin: auto;
-  width: 358px;
+  width: 90%;
   height: 148px;
   color: #f4f5f7;
   font-size: 16px;
   line-height: 24px;
   font-family: Inter, sans-serif;
   margin-bottom: 25px;
-  background-color: #f55800;
 }
 
 #get-resume-btn {
