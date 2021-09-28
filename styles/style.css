@@ -437,7 +437,7 @@ ul #name {
   cursor: pointer;
   transition: all 300ms ease 0ms;
   border-radius: 5px;
-  background-color: #179c86;
+ 
 }
 
 #get-resume-btn:hover {
@@ -520,15 +520,15 @@ span {
 }
 
 .message-box {
-  width: 300px;
+  width: 80%;
   margin: 0 auto;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 28px;
-  line-height: 40px;
+  font-size: 150%;
+  line-height: 150%;
   text-align: center;
-  padding-top: 55px;
+  padding-top: 2%;
 }
 
 .form-container {
@@ -546,11 +546,11 @@ form {
 }
 
 form #btn-submit {
-  width: 131px;
-  height: 38px;
+  width: 50%;
+  height: 6vh;
   background: #ff6b00;
-  margin-top: 10px;
-  margin-bottom: 100px;
+  margin-top: 2%;
+  margin-bottom: 10%;
   border: none;
   color: #fff;
   cursor: pointer;
