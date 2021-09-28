@@ -261,18 +261,19 @@
   background: linear-gradient(180.45deg, rgba(8, 8, 8, 0) 0.75%, rgba(5, 5, 5, 0.9) 1.94%),url("../images/last-line.png");
   background-repeat: no-repeat;
   background-position: right 5% top 35%;
-  background-size: 55% 2px;
-  margin-left: 135px; 
-  margin-top: 10%;
+  background-size: 65% 2px;
+  margin-left: 12%; 
+  margin-top: 5%;
+  padding-bottom: 1%;
 }
 
 .multi-post{
   background-repeat: no-repeat;
-  background-size: 45vw 95vh;
-  background-position: left 5% top -65px;
+  background-size: 40vw 75vh;
+  background-position: left 5% top -55px;
   width: 85vw;
-  margin-left: 110px;
-  padding-bottom: 275px;
+  padding-top: 32%;
+  margin-left: 9.87%;
 }
 
 #post-btn a, .show-in-desktop a{
@@ -282,9 +283,9 @@
 
 .multi-post-inner{
  float: right;
- top: 75%;
+ top: 52%;
  position: absolute;
- right: 7%;
+ right: 10%;
  width: 45vw;
 }
 
@@ -466,22 +467,27 @@ margin-left: 160px;
   width: 90vw;
 }
 .about-title{
+  font-size: 300%;
+  line-height: 50%;
+  padding: 1%;
+  padding-top: 1%;
+  margin-top: 5.025%;
   position: absolute;
-  top: -75%;
+  top: -55%;
   left: 15%;
-  height: 50vh;
 }
 .about-para {
   position: absolute;
   left: 16%;
-  top: 225%;
+  top: 200%;
   width: 40%;
   height: 250%;
 }
 
 #btn-line{
+  width: 30%;
  position: absolute;
- left: 1%;
+ left: 4%;
  top: 250px;
  border: none;
 }

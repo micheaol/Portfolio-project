@@ -190,11 +190,11 @@ ul #name {
   display: flex;
   align-items: center;
   color: #1c1a19;
-  margin-left: 30px;
-  margin-right: 25px;
-  padding-bottom: 35px;
+  margin-left: 5%;
+  margin-right: 7%;
+  padding-bottom: 5%;
   border-bottom: solid #1c1a19 1px;
-  margin-top: 30%;
+  margin-top: 25%;
 }
 
 .my-projects-section .work-hero-img {
@@ -219,7 +219,7 @@ ul #name {
   margin-top: 5%;
   width: 85vw;
   margin-left: 5%;
-  padding-top: 70%;
+  padding-top: 70%; 
 }
 
 .post-title {
@@ -240,10 +240,10 @@ ul #name {
 
 .tech-lang ul {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   list-style-type: none;
-  width: 80%;
-  margin-left: 63px;
+  width: 90%;
+  margin-left: 3%;
   margin-bottom: 25px;
 }
 
@@ -256,6 +256,7 @@ ul #name {
   background: #fff;
   padding: 8px 10px;
   margin: 10px;
+  
 }
 
 .tech-lang ul #last-child {
@@ -400,7 +401,6 @@ ul #name {
   font-weight: normal;
   font-size: 350%;
   line-height: 100%;
-  /* letter-spacing: 0.37px; */
   color: #ff6b00;
   padding: 5%;
   padding-top: 10%;
