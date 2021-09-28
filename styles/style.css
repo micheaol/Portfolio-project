@@ -112,7 +112,7 @@ ul #name {
   font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 54px;
+  font-size: 40px;
   line-height: 55px;
   letter-spacing: 0.37px;
   margin-left: 10px;
@@ -123,7 +123,7 @@ ul #name {
   font-style: normal;
   font-weight: bold;
   color: #fff5e1;
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .intro-detail {
@@ -215,7 +215,7 @@ ul #name {
   background-image: url("../images/works-hero-img.svg");
   background-repeat: no-repeat;
   background-size: 95% 45%;
-  background-position: left 1px bottom 335px;
+  background-position: left 1px bottom 25%;
   margin-top: 5%;
   width: 85vw;
   margin-left: 5%;
