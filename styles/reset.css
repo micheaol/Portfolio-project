@@ -485,11 +485,12 @@ margin-left: 160px;
 }
 
 #btn-line{
-  width: 30%;
- position: absolute;
- left: 4%;
- top: 250px;
- border: none;
+  width: 25%;
+  position: absolute;
+  left: 3%;
+  top: 450%;
+  border: none;
+  height: 60%;
 }
 
 .lang-skill-framework{
