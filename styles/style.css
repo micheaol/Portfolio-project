@@ -130,12 +130,13 @@ ul #name {
   align-self: flex-start;
   width: 100%;
   margin-left: 10px;
+  background-color: #f55800;
 }
 
 .intro-detail p {
   position: static;
-  width: 280px;
-  height: 123px;
+  width: 90%;
+  height: 65%;
   left: 24px;
   top: 295px;
   font-family: Poppins, Tahoma, sans-serif;
@@ -150,7 +151,7 @@ ul #name {
 .social ul {
   display: flex;
   list-style-type: none;
-  width: 150px;
+  width: 50%;
   margin-left: 20px;
   justify-content: space-between;
   padding-top: 40px;
@@ -216,10 +217,10 @@ ul #name {
   background-repeat: no-repeat;
   background-size: 95% 45%;
   background-position: left 1px bottom 335px;
-  margin-top: 50px;
+  margin-top: 5%;
   width: 85vw;
-  margin-left: 32px;
-  padding-top: 250px;
+  margin-left: 5%;
+  padding-top: 70%;
 }
 
 .post-title {
@@ -421,22 +422,22 @@ ul #name {
 }
 
 #get-resume-btn {
-  width: 161px;
-  height: 48px;
-  margin-left: 40px;
+  width: 50%;
+  margin-left: 3%;
   background: #ff6b00;
   border: none;
-  padding: 12px;
+  padding: 3%;
   font-family: Inter, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
+  font-size: 100%;
+  line-height: 150%;
   color: #fff;
-  margin-bottom: 200px;
+  margin-bottom: 40%;
   cursor: pointer;
   transition: all 300ms ease 0ms;
   border-radius: 5px;
+  background-color: #179c86;
 }
 
 #get-resume-btn:hover {
