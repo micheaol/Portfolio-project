@@ -130,14 +130,13 @@ ul #name {
   align-self: flex-start;
   width: 100%;
   margin-left: 10px;
-  background-color: #f55800;
 }
 
 .intro-detail p {
   position: static;
   width: 90%;
   height: 65%;
-  left: 24px;
+  left: 4%;
   top: 295px;
   font-family: Poppins, Tahoma, sans-serif;
   font-style: normal;
@@ -399,13 +398,13 @@ ul #name {
   font-family: Crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 50px;
-  line-height: 88px;
-  letter-spacing: 0.37px;
+  font-size: 350%;
+  line-height: 100%;
+  /* letter-spacing: 0.37px; */
   color: #ff6b00;
-  padding: 15px;
-  padding-top: 45px;
-  margin-top: 20px;
+  padding: 5%;
+  padding-top: 10%;
+  margin-top: 5%;
   text-align: center;
 }
 
@@ -419,6 +418,7 @@ ul #name {
   line-height: 24px;
   font-family: Inter, sans-serif;
   margin-bottom: 25px;
+  background-color: #f55800;
 }
 
 #get-resume-btn {

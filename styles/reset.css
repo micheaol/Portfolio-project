@@ -13,11 +13,11 @@
   }
 } */
 
-@media screen and (min-width: 200px) and (orientation: landscape) {
+/* @media screen and (min-width: 200px) and (orientation: landscape) {
   .main-container{
       background-color: rgb(63, 3, 71);
   }
-}
+} */
 
 /* ====== Galaxies screen sizes ================= */
 @media screen and (min-width: 360px) and (max-height: 640px) {
@@ -67,11 +67,11 @@
 
 }
 
-@media screen and (min-width: 360px) and (orientation: landscape) {
+/* @media screen and (min-width: 360px) and (orientation: landscape) {
   .main-container{
       background-color: rgb(223, 18, 18);
   }
-}
+} */
 
 
 @media screen and (min-width: 400px) and (max-height: 732px){
