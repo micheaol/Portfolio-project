@@ -422,7 +422,7 @@ ul #name {
 
 #get-resume-btn {
   width: 50%;
-  margin-left: 3%;
+  margin: auto;
   background: #ff6b00;
   border: none;
   padding: 3%;
