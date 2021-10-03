@@ -370,13 +370,12 @@ padding-bottom: 1%;
 .about-me-section {
   background-image: url('../images/illustration-about\ me@2x.png');
   background-repeat: no-repeat;
-  background-size: 40% 15%;
-  background-position: right 2% bottom 95%;
-  height: 100%;
-  padding-bottom: 10%;
-  position: relative;
+  background-size: 40% 25%;
+  background-position: right 2% bottom 75%;
+  height: 110vh;
   width: 98.45vw;
   margin-top: 10%;
+  padding-bottom: 5%;
 
 }
 
@@ -384,8 +383,7 @@ padding-bottom: 1%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 5%;
-  padding-bottom: 5%;
+  margin-bottom: 2%;
   width: 50vw;
   height: 20%;
   margin-left: 10%;
@@ -401,6 +399,13 @@ padding-bottom: 1%;
 
 .lang-skill-framework{
   border-top: 1px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 3%;
+  
 }
 
 /* ================= End of About ME page styling ================================== */
