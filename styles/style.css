@@ -83,12 +83,9 @@ ul #name {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  /* align-items: flex-start; */
   background-color: #1c1a19;
   width: 100%;
   height: 100vh;
-  /* top: 10%;
-  padding: 20% 4%; */
 }
 
 .nav-bar #name a {
@@ -121,7 +118,7 @@ ul #name {
 
 .main-container .intro-header h1 {
   width: 100%;
-  height: 40%;
+  height: 55%;
   /* left: 24px;
   top: 120px; */
   font-family: 'Crete Round', serif;
@@ -294,18 +291,18 @@ padding-bottom: 15%;
 }
 
 .long-link {
-  height: 50px;
+  height: 13%;
   text-decoration: none;
   background: #ff6b00;
   width: 100%;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 5%;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
-  margin-top: 20%;
+  margin-top: 17.65%;
   padding-bottom: 10%;
 }
 
@@ -428,7 +425,7 @@ padding-bottom: 15%;
   color: #f4f5f7;
   font-size: 16px;
   line-height: 24px;
-  font-family: Inter, sans-serif;
+  font-family: Poppins, Tahoma, sans-serif;
   margin-bottom: 25px;
 }
 

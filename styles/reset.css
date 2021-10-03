@@ -116,7 +116,7 @@
         list-style-type: none;
         width: 50%;
         padding-left: 30%;
-        margin-top: 170%;
+        margin-top: 70%;
         align-content:space-between;
       }
 
@@ -144,6 +144,8 @@
 .my-projects-section{
   display: grid;
   grid-template-rows: repeat(1, 1fr);
+  padding-top: 1.25%;
+  padding-bottom: 5%;
 
 }
 
@@ -222,14 +224,14 @@ padding-bottom: 1%;
 .long-link{
   text-decoration: none;
   background: #ff6b00;
-  width: 27vw;
+  width: 100%;
   text-align: center;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 1em;
-  margin-top: 1.85%;
+  margin-top: 2.65%;
 }
 
 .tech-lang ul{
@@ -372,9 +374,9 @@ padding-bottom: 1%;
 }
 
 #btn-line {
-  margin-left: 0.5%;
+  margin-left: 1.5%;
   align-self: flex-start;
-  width: 35vw;
+  width: 25vw;
   border:none;
   margin-bottom: 50px;
 }
@@ -476,65 +478,5 @@ form #btn-submit {
 }
 
 @media screen and (min-width: 1000px) and (orientation: portrait) {
-  /* .main-container .intro-header {
-    width: 30%;
-    height: 10%;
-    top: 15%;
-  }
-
-  .intro-title {
-    font-size: 30px;
-  }
-
-  .intro-detail p{
-    width: 45vw;
-    height: 400%;
-    font-size: 30px;
-    line-height: 42px;
-   
-  }
-  .intro-detail{
-    position: static;
-    width: 150%;
-    height: 40%;
-    font-weight: 500px;
-    font-size: 32%;
-    line-height: 44px;
-  } */
-
-   /* .my-projects-section #projects-title {
-    margin-top: 70%;
-  } */
-
-  /* .multi-post-inner{
-    top: 117%;
-    right: 12%;
-   }
-
-   .multi-post{
-    background-repeat: no-repeat;
-    background-size: 45vw 100vh;
-    background-position: left 5% top 55%;
-    width: 85vw;
-    margin-left: 10%;
-    padding-bottom: 25%;
-  }
-  .multi-post-inner .post{
-    width: 90%;
-    height: 50%;
-    font-size: 25px;
-    line-height: 32px;
-    }
-
-    .job-item-with-btn {
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 97%;
-      margin: auto;
-      margin-top: 60px;
-    }
-    .job-post{
-      font-size: 20px;
-      line-height: 24px;
-    } */
+ 
 }
