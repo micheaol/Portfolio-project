@@ -161,8 +161,6 @@
 /* ================== Portfolio projects section ====================================== */
 .my-projects-section{
   display: grid;
-  /* padding-top: 1%; */
-  background-color: rgb(156, 165, 29);
   grid-template-rows: repeat(1, 1fr);
 
 }
@@ -250,7 +248,6 @@ padding-bottom: 1%;
   font-weight: bold;
   font-size: 1em;
   margin-top: 1.85%;
-
 }
 
 .tech-lang ul{
@@ -271,14 +268,13 @@ padding-bottom: 1%;
 .inner-job-item-two{
   display: grid;
   grid-template-columns: repeat(3, 30.5%);
-  grid-template-rows: repeat(2, 40.5%);
+  grid-template-rows: repeat(2, 50.5%);
   margin-left: 8%;
-  grid-gap: 2%;
-  margin-top: 5%;
+  grid-gap: 2.5%;
+  margin-top: 1.5%;
   margin-right: 10%;
   width: 86vw;
   height: 100%;
-  position: relative;
 }
 
 
@@ -289,8 +285,8 @@ padding-bottom: 1%;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 37%;
-  margin-top: 5%;
-  margin-bottom: 70px;
+  /* margin-top: 5%; */
+  /* margin-bottom: 70px;  */
   width: 27vw;
 }
 
@@ -374,61 +370,37 @@ padding-bottom: 1%;
 .about-me-section {
   background-image: url('../images/illustration-about\ me@2x.png');
   background-repeat: no-repeat;
-  background-size: 40% 40%;
-  background-position: right 2% bottom 90%;
+  background-size: 40% 15%;
+  background-position: right 2% bottom 95%;
   height: 100%;
   padding-bottom: 10%;
   position: relative;
   width: 98.45vw;
+  margin-top: 10%;
 
 }
+
 .inner-about-me{
-  position: relative;
-  margin-top: 50px;
   display: flex;
   flex-direction: column;
-  align-content: flex-start;
-  margin-bottom: 500px;
-  padding-bottom: 50px;
-  width: 90vw;
-}
-.about-title{
-  font-size: 300%;
-  line-height: 50%;
-  padding: 1%;
-  padding-top: 1%;
-  margin-top: 5.025%;
-  position: absolute;
-  top: -55%;
-  left: 15%;
-}
-.about-para {
-  position: absolute;
-  left: 16%;
-  top: 200%;
-  width: 40%;
-  height: 250%;
+  align-items: flex-start;
+  margin-bottom: 5%;
+  padding-bottom: 5%;
+  width: 50vw;
+  height: 20%;
+  margin-left: 10%;
 }
 
-#btn-line{
-  width: 25%;
-  position: absolute;
-  left: 3%;
-  top: 450%;
-  border: none;
-  height: 60%;
+#btn-line {
+  margin-left: 0.5%;
+  align-self: flex-start;
+  width: 35vw;
+  border:none;
+  margin-bottom: 50px;
 }
 
 .lang-skill-framework{
   border-top: 1px solid #fff;
-  width: 75%;
-  margin-left: 165px;
-  padding-top: 35px;
-  display: flex;
-  position: absolute;
-  top: 385px;
-  justify-content: space-between;
-  margin-top: 60px;
 }
 
 /* ================= End of About ME page styling ================================== */
