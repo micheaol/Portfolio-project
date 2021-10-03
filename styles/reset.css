@@ -9,49 +9,26 @@
 
 /* ====== Galaxies screen sizes ================= */
 @media screen and (min-width: 360px) and (max-height: 640px) {
-  /* .main-container .intro-header {
-    width: 100%;
+  .main-container .intro-header {
+    width: 90%;
     height: 40%;
-    top: 10%;
   }
 
   .my-projects-section #projects-title {
-    margin-top: 10%;
     font-size: 25px;
   }
 
-  .multi-post {
-    background-size: 95% 40%;
-    background-position: left 1px bottom 335px;
-    margin-top: 50px;
-    width: 85vw;
-    margin-left: 32px;
-    padding-top: 250px;
-  }
+  .see-jobs-btn {
+    margin-top: 1%;
+}
 
-  
-  .job-item-with-btn {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 97%;
-    margin: auto;
-    margin-top: 5%;
-  }
+.about-title {
+  font-size: 250%;
+}
 
-  .job-post{
-    width: 90%;
-    font-size: 15px;
-    line-height: 24px;
-  }
-
-  .about-para {
-    width: 80%;
-    margin-left: 15%;
-  }
-  .about-title {
-    font-size: 40px;
-  } */
-
+.about-para {
+  margin-left: 10%;
+}
 
 }
 
