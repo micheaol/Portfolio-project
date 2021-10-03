@@ -7,18 +7,6 @@
 /* ==================== Set media query for screen sizes  =========================*/
 
 
-/* @media screen and (min-width: 200px) {
-  .main-container{
-      background-color: rgb(189, 236, 198);
-  }
-} */
-
-/* @media screen and (min-width: 200px) and (orientation: landscape) {
-  .main-container{
-      background-color: rgb(63, 3, 71);
-  }
-} */
-
 /* ====== Galaxies screen sizes ================= */
 @media screen and (min-width: 360px) and (max-height: 640px) {
   .main-container .intro-header {
