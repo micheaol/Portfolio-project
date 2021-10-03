@@ -209,15 +209,16 @@ ul #name {
   margin: auto;
 }
 
-.work-hero-img img {
+.work-hero-img {
   display: block;
   margin: auto;
   width: 85vw;
   padding-top: 30px;
+  background-color: #f55800;
 }
 
 .multi-post {
-  background-image: url('../images/works-hero-img.svg');
+  /* background-image: url('../images/works-hero-img.svg'); */
   background-repeat: no-repeat;
   background-size: 95% 45%;
   background-position: left 1px bottom 25%;
