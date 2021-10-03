@@ -9,24 +9,36 @@
   padding: 0;
 }
 
+
 /* =============Navbar styling section====================== */
 .overall-container {
   display: grid;
-  grid-template-rows: repeat(1, 1fr);
+  /* grid-template-rows: repeat(1, 1fr); */
 }
 
+header {
+  background: #c5541b;
+  margin: 0;
+}
 .nav-bar {
   background: #3c3a39;
   margin-bottom: 15px;
-  width: 99.8vw;
+  margin:0px auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+
 }
 
 .nav-bar ul {
   display: flex;
-  background: #3c3a39;
+  /* background: #3c3a39; */
   list-style-type: none;
   align-items: center;
   height: 10vh;
+  /* width: 100%; */
+  /* margin: 0; */
 }
 
 /* ================== Styleling the flex elements ============================== */
@@ -34,6 +46,7 @@
 .nav-bar ul li {
   text-decoration: none;
   flex: 1;
+ 
 }
 
 /* ================== hiding the hambuger icon in large screen ==================== */
@@ -90,10 +103,14 @@ ul #name {
   display: none;
 }
 
+.js-focus-visible:focus {
+  outline: none;
+}
+
 .nav-bar ul .hamburger-icon {
   display: block;
   color: white;
-  margin-right: 25px;
+  margin-right: 5%;
 }
 
 .main-container .intro-header {
