@@ -29,6 +29,7 @@ header {
   left: 0;
   right: 0;
   position: fixed;
+  z-index: 9999;
 }
 
 .nav-bar ul {
@@ -210,6 +211,7 @@ ul #name {
   margin-left: 10%;
   margin-right: 7%;
   padding-bottom: 5%;
+  margin-top: 15%;
   border-bottom: solid #1c1a19 1px;
 }
 
