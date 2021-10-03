@@ -152,8 +152,12 @@
 
   .nav-bar{
     background: #3c3a39;
-    margin-bottom: 15px;
-    width: 98.78vw;      
+    /* margin-bottom: 15px; */
+    width: 98.78vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
   }
 
 .nav-bar ul {
