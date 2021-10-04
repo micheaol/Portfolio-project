@@ -51,14 +51,27 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 65%;
-  padding-top: 5%;
-  margin-top: 5%;
+  align-items: flex-start;
+  height: 25%;
+  padding-top: 10%;
+  width: 25%;
+  margin-top: 20%;
+  margin-left: 10%;
+  list-style-type: none;
+  color: #fff;
+}
+
+.toggle-nav ul li {
+  height: 24px;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 #toggle-close {
   float: right;
-  padding-top: 3%;
+  padding-top: 15%;
+  margin-right: 18%;
+  color: #fff;
 }
 
 /* ================== Styleling the flex elements ============================== */
