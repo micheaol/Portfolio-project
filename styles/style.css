@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 
 /* =============Navbar styling section====================== */
 .overall-container {
@@ -24,7 +23,7 @@ header {
 .nav-bar {
   background: #3c3a39;
   margin-bottom: 15px;
-  margin:0px auto;
+  margin: 0px auto;
   top: 0;
   left: 0;
   right: 0;
@@ -39,12 +38,34 @@ header {
   height: 10vh;
 }
 
+.toggle-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 5%;
+}
+
+.toggle-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 65%;
+  padding-top: 5%;
+  margin-top: 5%;
+}
+
+#toggle-close {
+  float: right;
+  padding-top: 3%;
+}
+
 /* ================== Styleling the flex elements ============================== */
 
 .nav-bar ul li {
   text-decoration: none;
   flex: 1;
- 
 }
 
 /* ================== hiding the hambuger icon in large screen ==================== */
@@ -76,7 +97,7 @@ ul #name {
 
 /* =========================styling the main container ===================== */
 .main-container {
-  background-image: url('../images/bg.png');
+  background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%, cover;
   background-position: right -3% bottom 100%;
@@ -121,7 +142,7 @@ ul #name {
   height: 55%;
   /* left: 24px;
   top: 120px; */
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -177,7 +198,7 @@ ul #name {
       rgba(38, 38, 38, 0) 0.75%,
       rgba(38, 38, 38, 0.9) 61.94%
     ),
-    url('../images/print-img.png');
+    url("../images/print-img.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 97vw;
@@ -218,7 +239,7 @@ ul #name {
   margin-left: 8%;
 }
 
-.multi-post img{
+.multi-post img {
   display: block;
   margin: auto;
   margin-top: 5%;
@@ -226,11 +247,11 @@ ul #name {
 }
 
 .multi-post {
-display: grid;
-grid-template-rows: repeat(2, 1fr);
-width: 100%;
-margin-left: 2%;
-padding-bottom: 15%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  margin-left: 2%;
+  padding-bottom: 15%;
 }
 
 .post-title {
@@ -260,7 +281,7 @@ padding-bottom: 15%;
 .tech-lang ul li {
   font-size: 15px;
   line-height: 15px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   border: 1px solid #8993a4;
   background: #fff;
@@ -278,7 +299,7 @@ padding-bottom: 15%;
   width: 124px;
   height: 40px;
   margin: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
@@ -298,7 +319,7 @@ padding-bottom: 15%;
   text-align: center;
   padding-top: 5%;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -336,7 +357,7 @@ padding-bottom: 15%;
   height: 87px;
   color: #fff;
   margin-left: 23px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .job-tech-lang-ul {
@@ -350,7 +371,7 @@ padding-bottom: 15%;
 .job-item {
   font-size: 15px;
   line-height: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   border: none;
   background: rgba(255, 255, 255, 0.24);
@@ -368,7 +389,7 @@ padding-bottom: 15%;
   width: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -391,7 +412,7 @@ padding-bottom: 15%;
 /* ================= About ME page styling ================================== */
 
 .about-me-section {
-  background-image: url('../images/illustration-about-me-mobile.svg');
+  background-image: url("../images/illustration-about-me-mobile.svg");
   background-repeat: no-repeat;
   background-position: right 2% top -8%;
   width: 100%;
@@ -479,7 +500,7 @@ padding-bottom: 15%;
 .language-header,
 .framework-header,
 .skills-header {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -529,7 +550,7 @@ span {
 .message-box {
   width: 80%;
   margin: 0 auto;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 150%;
@@ -586,8 +607,8 @@ form #btn-submit:active {
   position: absolute;
 }
 
-input[type='text'],
-input[type='email'],
+input[type="text"],
+input[type="email"],
 textarea {
   width: 90%;
   padding: 12px 20px;
@@ -603,8 +624,8 @@ textarea {
   background-color: #dbd8d7;
 }
 
-input[type='text'],
-input[type='email'] {
+input[type="text"],
+input[type="email"] {
   border-bottom: solid 2px #fbf8f7;
 }
 
