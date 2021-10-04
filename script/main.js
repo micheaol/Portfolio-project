@@ -2,8 +2,6 @@ const getMyElement = (param) => document.querySelector(param);
 
 const createMyElement = (param) => document.createElement(param);
 
-//Get navBar:
-
 const navBar = getMyElement('.nav-bar');
 const menuDiv = createMyElement('div');
 menuDiv.className = 'toggle-nav';
