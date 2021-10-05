@@ -64,6 +64,7 @@ header {
   height: 24px;
   font-size: 32px;
   line-height: 44px;
+  cursor: pointer;
 }
 
 #toggle-close {
@@ -71,7 +72,8 @@ header {
   padding-top: 8%;
   margin-right: 17%;
   color:#67798E;
-  border: 2px solid #3C3A39;;
+  border: 2px solid #3C3A39;
+  cursor: pointer;
 }
 
 /* ================== Styleling the flex elements ============================== */
