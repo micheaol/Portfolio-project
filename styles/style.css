@@ -1,14 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 
 /* =============Navbar styling section====================== */
 .overall-container {
@@ -23,8 +22,7 @@ header {
 
 .nav-bar {
   background: #3c3a39;
-  margin-bottom: 15px;
-  margin:0px auto;
+  margin: 0 auto;
   top: 0;
   left: 0;
   right: 0;
@@ -39,12 +37,55 @@ header {
   height: 10vh;
 }
 
+.toggle-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.toggle-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 25%;
+  width: 25%;
+  margin-top: 20%;
+  margin-left: 5%;
+  list-style-type: none;
+  color: #fff;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+}
+
+.toggle-nav ul li {
+  height: 24px;
+  font-size: 32px;
+  line-height: 14px;
+  cursor: pointer;
+  color: #fff5e1;
+  width: 350%;
+  padding-left: 10%;
+  padding-bottom: 35%;
+  border-bottom: 0.52px solid #6f6c6b;
+}
+
+#toggle-close {
+  float: right;
+  padding-top: 8%;
+  margin-right: 17%;
+  color: #67798e;
+  border: 2px solid #3c3a39;
+  cursor: pointer;
+}
+
 /* ================== Styleling the flex elements ============================== */
 
 .nav-bar ul li {
   text-decoration: none;
   flex: 1;
- 
 }
 
 /* ================== hiding the hambuger icon in large screen ==================== */
@@ -76,7 +117,7 @@ ul #name {
 
 /* =========================styling the main container ===================== */
 .main-container {
-  background-image: url('../images/bg.png');
+  background-image: url("../images/bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%, cover;
   background-position: right -3% bottom 100%;
@@ -109,9 +150,6 @@ ul #name {
 }
 
 .main-container .intro-header {
-  /* width: 77%; */
-  /* height: 40%; */
-  /* top: 120px; */
   margin-left: 10px;
   color: #ff6b00;
 }
@@ -119,9 +157,7 @@ ul #name {
 .main-container .intro-header h1 {
   width: 100%;
   height: 55%;
-  /* left: 24px;
-  top: 120px; */
-  font-family: 'Crete Round', serif;
+  font-family: "Crete Round", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -148,8 +184,6 @@ ul #name {
   position: static;
   width: 90%;
   height: 65%;
-  /* left: 4%;
-  top: 295px; */
   font-family: Poppins, Tahoma, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -165,19 +199,13 @@ ul #name {
   width: 50%;
   margin-left: 20px;
   justify-content: space-between;
-  /* padding-top: 40px; */
 }
 
 /* ================== Portfolio projects section ====================================== */
 .job-item-with-btn {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url('../images/print-img.png');
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("../images/print-img.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 97vw;
@@ -218,7 +246,7 @@ ul #name {
   margin-left: 8%;
 }
 
-.multi-post img{
+.multi-post img {
   display: block;
   margin: auto;
   margin-top: 5%;
@@ -226,11 +254,11 @@ ul #name {
 }
 
 .multi-post {
-display: grid;
-grid-template-rows: repeat(2, 1fr);
-width: 100%;
-margin-left: 2%;
-padding-bottom: 15%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  width: 100%;
+  margin-left: 2%;
+  padding-bottom: 15%;
 }
 
 .post-title {
@@ -260,7 +288,7 @@ padding-bottom: 15%;
 .tech-lang ul li {
   font-size: 15px;
   line-height: 15px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   border: 1px solid #8993a4;
   background: #fff;
@@ -278,7 +306,7 @@ padding-bottom: 15%;
   width: 124px;
   height: 40px;
   margin: 12px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
@@ -298,7 +326,7 @@ padding-bottom: 15%;
   text-align: center;
   padding-top: 5%;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -336,7 +364,7 @@ padding-bottom: 15%;
   height: 87px;
   color: #fff;
   margin-left: 23px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 .job-tech-lang-ul {
@@ -350,7 +378,7 @@ padding-bottom: 15%;
 .job-item {
   font-size: 15px;
   line-height: 20px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   border: none;
   background: rgba(255, 255, 255, 0.24);
@@ -368,7 +396,7 @@ padding-bottom: 15%;
   width: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -391,7 +419,7 @@ padding-bottom: 15%;
 /* ================= About ME page styling ================================== */
 
 .about-me-section {
-  background-image: url('../images/illustration-about-me-mobile.svg');
+  background-image: url("../images/illustration-about-me-mobile.svg");
   background-repeat: no-repeat;
   background-position: right 2% top -8%;
   width: 100%;
@@ -479,7 +507,7 @@ padding-bottom: 15%;
 .language-header,
 .framework-header,
 .skills-header {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -529,7 +557,7 @@ span {
 .message-box {
   width: 80%;
   margin: 0 auto;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 150%;
@@ -586,8 +614,8 @@ form #btn-submit:active {
   position: absolute;
 }
 
-input[type='text'],
-input[type='email'],
+input[type="text"],
+input[type="email"],
 textarea {
   width: 90%;
   padding: 12px 20px;
@@ -603,8 +631,8 @@ textarea {
   background-color: #dbd8d7;
 }
 
-input[type='text'],
-input[type='email'] {
+input[type="text"],
+input[type="email"] {
   border-bottom: solid 2px #fbf8f7;
 }
 
