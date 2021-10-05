@@ -58,7 +58,6 @@ header {
   color: #fff;
   font-family: Inter, sans-serif;
   font-weight: bold;
-  
 }
 
 .toggle-nav ul li {
@@ -66,13 +65,12 @@ header {
   font-size: 32px;
   line-height: 14px;
   cursor: pointer;
-  color: #FFF5E1;
-  width: 800%;
+  color: #fff5e1;
+  width: 350%;
   padding-left: 10%;
   padding-bottom: 35%;
-  border-bottom: 0.52px solid #6F6C6B;
+  border-bottom: 0.52px solid #6f6c6b;
 }
-
 
 #toggle-close {
   float: right;
