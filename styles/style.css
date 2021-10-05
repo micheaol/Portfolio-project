@@ -15,6 +15,10 @@
   grid-template-rows: repeat(1, 1fr);
 }
 
+html {
+  scroll-behavior: smooth
+}
+
 header {
   background: #c5541b;
   margin: 0;
