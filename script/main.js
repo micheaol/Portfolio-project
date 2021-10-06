@@ -1,8 +1,6 @@
 const getMyElement = (param) => document.querySelector(param);
 const createMyElement = (param) => document.createElement(param);
 
-const form = getMyElement('form');
-
 const projects = [
   {
     id: 1,
