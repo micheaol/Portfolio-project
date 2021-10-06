@@ -710,7 +710,7 @@ input[type="email"] {
   display: flex;
   justify-content: center;
   gap: 2%;
-  margin-left: 5%; 
+  margin-left: 5%;
   margin-bottom: 0;
   padding-bottom: 0;
   position: absolute;
@@ -750,8 +750,8 @@ input[type="email"] {
 }
 
 .pop-up-tech-li {
-  text-align:start;
-  border: 2px solid #EBECF0;
+  text-align: start;
+  border: 2px solid #ebecf0;
   color: #3c3a39;
   margin-bottom: 1%;
   padding: 5px;
