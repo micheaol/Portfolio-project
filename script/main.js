@@ -1,6 +1,9 @@
 const getMyElement = (param) => document.querySelector(param);
 const createMyElement = (param) => document.createElement(param);
 
+const form = getMyElement('form');
+const input = getMyElement('#email-input')
+
 const projects = [
   {
     id: 1,
@@ -257,5 +260,10 @@ function displayProjects() {
     projectSection.appendChild(projectDiv);
   });
 }
+
+form.addEventListener('submit', (e)=> { 
+  e.preventDefault(); 
+  console.log((/[A-Z]/g));
+})
 
 displayProjects();
