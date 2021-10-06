@@ -32,16 +32,6 @@
 
 }
 
-/* @media screen and (min-width: 360px) and (orientation: landscape) {
-  .main-container{
-      background-color: rgb(223, 18, 18);
-  }
-} */
-
-/* Medium devices (landscape tablets, 768px and up) */
-
-
-/* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
   .right-item {
     display: block;
@@ -205,7 +195,7 @@ padding-bottom: 1%;
 .inner-job-item-two{
   display: grid;
   grid-template-columns: repeat(3, 30.5%);
-  grid-template-rows: repeat(2, 50.5%);
+  grid-template-rows: repeat(3, 50.5%);
   margin-left: 8%;
   grid-gap: 2.5%;
   margin-top: 1.5%;
@@ -224,7 +214,7 @@ padding-bottom: 1%;
   padding-top: 37%;
   /* margin-top: 5%; */
   /* margin-bottom: 70px;  */
-  width: 27vw;
+  width: 100%;
 }
 
 .job-post{
@@ -916,7 +906,7 @@ padding-bottom: 1%;
 .long-link{
   text-decoration: none;
   background: #ff6b00;
-  width: 100%;
+  width: 500%;
   text-align: center;
   color: #fff;
   font-family: 'Inter', sans-serif;
@@ -932,6 +922,8 @@ padding-bottom: 1%;
   display: flex;
   justify-content: flex-start;
   margin-bottom: 20px;
+  height: 50%;
+  width: 100%;
 
 }
 .tech-lang ul li{
@@ -962,7 +954,7 @@ padding-bottom: 1%;
   background-size: cover;
   padding-top: 37%;
   /* margin-top: 5%; */
-  /* margin-bottom: 70px;  */
+  /* margin-bottom: 70px; 5 */
   width: 27vw;
 }
 
@@ -1029,7 +1021,7 @@ padding-bottom: 1%;
   background: #ff6b00;
   height: 48px;
   border: none;
-  width: 28%;
+  width: 100%;
   margin: auto;
   color: #fff;
   font-family: 'Inter', sans-serif;
@@ -1169,8 +1161,3 @@ form #btn-submit {
 
 }
 
-
-
-@media screen and (min-width: 1000px) and (orientation: portrait) {
- 
-}
