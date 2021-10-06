@@ -394,7 +394,7 @@ ul #name {
 }
 
 .see-jobs-btn {
-  background: #ff6b00;;
+  background: #ff6b00;
   height: 68px;
   border: none;
   width: 100%;
@@ -654,10 +654,10 @@ input[type="email"] {
 
 /* ========= End of Styling for contact form =========== */
 
-
 .pop-up-title {
   margin-left: 7%;
 }
+
 .pop-up-container {
   position: fixed;
   z-index: 1;
@@ -682,7 +682,7 @@ input[type="email"] {
   padding-bottom: 5%;
 }
 
-.pop-up-hero{
+.pop-up-hero {
   height: 95%;
   display: flex;
   flex-direction: column;
@@ -698,12 +698,11 @@ input[type="email"] {
   font-family: Inter, sans-serif;
 }
 
-.pop-up-inner-cont-div{
-   display: flex;
-   flex-direction: column;
-   align-items: space-between;
-   padding-left: 5%;
-   margin-bottom: 15%;
+.pop-up-inner-cont-div {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  margin-bottom: 15%;
 }
 
 .pop-up-btns-div {
@@ -717,9 +716,7 @@ input[type="email"] {
   position: absolute;
   bottom: 3%;
   width: 70%;
-  
 }
-
 
 .pop-up-inner-img-div {
   background-size: 100% 90%, cover;
@@ -728,13 +725,11 @@ input[type="email"] {
   height: 80%;
 }
 
-
 .pop-up-btns {
   background: #ff6b00;
   border: none;
   width: 100%;
   height: 50%;
-  /* margin: 12px 12px 0 12px; */
   font-family: "Inter", sans-serif;
   font-weight: bold;
   font-size: 14px;
@@ -743,9 +738,7 @@ input[type="email"] {
   cursor: pointer;
   text-decoration: none;
   padding: 15px;
-  /* margin-top: 15px; */
   text-align: center;
-  /* padding-bottom: 2%; */
 }
 
 .close-pop-up-btn {
@@ -756,19 +749,12 @@ input[type="email"] {
   cursor: pointer;
 }
 
-
-.pop-up-tech-ul {
-  max-width: fit-content;
-}
-
 .pop-up-tech-li {
   text-align:start;
   border: 2px solid #EBECF0;
-  color: #3C3A39;
+  color: #3c3a39;
   margin-bottom: 1%;
   padding: 5px;
   width: 100%;
   width: fit-content;
 }
-
-
