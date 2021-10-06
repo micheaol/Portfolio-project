@@ -1,6 +1,9 @@
 const getMyElement = (param) => document.querySelector(param);
 const createMyElement = (param) => document.createElement(param);
 
+
+const form = getMyElement('form');
+
 const projects = [
   {
     id: 1,
@@ -203,7 +206,7 @@ function displayProjects() {
       const popUpImg = createMyElement('img');
       popUpImg.className = 'pop-up-img';
 
-      popUpInnerImgDiv.style.backgroundImage = 'url(' + project.projectImg + ')';
+      popUpInnerImgDiv.style.backgroundImage = `url(${project.projectImg})`;
 
       const popUpInnerContDiv = createMyElement('div');
       popUpInnerContDiv.className = 'pop-up-inner-cont-div';
@@ -257,5 +260,13 @@ function displayProjects() {
     projectSection.appendChild(projectDiv);
   });
 }
+
+
+form.addEventListener('submit', (e)=>{
+  e.preventDefault();
+  console.log(form);
+})
+
+
 
 displayProjects();
