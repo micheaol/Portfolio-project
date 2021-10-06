@@ -8,7 +8,7 @@ const projects = [
     tips: "A daily selection of privately personalized reads; no accounts or      sign-ups required. has been the industry's standard",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    projectImg: "../images/sixth-img.png",
+    projectImg: "../images/pop-up-img.png",
     liveVersion: "https://micheaol-portfolio.netlify.app/",
     gitRepo: "https://github.com/micheaol/Portfolio-project",
     techologies: ["HTML", "Bootstrap", "Roby on Rails"],
@@ -19,7 +19,7 @@ const projects = [
     tips: "A daily selection of privately personalized reads; no accounts or      sign-ups required. has been the industry's standard",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    projectImg: "../images/sixth-img.png",
+    projectImg: "../images/pop-up-img.png",
     liveVersion: "https://micheaol-portfolio.netlify.app/",
     gitRepo: "https://github.com/micheaol/Portfolio-project",
     techologies: ["HTML", "Bootstrap", "Roby on Rails"],
@@ -31,7 +31,7 @@ const projects = [
     tips: "A daily selection of privately personalized reads; no accounts or      sign-ups required. has been the industry's standard",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    projectImg: "../images/sixth-img.png",
+    projectImg: "../images/pop-up-img.png",
     liveVersion: "https://micheaol-portfolio.netlify.app/",
     gitRepo: "https://github.com/micheaol/Portfolio-project",
     techologies: ["HTML", "Bootstrap", "Roby on Rails"],
@@ -42,7 +42,7 @@ const projects = [
     tips: "A daily selection of privately personalized reads; no accounts or      sign-ups required. has been the industry's standard",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    projectImg: "../images/sixth-img.png",
+    projectImg: "../images/pop-up-img.png",
     liveVersion: "https://micheaol-portfolio.netlify.app/",
     gitRepo: "https://github.com/micheaol/Portfolio-project",
     techologies: ["HTML", "Bootstrap", "Roby on Rails"],
@@ -52,8 +52,8 @@ const projects = [
     title: "Printing Data",
     tips: "A daily selection of privately personalized reads; no accounts or      sign-ups required. has been the industry's standard",
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    projectImg: "../images/sixth-img.png",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+    projectImg: "../images/pop-up-img.png",
     liveVersion: "https://micheaol-portfolio.netlify.app/",
     gitRepo: "https://github.com/micheaol/Portfolio-project",
     techologies: ["HTML", "Bootstrap", "Roby on Rails"],
@@ -64,7 +64,7 @@ const projects = [
     tips: "A daily selection of privately personalized reads; no accounts or      sign-ups required. has been the industry's standard",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    projectImg: "../images/sixth-img.png",
+    projectImg: "../images/pop-up-img.png",
     liveVersion: "https://micheaol-portfolio.netlify.app/",
     gitRepo: "https://github.com/micheaol/Portfolio-project",
     techologies: ["HTML", "Bootstrap", "Roby on Rails"],
@@ -248,9 +248,10 @@ function displayProjects() {
       popUpBtnsDiv.appendChild(popUpSeeLiveBtn);
       popUpBtnsDiv.appendChild(popUpSeeSourceBtn);
       popUpInnerImgDiv.appendChild(popUpImg);
+      popUpDesc.appendChild(popUpBtnsDiv);
       popUpInnerContDiv.appendChild(popUpDesc);
-      popUpInnerContDiv.appendChild(popUpBtnsDiv);
       popUpHeroDiv.appendChild(popUpInnerImgDiv);
+      popUpInnerContDiv.appendChild(popUpBtnsDiv);
       popUpHeroDiv.appendChild(popUpInnerContDiv);
       techLangInnerDiv.appendChild(popUpTechUl);
       innerPopUpDiv.appendChild(closePopUpBtn);

@@ -773,7 +773,7 @@
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1000px) {
   .nav-bar {
     background: #3c3a39;
     width: 98.78vw;
@@ -980,11 +980,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 37%;
-    /* margin-top: 5%; */
-    /* margin-bottom: 70px; 5 */
     width: 27vw;
   }
 
+  .pop-up-title {
+    margin-left: 2%;
+  }
   .pop-up-container {
     position: fixed;
     z-index: 1;
@@ -997,11 +998,78 @@
   }
 
   .inner-pop-up-div {
-    padding-top: 24px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
     position: relative;
     background-color: #fff;
-    width: 70%;
-    margin: 112px auto auto auto;
+    width: 85%;
+    margin: 50px auto auto auto;
+    height: 77vh;
+  }
+
+  .pop-up-hero{
+    height: 70%;
+    display: flex;
+    padding-right: 3%;
+  }
+
+  .pop-up-desc {
+    display: flex;
+    flex-direction: column;
+    height: 58%;
+    font-size: 16px;
+    color: #344563;
+    grid-gap: 34%;
+    background-color: darkgreen;
+    margin-left:-5%;
+  }
+
+  .pop-up-inner-cont-div{
+    display: flex;
+     flex-direction: column;
+     background-color: darkorchid;
+
+  }
+
+  .pop-up-btns-div {
+    align-self: flex-start;
+    /* background-color: crimson; */
+    display: flex;
+    /* flex-direction: column; */
+    margin-right: 5%;
+  }
+
+  .pop-up-btns {
+    align-self: flex-start;
+  }
+
+
+  .pop-up-img {
+    height: 120%;
+    display: block;
+    margin-left: 4%;
+    padding-bottom: 12%;
+    margin-right:-5%;
+  }
+
+  .pop-up-btns {
+    background: #ff6b00;
+    border: none;
+    width: 124px;
+    height: 35px;
+    margin: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 5px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 15px;
+    /* margin-top: 15px; */
+    text-align: center;
+    /* padding-bottom: 2%; */
   }
 
   .close-pop-up-btn {
@@ -1018,11 +1086,11 @@
 
   .pop-up-tech-ul {
     max-width: fit-content;
-    background-color: blue;
   }
 
   .pop-up-tech-li {
-    background-color: green;
+    border: 2px solid #EBECF0;
+    color: #3C3A39;
   }
 
   .job-post {
