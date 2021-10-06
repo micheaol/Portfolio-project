@@ -126,7 +126,6 @@ menuContact.addEventListener('click', () => {
 
 function displayProjects() {
   projects.forEach((project) => {
-
     const projectDiv = createMyElement('div');
     projectDiv.className = 'job-item-with-btn';
 
@@ -161,7 +160,7 @@ function displayProjects() {
     seeProjectBtn.textContent = 'See Project';
 
     for (let counter = 0; counter < project.techologies.length; counter += 1) {
-      let jobLi = createMyElement('li');
+      const jobLi = createMyElement('li');
       jobLi.className = 'job-item job-one';
       jobLi.textContent = project.techologies[counter];
       ulTech.appendChild(jobLi);
@@ -204,8 +203,7 @@ function displayProjects() {
       const popUpImg = createMyElement('img');
       popUpImg.className = 'pop-up-img';
 
-      popUpInnerImgDiv.style.backgroundImage =
-        'url(' + project.projectImg + ')';
+      popUpInnerImgDiv.style.backgroundImage = 'url(' + project.projectImg + ')';
 
       const popUpInnerContDiv = createMyElement('div');
       popUpInnerContDiv.className = 'pop-up-inner-cont-div';
