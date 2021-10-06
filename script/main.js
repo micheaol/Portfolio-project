@@ -8,7 +8,7 @@ const projects = [
     tips: "A daily selection of privately personalized reads; no accounts or      sign-ups required. has been the industry's standard",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    projectImg: "../images/pop-up-img.png",
+    projectImg: "../images/print-img.png",
     liveVersion: "https://micheaol-portfolio.netlify.app/",
     gitRepo: "https://github.com/micheaol/Portfolio-project",
     techologies: ["HTML", "Bootstrap", "Roby on Rails"],
@@ -19,7 +19,7 @@ const projects = [
     tips: "A daily selection of privately personalized reads; no accounts or      sign-ups required. has been the industry's standard",
     description:
       "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    projectImg: "../images/pop-up-img.png",
+    projectImg: "../images/print-img.png",
     liveVersion: "https://micheaol-portfolio.netlify.app/",
     gitRepo: "https://github.com/micheaol/Portfolio-project",
     techologies: ["HTML", "Bootstrap", "Roby on Rails"],
@@ -216,7 +216,9 @@ function displayProjects() {
 
       const popUpImg = createMyElement("img");
       popUpImg.className = "pop-up-img";
-      popUpImg.src = project.projectImg;
+      // popUpImg.src = project.projectImg;
+
+      popUpInnerImgDiv.style.backgroundImage = "url("+ project.projectImg +")";
 
       const popUpInnerContDiv = createMyElement("div");
       popUpInnerContDiv.className = "pop-up-inner-cont-div";
@@ -245,6 +247,8 @@ function displayProjects() {
         popUpTechUl.appendChild(popUpTechLi);
       }
 
+     
+
       popUpBtnsDiv.appendChild(popUpSeeLiveBtn);
       popUpBtnsDiv.appendChild(popUpSeeSourceBtn);
       popUpInnerImgDiv.appendChild(popUpImg);
@@ -256,11 +260,18 @@ function displayProjects() {
       techLangInnerDiv.appendChild(popUpTechUl);
       innerPopUpDiv.appendChild(closePopUpBtn);
       innerPopUpDiv.appendChild(techLangInnerDiv);
+
+      closePopUpBtn.addEventListener('click', ()=>{
+        popUpContainer.style.display = "none";
+      });
+
+
       innerPopUpDiv.appendChild(popUpHeroDiv);
       popUpContainer.appendChild(innerPopUpDiv);
       document.body.appendChild(popUpContainer);
-      console.log(project.id);
     });
+
+  
 
     const projectSection = getMyElement(".inner-job-item-two");
     projectSection.appendChild(projectDiv);
