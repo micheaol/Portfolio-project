@@ -203,7 +203,7 @@ function displayProjects() {
       const popUpImg = createMyElement('img');
       popUpImg.className = 'pop-up-img';
 
-      popUpInnerImgDiv.style.backgroundImage = 'url(' + project.projectImg + ')';
+      popUpInnerImgDiv.style.backgroundImage = `url(${project.projectImg})`;
 
       const popUpInnerContDiv = createMyElement('div');
       popUpInnerContDiv.className = 'pop-up-inner-cont-div';
