@@ -11,7 +11,7 @@ const projects = [
     projectImg: '../images/print-img.png',
     liveVersion: 'https://micheaol-portfolio.netlify.app/',
     gitRepo: 'https://github.com/micheaol/Portfolio-project',
-    techologies: ['HTML', 'Bootstrap', 'Roby on Rails'],
+    techologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const projects = [
     projectImg: '../images/print-img.png',
     liveVersion: 'https://micheaol-portfolio.netlify.app/',
     gitRepo: 'https://github.com/micheaol/Portfolio-project',
-    techologies: ['HTML', 'Bootstrap', 'Roby on Rails'],
+    techologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
   },
 
   {
@@ -34,7 +34,7 @@ const projects = [
     projectImg: '../images/pop-up-img.png',
     liveVersion: 'https://micheaol-portfolio.netlify.app/',
     gitRepo: 'https://github.com/micheaol/Portfolio-project',
-    techologies: ['HTML', 'Bootstrap', 'Roby on Rails'],
+    techologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ const projects = [
     projectImg: '../images/pop-up-img.png',
     liveVersion: 'https://micheaol-portfolio.netlify.app/',
     gitRepo: 'https://github.com/micheaol/Portfolio-project',
-    techologies: ['HTML', 'Bootstrap', 'Roby on Rails'],
+    techologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
   },
   {
     id: 5,
@@ -56,7 +56,7 @@ const projects = [
     projectImg: '../images/pop-up-img.png',
     liveVersion: 'https://micheaol-portfolio.netlify.app/',
     gitRepo: 'https://github.com/micheaol/Portfolio-project',
-    techologies: ['HTML', 'Bootstrap', 'Roby on Rails'],
+    techologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
   },
   {
     id: 6,
@@ -67,7 +67,7 @@ const projects = [
     projectImg: '../images/pop-up-img.png',
     liveVersion: 'https://micheaol-portfolio.netlify.app/',
     gitRepo: 'https://github.com/micheaol/Portfolio-project',
-    techologies: ['HTML', 'Bootstrap', 'Roby on Rails'],
+    techologies: ['HTML', 'Bootstrap', 'Ruby on Rails'],
   },
 ];
 
