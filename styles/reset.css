@@ -546,13 +546,3 @@
     background-color: #e5e5e5;
   }
 }
-
-.form-container {
-  position: relative;
-}
-
-.errorSpan {
-  position: absolute;
-  top: 35%;
-  left: 26%;
-}

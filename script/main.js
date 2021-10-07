@@ -261,10 +261,6 @@ function displayProjects() {
 
 const form = getMyElement("form");
 const input = getMyElement("#email-input");
-const formContainer = getMyElement(".form-container");
-const error = createMyElement("span");
-error.className = "errorSpan";
-formContainer.appendChild(error);
 
 form.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -279,8 +275,9 @@ form.addEventListener("submit", (e) => {
   }
 
   function errorMessage() {
-    error.textContent = "Please enter your email in lowercase";
-    error.style.color = "red";
+    const validH3 = getMyElement('.validate-email');
+    validH3.textContent = "Please enter your email in lowercase";
+    validH3.style.color = "red";
   }
 
   function corectEmail() {
