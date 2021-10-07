@@ -1,33 +1,6 @@
 const getMyElement = (param) => document.querySelector(param);
 const createMyElement = (param) => document.createElement(param);
 
-
-const userData = [];
-
-function User(name, email) {
-  (this.name = name), (this.email = email);
-}
-
-function getUserData() {
-  const newUser = new User(nameInput.value, input.value);
-  userData.push(newUser);
-  setLocalStorage();
-}
-
-function setLocalStorage() {
-  localStorage.setItem('userData', JSON.stringify(userData));
-}
-
-function getLocalStorage() {
-  const dataFromLocSt = JSON.parse(localStorage.getItem('userData'));
-  if (dataFromLocSt) {
-    dataFromLocSt.forEach((data) => {
-      nameInput.value = data.name;
-      input.value = data.email;
-    });
-  }
-}
-
 const projects = [
   {
     id: 1,
@@ -115,6 +88,33 @@ menuContact.textContent = 'Contact';
 const closeBtn = createMyElement('span');
 closeBtn.textContent = 'X';
 closeBtn.id = 'toggle-close';
+
+const userData = [];
+
+function User(name, email) {
+  this.name = name;
+  this.email = email;
+}
+
+function getUserData() {
+  const newUser = new User(nameInput.value, input.value);
+  userData.push(newUser);
+  setLocalStorage();
+}
+
+function setLocalStorage() {
+  localStorage.setItem('userData', JSON.stringify(userData));
+}
+
+function getLocalStorage() {
+  const dataFromLocSt = JSON.parse(localStorage.getItem('userData'));
+  if (dataFromLocSt) {
+    dataFromLocSt.forEach((data) => {
+      nameInput.value = data.name;
+      input.value = data.email;
+    });
+  }
+}
 
 menuUl.appendChild(menuPortfolio);
 menuUl.appendChild(menuAbout);
