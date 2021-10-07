@@ -274,4 +274,33 @@ function displayProjects() {
   });
 }
 
+const form = getMyElement('form');
+const input = getMyElement('#email-input');
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const capitalLetters = [];
+
+  const emailCheck = input.value.split('');
+  for (let i = 0; i < emailCheck.length; i += 1) {
+    if (!/[a-z]/.test(emailCheck[i]) && /[A-Z]/.test(emailCheck[i])) {
+      capitalLetters.push(emailCheck[i]);
+    }
+  }
+
+  function errorMessage() {
+    const validH3 = getMyElement('.validate-email');
+    validH3.textContent = 'Please enter your email in lowercase';
+    validH3.style.color = 'red';
+  }
+
+  function corectEmail() {
+    form.submit();
+  }
+
+  if (capitalLetters.length > 0) errorMessage();
+  else corectEmail();
+});
+
 displayProjects();
