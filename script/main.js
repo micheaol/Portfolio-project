@@ -280,7 +280,6 @@ form.addEventListener('submit', (e) => {
   }
 
   function corectEmail() {
-    error.textContent = '';
     form.submit();
   }
 
