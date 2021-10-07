@@ -296,6 +296,7 @@ form.addEventListener('submit', (e) => {
   function errorMessage() {
     const validH3 = getMyElement('.validate-email');
     validH3.textContent = 'Please enter your email in lowercase';
+    input.style.border = 'thin solid red';
     validH3.style.color = 'red';
   }
 
