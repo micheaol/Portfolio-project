@@ -267,6 +267,7 @@
   }
 
   .pop-up-btns-div {
+    background-position: right 50% top 50%;
     position: absolute;
     align-self: flex-start;
     display: flex;
@@ -290,17 +291,29 @@
   .pop-up-btns {
     background: #ff6b00;
     border: none;
-    width: 124px;
-    height: 35px;
+    width: 90%;
+    height: auto;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 0.85rem;
     line-height: 5px;
     color: #fff;
     cursor: pointer;
     text-decoration: none;
     padding: 15px;
     text-align: center;
+  }
+
+  .see-source-icon {
+    position: absolute;
+    left: 37%;
+    bottom: 15%; 
+  }
+
+  .see-live-icon {
+    position: absolute;
+    left: 91%;
+    bottom: 5%; 
   }
 
   .close-pop-up-btn {
@@ -333,10 +346,6 @@
   .inner-job-item-two :hover a {
     visibility: visible;
   }
-
-  /* .long-link:focus {
-    visibility: hidden;
-  } */
 
   .job-post {
     font-size: 15px;
