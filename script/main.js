@@ -71,6 +71,10 @@ const projects = [
   },
 ];
 
+const validH3 = getMyElement('.validate-email');
+const nameInput = getMyElement('#fullname')
+const form = getMyElement('form');
+const input = getMyElement('#email-input');
 const navBar = getMyElement('.nav-bar');
 const menuDiv = createMyElement('div');
 menuDiv.className = 'toggle-nav';
@@ -278,8 +282,6 @@ function displayProjects() {
   });
 }
 
-const form = getMyElement('form');
-const input = getMyElement('#email-input');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -294,7 +296,6 @@ form.addEventListener('submit', (e) => {
   }
 
   function errorMessage() {
-    const validH3 = getMyElement('.validate-email');
     validH3.textContent = 'Please enter your email in lowercase';
     input.style.border = 'thin solid red';
     validH3.style.color = 'red';
@@ -307,5 +308,29 @@ form.addEventListener('submit', (e) => {
   if (capitalLetters.length > 0) errorMessage();
   else corectEmail();
 });
+
+let userData = [];
+
+function User(name, email) {
+  this.name = name,
+  this.email = email
+}
+
+function getUserData() {
+ let newUser = new User(nameInput.value, input.value);
+  userData.push(newUser);
+  setLocalStorage()
+}
+
+function setLocalStorage() {
+  localStorage.setItem('userData', JSON.stringify(userData))
+}
+
+
+form.addEventListener('submit', getUserData)
+
+
+
+
 
 displayProjects();
