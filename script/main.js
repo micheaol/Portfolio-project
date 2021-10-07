@@ -215,15 +215,29 @@ function displayProjects() {
       const popUpBtnsDiv = createMyElement('div');
       popUpBtnsDiv.className = 'pop-up-btns-div';
 
+      const seeIcon = createMyElement('span');
+      seeIcon.className = 'see-source-icon';
+
+      const seeLiveIcon = createMyElement('span');
+      seeLiveIcon.className = 'see-live-icon';
+
+      const seeLiveIconImg = createMyElement('img');
+      seeLiveIconImg.src = '../images/gitIcon.png';
+
+      const iconImg = createMyElement('img');
+      iconImg.src = '../images/icon-see-live.png';
+      seeIcon.appendChild(iconImg);
+      seeLiveIcon.appendChild(seeLiveIconImg);
+
       const popUpSeeLiveBtn = createMyElement('a');
       popUpSeeLiveBtn.className = 'pop-up-btns';
-      popUpSeeLiveBtn.textContent = 'See Live';
       popUpSeeLiveBtn.href = project.liveVersion;
+      popUpSeeLiveBtn.textContent = 'See Live';
 
       const popUpSeeSourceBtn = createMyElement('a');
       popUpSeeSourceBtn.className = 'pop-up-btns';
-      popUpSeeSourceBtn.textContent = 'See Source';
       popUpSeeSourceBtn.href = project.gitRepo;
+      popUpSeeSourceBtn.textContent = 'See Source';
 
       for (let i = 0; i < project.techologies.length; i += 1) {
         const popUpTechLi = createMyElement('li');
@@ -232,6 +246,8 @@ function displayProjects() {
         popUpTechUl.appendChild(popUpTechLi);
       }
 
+      popUpBtnsDiv.appendChild(seeLiveIcon);
+      popUpBtnsDiv.appendChild(seeIcon);
       popUpBtnsDiv.appendChild(popUpSeeLiveBtn);
       popUpBtnsDiv.appendChild(popUpSeeSourceBtn);
       popUpInnerImgDiv.appendChild(popUpImg);
