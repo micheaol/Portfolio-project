@@ -96,14 +96,14 @@ function User(name, email) {
   this.email = email;
 }
 
+function setLocalStorage() {
+  localStorage.setItem('userData', JSON.stringify(userData));
+}
+
 function getUserData() {
   const newUser = new User(nameInput.value, input.value);
   userData.push(newUser);
   setLocalStorage();
-}
-
-function setLocalStorage() {
-  localStorage.setItem('userData', JSON.stringify(userData));
 }
 
 function getLocalStorage() {
@@ -337,6 +337,5 @@ form.addEventListener('submit', (e) => {
 });
 
 form.addEventListener('submit', getUserData);
-
 
 displayProjects();
