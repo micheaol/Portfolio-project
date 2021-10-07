@@ -52,7 +52,7 @@ const projects = [
     title: 'Printing Data',
     tips: "A daily selection of privately personalized reads; no accounts or      sign-ups required. has been the industry's standard",
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
     projectImg: '../images/pop-up-img.png',
     liveVersion: 'https://micheaol-portfolio.netlify.app/',
     gitRepo: 'https://github.com/micheaol/Portfolio-project',
