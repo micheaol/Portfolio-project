@@ -5,7 +5,11 @@
 
 /* ==================== Set media query for screen sizes  =========================*/
 
-/* ====== Galaxies screen sizes ================= */
+@media screen and (min-width: 550px){
+  .see-jobs-btn {
+    margin-top: 3.58%;
+}  
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1000px) {

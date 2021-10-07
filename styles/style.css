@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
 
 * {
   box-sizing: border-box;
@@ -121,7 +121,7 @@ ul #name {
 
 /* =========================styling the main container ===================== */
 .main-container {
-  background-image: url("../images/bg.png");
+  background-image: url('../images/bg.png');
   background-repeat: no-repeat;
   background-size: 100% 100%, cover;
   background-position: right -3% bottom 100%;
@@ -161,7 +161,7 @@ ul #name {
 .main-container .intro-header h1 {
   width: 100%;
   height: 55%;
-  font-family: "Crete Round", serif;
+  font-family: 'Crete Round', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 40px;
@@ -209,7 +209,12 @@ ul #name {
 .job-item-with-btn {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url("../images/print-img.png");
+  background: linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url('../images/print-img.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 97vw;
@@ -292,7 +297,7 @@ ul #name {
 .tech-lang ul li {
   font-size: 15px;
   line-height: 15px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   border: 1px solid #8993a4;
   background: #fff;
@@ -310,7 +315,7 @@ ul #name {
   width: 124px;
   height: 40px;
   margin: 12px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
@@ -330,7 +335,7 @@ ul #name {
   text-align: center;
   padding-top: 5%;
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
@@ -368,7 +373,7 @@ ul #name {
   height: 87px;
   color: #fff;
   margin-left: 23px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 .job-tech-lang-ul {
@@ -382,7 +387,7 @@ ul #name {
 .job-item {
   font-size: 15px;
   line-height: 20px;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 500;
   border: none;
   background: rgba(255, 255, 255, 0.24);
@@ -395,19 +400,20 @@ ul #name {
 
 .see-jobs-btn {
   background: #ff6b00;
-  height: 68px;
+  height: 5%;
   border: none;
   width: 100%;
   margin: auto;
   color: #fff;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
   cursor: pointer;
-  margin-top: 85px;
-  padding-bottom: 10%;
+  margin-top: 17.56%;
+  /* padding-bottom: 10%; */
+  display: absolute;
 }
 
 .see-jobs-btn:hover {
@@ -418,12 +424,13 @@ ul #name {
   background-color: rgb(12, 110, 56);
 }
 
+
 /* ================== End of Portfolio projects section ====================================== */
 
 /* ================= About ME page styling ================================== */
 
 .about-me-section {
-  background-image: url("../images/illustration-about-me-mobile.svg");
+  background-image: url('../images/illustration-about-me-mobile.svg');
   background-repeat: no-repeat;
   background-position: right 2% top -8%;
   width: 100%;
@@ -511,7 +518,7 @@ ul #name {
 .language-header,
 .framework-header,
 .skills-header {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -561,7 +568,7 @@ span {
 .message-box {
   width: 80%;
   margin: 0 auto;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 150%;
@@ -618,8 +625,8 @@ form #btn-submit:active {
   position: absolute;
 }
 
-input[type="text"],
-input[type="email"],
+input[type='text'],
+input[type='email'],
 textarea {
   width: 90%;
   padding: 12px 20px;
@@ -635,8 +642,8 @@ textarea {
   background-color: #dbd8d7;
 }
 
-input[type="text"],
-input[type="email"] {
+input[type='text'],
+input[type='email'] {
   border-bottom: solid 2px #fbf8f7;
 }
 
@@ -730,7 +737,7 @@ input[type="email"] {
   border: none;
   width: 100%;
   height: 50%;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 14px;
   line-height: 5px;
