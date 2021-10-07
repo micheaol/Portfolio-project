@@ -412,8 +412,6 @@ ul #name {
   line-height: 24px;
   cursor: pointer;
   margin-top: 17.56%;
-  /* padding-bottom: 10%; */
-  display: absolute;
 }
 
 .see-jobs-btn:hover {
@@ -423,7 +421,6 @@ ul #name {
 .see-jobs-btn:active {
   background-color: rgb(12, 110, 56);
 }
-
 
 /* ================== End of Portfolio projects section ====================================== */
 
