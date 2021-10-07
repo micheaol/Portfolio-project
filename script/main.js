@@ -192,7 +192,11 @@ function displayProjects() {
 
       const closePopUpBtn = createMyElement('span');
       closePopUpBtn.className = 'close-pop-up-btn';
-      closePopUpBtn.textContent = 'x';
+      // closePopUpBtn.textContent = 'x';
+
+      const closeImgBtn = createMyElement('img');
+      closeImgBtn.src = '../images/Disabled.png';
+      closePopUpBtn.appendChild(closeImgBtn);
 
       const popUpHeroDiv = createMyElement('div');
       popUpHeroDiv.className = 'pop-up-hero';
