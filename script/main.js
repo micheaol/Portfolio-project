@@ -71,6 +71,10 @@ const projects = [
   },
 ];
 
+const validH3 = getMyElement('.validate-email');
+const nameInput = getMyElement('#fullname');
+const form = getMyElement('form');
+const input = getMyElement('#email-input');
 const navBar = getMyElement('.nav-bar');
 const menuDiv = createMyElement('div');
 menuDiv.className = 'toggle-nav';
@@ -84,6 +88,33 @@ menuContact.textContent = 'Contact';
 const closeBtn = createMyElement('span');
 closeBtn.textContent = 'X';
 closeBtn.id = 'toggle-close';
+
+const userData = [];
+
+function User(name, email) {
+  this.name = name;
+  this.email = email;
+}
+
+function setLocalStorage() {
+  localStorage.setItem('userData', JSON.stringify(userData));
+}
+
+function getUserData() {
+  const newUser = new User(nameInput.value, input.value);
+  userData.push(newUser);
+  setLocalStorage();
+}
+
+function getLocalStorage() {
+  const dataFromLocSt = JSON.parse(localStorage.getItem('userData'));
+  if (dataFromLocSt) {
+    dataFromLocSt.forEach((data) => {
+      nameInput.value = data.name;
+      input.value = data.email;
+    });
+  }
+}
 
 menuUl.appendChild(menuPortfolio);
 menuUl.appendChild(menuAbout);
@@ -276,10 +307,8 @@ function displayProjects() {
     const projectSection = getMyElement('.inner-job-item-two');
     projectSection.appendChild(projectDiv);
   });
+  getLocalStorage();
 }
-
-const form = getMyElement('form');
-const input = getMyElement('#email-input');
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
@@ -294,7 +323,6 @@ form.addEventListener('submit', (e) => {
   }
 
   function errorMessage() {
-    const validH3 = getMyElement('.validate-email');
     validH3.textContent = 'Please enter your email in lowercase';
     input.style.border = 'thin solid red';
     validH3.style.color = 'red';
@@ -307,5 +335,7 @@ form.addEventListener('submit', (e) => {
   if (capitalLetters.length > 0) errorMessage();
   else corectEmail();
 });
+
+form.addEventListener('submit', getUserData);
 
 displayProjects();
