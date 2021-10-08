@@ -223,7 +223,6 @@ function displayProjects() {
 
       const closePopUpBtn = createMyElement('span');
       closePopUpBtn.className = 'close-pop-up-btn';
-      // closePopUpBtn.textContent = 'x';
 
       const closeImgBtn = createMyElement('img');
       closeImgBtn.src = '../images/Disabled.png';
@@ -297,7 +296,7 @@ function displayProjects() {
 
       closePopUpBtn.addEventListener('click', () => {
         popUpContainer.style.display = 'none';
-      });
+      }.);
 
       innerPopUpDiv.appendChild(popUpHeroDiv);
       popUpContainer.appendChild(innerPopUpDiv);
@@ -305,7 +304,7 @@ function displayProjects() {
     });
 
     const projectSection = getMyElement('.inner-job-item-two');
-    projectSection.appendChild(projectDiv);
+    projectSection.appendChild(projectDi);
   });
   getLocalStorage();
 }
