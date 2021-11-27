@@ -49,7 +49,7 @@ const projects = [
   },
   {
     id: 5,
-    title: 'Persona Library',
+    title: 'Personal Library',
     tips: "A Javascript linter app. The purpose of this project is to build a custom library app for book lovers to manage book the have/haven't read. Built with Javascript.",
     description:
       "A Javascript linter app. The purpose of this project is to build a custom library app for book lovers to manage book the have/haven't read. Built with Javascript.",
