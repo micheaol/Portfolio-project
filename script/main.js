@@ -4,6 +4,30 @@ const createMyElement = (param) => document.createElement(param);
 const projects = [
   {
     id: 1,
+    title: 'Budget App',
+    tips: "A mobile web application that displays comprehensive data for your spending.",
+    description:
+      "A mobile web application that displays comprehensive data to track your spend. It allows you have different categories of spend.",
+    projectImg: '../images/budget.PNG',
+    liveVersion: 'https://check-budget-app.herokuapp.com/',
+    gitRepo: 'https://github.com/micheaol/budget-app',
+    techologies: ['Ruby on rails', 'React', 'Redux'],
+  },
+
+  {
+    id: 2,
+    title: 'Covid-19-vaccine-data-tracker',
+    tips: "A mobile web application that displays comprehensive data for the novel coronavirus vaccine in Africa.",
+    description:
+      "A mobile web application that displays comprehensive data for the novel coronavirus vaccine in Africa. Real live data is obtained from the MMediaGroup API.",
+    projectImg: '../images/covid.PNG',
+    liveVersion: 'https://covid-19-vaccine-tracker-africa.netlify.app/',
+    gitRepo: 'https://github.com/micheaol/covid-19-vaccine-data-tracker',
+    techologies: ['React', 'Redux', 'Redux-thunk'],
+  },
+
+  {
+    id: 3,
     title: 'Leaderboard game',
     tips: "Leaderboard app was built to showcase my capability of working with Javascript, webpack, and API.",
     description:
@@ -14,7 +38,7 @@ const projects = [
     techologies: ['Javascript', 'webpack', 'API'],
   },
   {
-    id: 2,
+    id: 4,
     title: 'To-do-App',
     tips: "To-do list app is built to practice JavaScript's Objects, Factory Functions, and Module Patterns concepts",
     description:
@@ -26,7 +50,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 5,
     title: 'Awesome book',
     tips: "The project is to build to model library app for book lovers to manage book they have/haven't read. Built with Javascript.",
     description:
@@ -37,7 +61,7 @@ const projects = [
     techologies: ['HTML', 'Bootstrap', 'Javascript'],
   },
   {
-    id: 4,
+    id: 6,
     title: 'Online pizza store',
     tips: "An Online pizza store comprises a pizza restaurant menu of Three Pizza Guyzz Restaurant.",
     description:
@@ -47,28 +71,7 @@ const projects = [
     gitRepo: 'https://github.com/nicupop729/Three-Pizza-Guyzz-JS-Capstone',
     techologies: ['Javascript', 'Jest', 'Webpack'],
   },
-  {
-    id: 5,
-    title: 'Personal Library',
-    tips: "A Javascript linter app. The purpose of this project is to build a custom library app for book lovers to manage book the have/haven't read. Built with Javascript.",
-    description:
-      "A Javascript linter app. The purpose of this project is to build a custom library app for book lovers to manage book the have/haven't read. Built with Javascript.",
-    projectImg: '../images/lib.PNG',
-    liveVersion: 'https://micheaol.github.io/library-project/',
-    gitRepo: 'https://github.com/micheaol/library-project',
-    techologies: ['HTML', 'Javascript', 'CSS'],
-  },
-  {
-    id: 6,
-    title: 'Etch-A-Sketch',
-    tips: "Etch-a-sketch web app to showcase the use of CSS Grid. The app lets users play around with colours.",
-    description:
-      "Etch-a-sketch web app to showcase the use of CSS Grid. The app lets users play around with colours. It is deployed on Git.",
-    projectImg: '../images/e-tskect.PNG',
-    liveVersion: 'https://micheaol-portfolio.netlify.app/',
-    gitRepo: 'https://github.com/micheaol/Portfolio-project',
-    techologies: ['HTML', 'Bootstrap', 'Javascript'],
-  },
+
 ];
 
 const validH3 = getMyElement('.validate-email');
@@ -160,6 +163,7 @@ function displayProjects() {
     const projectDiv = createMyElement('div');
     projectDiv.className = 'job-item-with-btn';
 
+    projectDiv.backgroundImage = project.projectImg
     const jobDiv = createMyElement('div');
     jobDiv.className = 'job-item-two';
 
